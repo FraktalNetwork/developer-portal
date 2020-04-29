@@ -45,7 +45,7 @@ class Layout extends Component {
               <Footer isLight={true} />
             )
           }
-          else if (this.props.location.pathname === "/index-portfolio" || this.props.location.pathname === "/page-contact-two") {
+          else if (this.props.location.pathname === "/index-nothing" || this.props.location.pathname === "/page-contact-two") {
             return (
               <FooterWithoutMenuLightSocialOnly class="border-0 bg-light" />
             )
@@ -60,7 +60,7 @@ class Layout extends Component {
             )
           }
         })()}
-      
+
         <div id="bottomIcon">
           {/* scrollup button */}
           <ScrollUpButton className="bottomIcon"/>

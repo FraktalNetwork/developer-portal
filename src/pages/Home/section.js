@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 // import images
 import services from "../../images/illustrator/services.svg";
 
-// Modal Video 
+// Modal Video
 import ModalVideo from 'react-modal-video'
 import '../../../node_modules/react-modal-video/scss/modal-video.scss';
 
@@ -13,7 +13,7 @@ class Section extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isOpen: false, 
+            isOpen: false,
         }
         this.openModal = this.openModal.bind(this)
     }
@@ -28,7 +28,7 @@ class Section extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={7} md={7}>
                                         <div className="title-heading mt-4">
-                                            <h1 className="heading mb-3">Build Anything <br />For Your Project</h1>
+                                            <h1 className="heading mb-3">An Open <br />Financial System</h1>
                                             <p className="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
                                             <div className="watch-video mt-4 pt-2">
                                                 <Link to="page-services" className="btn btn-primary mb-2 mr-2">Our Services</Link>

@@ -7,8 +7,8 @@ class Topbar extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { 
-            isOpen : false, 
+        this.state = {
+            isOpen : false,
             navLinks : [
                 { id : 1, title : "Home", link : "/index" },
                 { id : 2, title : "Landing", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
@@ -40,7 +40,7 @@ class Topbar extends Component {
                         { title : "Software", link : "/index-software" },
                         { title : "Job", link : "/index-job" },
                         { title : "Customer", link : "/index-customer" },
-                        { title : "Saas", link : "/index-onepage", isOnePage : true },                        
+                        { title : "Saas", link : "/index-onepage", isOnePage : true },
                     ]
                 },
                 { id : 3, title : "Pages", link : "/#", isOpenSubMenu : false,
@@ -146,7 +146,7 @@ class Topbar extends Component {
             this.activateParentDropdown(matchingMenuItem);
          }
      }
- 
+
     activateParentDropdown = (item) => {
           const parent = item.parentElement;
           if (parent) {
@@ -189,8 +189,8 @@ class Topbar extends Component {
                         tmpchild.isOpenNestedSubMenu = false
                 )
             :
-                false 
-            
+                false
+
         )
         this.setState({navLinks : tmpLinks});
     }
@@ -201,7 +201,7 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                         <div>
-                            <Link className="logo" to="/index">Landrick<span className="text-primary">.</span></Link>
+                            <Link className="logo" to="/">Fraktal Network</Link>
                         </div>
                         <div className="buy-button">
                             <Link to="#" id="buyButton" className="btn btn-primary">Buy Now</Link>
@@ -221,7 +221,7 @@ class Topbar extends Component {
                         <div id="navigation" style={{ display : this.state.isOpen ? "block" : "none" }}>
                             <ul className="navigation-menu" id="top-menu">
                                 {
-                                    this.state.navLinks.map((navLink, key) => 
+                                    this.state.navLinks.map((navLink, key) =>
                                     navLink.child || navLink.child2 ?
                                         <li className="has-submenu" key={key}>
                                             {/* child item(menu Item) - Level 1 */}
@@ -279,7 +279,7 @@ class Topbar extends Component {
                                                             }
                                                     </ul>
                                                 }
-                                                
+
                                         </li>
                                     :
                                         <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
