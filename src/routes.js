@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Root Include
-const Root = React.lazy(() => import('./pages/Home/indexRoot'));
+const Root = React.lazy(() => import('./pages/Home/index'));
 const PageContactDetail = React.lazy(() => import('./pages/Pages/Contact/PageContactDetail'));
 
 //Special
@@ -28,7 +28,7 @@ const Payments = React.lazy(() => import('./pages/Payments/index'));
 const IndexCarRiding = React.lazy(() => import('./pages/Car Ride/index'));
 const IndexclassicSaas = React.lazy(() => import('./pages/Classic Saas/index'));
 const ClassicApp = React.lazy(() => import('./pages/Classic Application/index'));
-const Main = React.lazy(() => import('./pages/Home/indexMain'));
+const Main = React.lazy(() => import('./pages/Home/index'));
 const Agency = React.lazy(() => import('./pages/Agency/index'));
 const Saas = React.lazy(() => import('./pages/Saas/index'));
 const Apps = React.lazy(() => import('./pages/Apps/index'));
@@ -108,7 +108,7 @@ const routes = [
     { path: '/page-recovery-password', component: PageRecoveryPassword, isWithoutLayout : true },
     { path: '/page-cover-re-password', component: PageCoverRePassword, isWithoutLayout : true},
     { path: '/page-cover-signup', component: PageCoverSignup, isWithoutLayout : true },
-    
+
     // Landings
     { path: '/index-onepage', component: SaasOnepage },
     { path: '/index-customer', component: Customer },
@@ -125,7 +125,6 @@ const routes = [
     { path: '/index-studio', component: Studio },
     { path: '/index-business', component: Business },
     { path: '/index-marketing', component: Marketing },
-    { path: '/index-hotel', component: Hotel },
     { path: '/index-modern-business', component: ModernBusiness },
     { path: '/index-coworking', component: Coworking },
     { path: '/index-cloud-hosting', component: CloudHosting },
@@ -178,7 +177,7 @@ const routes = [
     { path: '/components', component: Components },
     { path: '/documentation', component: Documentation },
     { path: '/widget', component: Widget },
-    
+
     //Index Main
     { path: '/index', component: Main },
 

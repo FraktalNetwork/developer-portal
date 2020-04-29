@@ -1,6 +1,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { Container, Row, Col, Form, Alert, FormGroup, Input, InputGroup, InputGroupAddon, Button } from 'reactstrap';
 
 //Import Components
 import SectionTitle from "../../components/Shared/section-title";
@@ -17,8 +18,9 @@ import client3 from "../../images/client/lenovo.svg";
 import client4 from "../../images/client/paypal.svg";
 import client5 from "../../images/client/shopify.svg";
 import client6 from "../../images/client/shopify.svg";
+import analyzeReport4 from '../../images/illustrator/analyze_report_4.svg';
 
-class Testi extends Component {
+class Testimonial extends Component {
 
     constructor(props) {
         super(props);
@@ -44,28 +46,51 @@ class Testi extends Component {
                 1000: {
                     items: 3,
                 },
-            }
+            },
+            successMsg : false
         }
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     componentDidMount(){
         var sectiontitles = document.getElementsByName("maintitle");
-        sectiontitles[1].classList.remove("mb-4");
-        sectiontitles[1].classList.remove("pb-2");
-        sectiontitles[1].classList.add("mb-60");
+        sectiontitles[0].classList.remove("mb-4");
+        sectiontitles[0].classList.remove("pb-2");
+        sectiontitles[0].classList.add("mb-60");
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+        this.setState({successMsg : true});
     }
 
     render() {
         return (
             <React.Fragment>
-                <section className="section pb-0">
+                <section className="section">
                     <Container>
-                        {/* render Section title */}
-                        <SectionTitle title="Our Happy Customers" desc=" that can provide everything you need to generate awareness, drive traffic, connect."/>
+                        <Row className="align-items-center">
+                            <Col md="6">
+                                <img src={analyzeReport4} className="mr-md-4" alt="" />
+                            </Col>
+
+                            <Col md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                <div className="section-title mr-lg-5">
+                                    <h4 className="title mb-4">Clean And Modern Code</h4>
+                                    <p className="text-muted">This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic.</p>
+                                    <Link to="#" className="btn btn-outline-primary">Start Now <i className="mdi mdi-chevron-right"></i></Link>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+
+                    <Container className="mt-100 mt-60">
+                        {/* section title */}
+                        <SectionTitle title="Our Happy Customers" desc=" that can provide everything you need to generate awareness, drive traffic, connect." />
 
                         <Row>
                             <Col xs="12">
-                                <OwlCarousel
+                            <OwlCarousel
                                     className="owl-theme"
                                     items={3}
                                     loop
@@ -86,10 +111,33 @@ class Testi extends Component {
                             </Col>
                         </Row>
                     </Container>
+
+                    <Container className="mt-100 mt-60">
+                        {/* section title */}
+                        <SectionTitle title="Subscribe for our Latest Newsletter" desc=" that can provide everything you need to generate awareness, drive traffic, connect." />
+
+                        <Row className="justify-content-center mt-4 pt-2">
+                            <Col lg={7} md={10}>
+                            <Alert color="info" isOpen={this.state.successMsg} toggle={()=>{ this.setState({successMsg : !this.state.successMsg}) }}>
+                                Data sended successfully.
+                            </Alert>
+                                <Form>
+                                    <FormGroup>
+                                        <InputGroup className="mb-3">
+                                            <Input name="email" id="email" type="email" className="form-control" placeholder="Your email :" required/>
+                                            <InputGroupAddon addonType="append">
+                                                <Button color="primary" onClick={this.handleSubmit} className="submitBnt" type="button" id="newssubscribebtn">Subscribe</Button>
+                                            </InputGroupAddon>
+                                        </InputGroup>
+                                    </FormGroup>
+                                </Form>
+                            </Col>
+                        </Row>
+                    </Container>
                 </section>
             </React.Fragment>
         );
     }
 }
 
-export default Testi;
+export default Testimonial;
