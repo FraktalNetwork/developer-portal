@@ -110,30 +110,9 @@ const routes = [
     { path: '/page-cover-signup', component: PageCoverSignup, isWithoutLayout : true },
 
     // Landings
-    { path: '/index-onepage', component: SaasOnepage },
-    { path: '/index-customer', component: Customer },
-    { path: '/index-job', component: Job },
-    { path: '/index-software', component: Software },
-    { path: '/index-crypto', component: Cryptocurrency },
-    { path: '/index-payments', component: Payments },
-    { path: '/index-car-riding', component: IndexCarRiding },
-    { path: '/index-classic-saas', component: IndexclassicSaas },
-    { path: '/index-classic-app', component: ClassicApp },
-    { path: '/index-saas', component: Saas },
-    { path: '/index-apps', component: Apps },
-    { path: '/index-agency', component: Agency },
-    { path: '/index-studio', component: Studio },
-    { path: '/index-business', component: Business },
-    { path: '/index-marketing', component: Marketing },
-    { path: '/index-modern-business', component: ModernBusiness },
-    { path: '/index-coworking', component: Coworking },
     { path: '/index-cloud-hosting', component: CloudHosting },
-    { path: '/index-event', component: Event },
-    { path: '/index-course', component: Course },
-    { path: '/index-personal', component: Personal },
-    { path: '/index-single', component: SingleProduct },
-    { path: '/index-enterprise', component: Enterprise },
-    { path: '/index-portfolio', component: Portfolio },
+
+
     { path: '/index-services', component: Services },
 
     { path: '/page-aboutus', component: PageAboutUs },
@@ -172,11 +151,6 @@ const routes = [
     { path: '/page-contact-three', component: PageContactThree },
     { path: '/page-contact-two', component: PageContactTwo },
 
-    //Docs
-    { path: '/changelog', component: ChangeLog },
-    { path: '/components', component: Components },
-    { path: '/documentation', component: Documentation },
-    { path: '/widget', component: Widget },
 
     //Index Main
     { path: '/index', component: Main },
