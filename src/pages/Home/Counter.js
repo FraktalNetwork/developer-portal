@@ -26,19 +26,15 @@ class Counter extends Component {
         return (
             <React.Fragment>
                     <section className="section bg-light">
+
+
                         <Container>
+                        <div className="align-items-center section-title counterTitle">
+                            <h4 className="title mb-4">Our Ecosystem</h4>
+                            </div>
+
                             <Row className="align-items-center " md={{size:6, order:1}} xs={{order:2}}>
 
-                                    <div className="align-items-center section-title mr-lg-5 col-lg-8">
-                                        <h4 className="title mb-4">Welcome to Fraktal</h4>
-                                          <p className="text-muted">Fraktal is an ecosystem of individuals and companies who share the common belief that economic equality is a fundamental human right and are working to create a future where everyone has access to basic financial services.
-                                          <br /> <br />
-                                          Members of the Fraktal Ecosystem develop and deliver cutting edge technology to those who need it the most. Our products empower individuals across the globe
-                                          </p>
-
-
-
-                                    </div>
 
 
 

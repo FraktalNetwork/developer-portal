@@ -46,10 +46,6 @@ class Index extends Component {
                 {/* Feature */}
                 <Features />
 
-                {/* Testimonial */}
-                <Testimonial />
-
-        
 
                 {/* Counter */}
                 <Counter />
