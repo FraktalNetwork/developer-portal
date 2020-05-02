@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
 // import images
-import services from "../../images/illustrator/services.svg";
+import Services from "../../images/illustrator/services.svg";
 
 // Modal Video
 import ModalVideo from 'react-modal-video'
@@ -39,7 +39,7 @@ class Section extends Component {
                                     </Col>
 
                                     <Col lg={5} md={5} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-                                        <img src={services} alt="" />
+                                        <img src={Services} alt="" />
                                     </Col>
                                 </Row>
                             </Container>

@@ -8,7 +8,7 @@ import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 // Layout Components
 const Topbar = React.lazy(() => import('./Topbar'));
-const NavbarPage = React.lazy(() => import('../../pages/Saas Onepage/NavbarPage'));
+
 const Footer = React.lazy(() => import('./Footer'));
 const FooterWithoutMenuLightSocialOnly = React.lazy(() => import('./FooterWithoutMenuLightSocialOnly'));
 
@@ -32,9 +32,7 @@ class Layout extends Component {
       <React.Fragment>
          <Suspense fallback = {this.Loader()} >
         {
-          this.props.location.pathname === "/index-onepage" ?
-          <NavbarPage/>
-          :
+      
           <Topbar />
         }
 

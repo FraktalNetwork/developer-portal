@@ -12,13 +12,7 @@ import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.css';
 import '../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css';
 
 //Import Images
-import client1 from "../../images/client/amazon.svg";
-import client2 from "../../images/client/google.svg";
-import client3 from "../../images/client/lenovo.svg";
-import client4 from "../../images/client/paypal.svg";
-import client5 from "../../images/client/shopify.svg";
-import client6 from "../../images/client/shopify.svg";
-import analyzeReport4 from '../../images/illustrator/analyze_report_4.svg';
+
 
 class Testimonial extends Component {
 
@@ -26,12 +20,12 @@ class Testimonial extends Component {
         super(props);
         this.state = {
             clients : [
-                { id : 1, image : client1, name : "Thomas Israel" , desc : "It seems that only fragments of the original text remain in the Lorem Ipsum texts used today." },
-                { id : 2, image : client2, name : "Carl Oliver" , desc : "The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century." },
-                { id : 3, image : client3, name : "Barbara McIntosh" , desc : "One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others." },
-                { id : 4, image : client4, name : "Jill Webb" , desc : "Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts." },
-                { id : 5, image : client5, name : " Dean Tolle" , desc : "There is now an abundance of readable dummy texts. These are usually used when a text is required." },
-                { id : 6, image : client6, name : "Christa Smith" , desc : "According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero." },
+                { id : 1,  name : "Thomas Israel" , desc : "It seems that only fragments of the original text remain in the Lorem Ipsum texts used today." },
+                { id : 2,  name : "Carl Oliver" , desc : "The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century." },
+                { id : 3,  name : "Barbara McIntosh" , desc : "One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others." },
+                { id : 4,  name : "Jill Webb" , desc : "Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts." },
+                { id : 5,  name : " Dean Tolle" , desc : "There is now an abundance of readable dummy texts. These are usually used when a text is required." },
+                { id : 6,  name : "Christa Smith" , desc : "According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero." },
             ],
             responsive: {
                 0: {
@@ -71,7 +65,7 @@ class Testimonial extends Component {
                     <Container>
                         <Row className="align-items-center">
                             <Col md="6">
-                                <img src={analyzeReport4} className="mr-md-4" alt="" />
+                                <img src={""} className="mr-md-4" alt="" />
                             </Col>
 
                             <Col md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">

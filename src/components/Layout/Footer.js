@@ -3,11 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Form, Input, Label } from 'reactstrap';
 
 // import images
-import americanEx from '../../images/payments/american-ex.png';
-import discover from '../../images/payments/discover.png';
-import masterCard from '../../images/payments/master-card.png';
-import paypal from '../../images/payments/paypal.png';
-import visa from '../../images/payments/visa.png';
+
 
 class Footer extends Component {
 
@@ -49,7 +45,7 @@ class Footer extends Component {
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
                         </ul>
                     </Col>
-                
+
                     <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Company</h4>
                         <ul className="list-unstyled footer-list mt-4">
@@ -60,7 +56,7 @@ class Footer extends Component {
                             }
                         </ul>
                     </Col>
-                    
+
                     <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Usefull Links</h4>
                         <ul className="list-unstyled footer-list mt-4">
@@ -102,18 +98,10 @@ class Footer extends Component {
                         </div>
                     </Col>
 
-                    <Col sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul className="list-unstyled text-sm-right mb-0">
-                            <li className="list-inline-item mr-1"><Link to=""><img src={americanEx} className="avatar avatar-ex-sm" title="American Express" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={discover} className="avatar avatar-ex-sm" title="Discover" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={masterCard} className="avatar avatar-ex-sm" title="Master Card" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={paypal} className="avatar avatar-ex-sm" title="Paypal" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={visa} className="avatar avatar-ex-sm" title="Visa" alt=""/></Link></li>
-                        </ul>
-                    </Col>
+                
                 </Row>
             </Container>
-        </footer>        
+        </footer>
       </React.Fragment>
     );
   }
