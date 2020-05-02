@@ -43,11 +43,13 @@ class Index extends Component {
 
                 <HowItWorks />
 
+                {/* Feature */}
+                <Features />
+
                 {/* Testimonial */}
                 <Testimonial />
 
-                {/* Feature */}
-                <Features />
+        
 
                 {/* Counter */}
                 <Counter />
