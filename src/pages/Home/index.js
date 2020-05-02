@@ -6,6 +6,7 @@ import Section from "./section";
 import Features from './Features';
 import Counter from './Counter';
 import Testimonial from './Testimonial';
+import HowItWorks from './HowItWorks'
 
 class Index extends Component {
 
@@ -39,6 +40,8 @@ class Index extends Component {
 
                 {/* Hero Start */}
                 <Section />
+
+                <HowItWorks />
 
                 {/* Testimonial */}
                 <Testimonial />
