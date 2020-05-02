@@ -16,9 +16,9 @@ class Features extends Component {
         super(props);
         this.state = {
             features : [
-                { id : 1, imgUrl : stairs, title : "Built for Everyone", description : "Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper." },
-                { id : 2, imgUrl : device, title : "Responsive Design", description : "Allegedly, a Latin scholar established the origin of the established text by compiling unusual word." },
-                { id : 3, imgUrl : code, title : "Build Everything", description : "It seems that only fragments of the original text remain in only fragments the Lorem Ipsum texts used today." },
+                { id : 1, imgUrl : stairs, title : "Instant Transfers Globally", description : "Send money and financial assets anywhere in the universe in seconds." },
+                { id : 2, imgUrl : device, title : "No Bank Account Needed", description : "" },
+                { id : 3, imgUrl : code, title : "Available to Everyone", description : "It seems that only fragments of the original text remain in only fragments the Lorem Ipsum texts used today." },
             ],
         }
     }
@@ -39,7 +39,7 @@ class Features extends Component {
                 <section className="section pt-0">
                     <Container>
                         {/* feature box */}
-                        <Feature featureArray={this.state.features} isCenter={true} /> 
+                        <Feature featureArray={this.state.features} isCenter={true} />
                     </Container>
                 </section>
             </React.Fragment>

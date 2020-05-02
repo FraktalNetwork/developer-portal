@@ -12,7 +12,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
     render() {
         return (
             <React.Fragment>
-                <footer className={"footer footer-bar " + this.props.class}>
+                <footer className={"footer footer-bar footer-light " + this.props.class}>
                     <Container className="text-center">
                         <Row className="align-items-center">
                             <Col sm="6">

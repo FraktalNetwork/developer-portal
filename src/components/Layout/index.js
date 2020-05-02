@@ -36,7 +36,7 @@ class Layout extends Component {
           <Topbar />
         }
 
-        {this.props.children} >
+        {this.props.children} 
       {
             <FooterWithoutMenuLightSocialOnly />
       }

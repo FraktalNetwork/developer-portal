@@ -29,11 +29,15 @@ class Section extends Component {
                                     <Col lg={7} md={7}>
                                         <div className="title-heading mt-4">
                                             <h1 className="heading mb-3">An Open <br />Financial System</h1>
-                                            <p className="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                                            <p className="para-desc text-muted">Living outside of the financial system is difficult.
+                                            <br /> And much of the world does.
+                                            <br /> Let's change that.
+</p>
                                             <div className="watch-video mt-4 pt-2">
-                                                <Link to="page-services" className="btn btn-primary mb-2 mr-2">Our Services</Link>
+                                                <Link to="page-services" className="btn btn-primary mb-2 mr-2">Learn How</Link>
                                                 <Link  onClick={this.openModal} to="#" className="video-play-icon watch text-dark mb-2"><i className="mdi mdi-play play-icon-circle text-center d-inline-block mr-2 rounded-pill title-dark text-white position-relative play play-iconbar"></i> WATCH VIDEO</Link>
                                                 <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
+
                                             </div>
                                         </div>
                                     </Col>

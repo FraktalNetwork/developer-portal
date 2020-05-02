@@ -70,8 +70,9 @@ class Testimonial extends Component {
 
                             <Col md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title mr-lg-5">
-                                    <h4 className="title mb-4">Clean And Modern Code</h4>
-                                    <p className="text-muted">This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic.</p>
+                                    <h4 className="title mb-4">The Mission</h4>
+                                    <p className="text-muted">Our vision is of a future where everyone has access to financial services and equal opportunity in the economy and access to basic financial services. Where everyone is connected and a part of the global economy. 
+</p>
                                     <Link to="#" className="btn btn-outline-primary">Start Now <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
@@ -82,28 +83,7 @@ class Testimonial extends Component {
                         {/* section title */}
                         <SectionTitle title="Our Happy Customers" desc=" that can provide everything you need to generate awareness, drive traffic, connect." />
 
-                        <Row>
-                            <Col xs="12">
-                            <OwlCarousel
-                                    className="owl-theme"
-                                    items={3}
-                                    loop
-                                    margin={1}
-                                    responsive = { this.state.responsive }
-                                    autoplay = {true}
-                                >
-                                    {
-                                        this.state.clients.map((client, key) =>
-                                            <div key={key} className="customer-testi mr-2 ml-2 text-center p-4 rounded border">
-                                                <img src={client.image} className="img-fluid avatar avatar-ex-sm mx-auto" alt=""/>
-                                                <p className="text-muted mt-4">" {client.desc} "</p>
-                                                <h6 className="text-primary">- {client.name}</h6>
-                                            </div>
-                                        )
-                                    }
-                                </OwlCarousel>
-                            </Col>
-                        </Row>
+
                     </Container>
 
                     <Container className="mt-100 mt-60">

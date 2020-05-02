@@ -10,10 +10,10 @@ class Topbar extends Component {
         this.state = {
             isOpen : false,
             navLinks : [
-                { id : 1, title : "Home", link : "/index" },
-                { id : 2, title : "Landing", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
+
+                { id : 2, title : "About", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
                     child : [
-                        { title : "Saas", link : "/index-saas" },
+                        { title : "Fraktal Network", link : "/index-saas" },
                         { title : "Agency", link : "/index-agency" },
                         { title : "Application", link : "/index-apps" },
                         { title : "Studio", link : "/index-studio" },
@@ -28,7 +28,7 @@ class Topbar extends Component {
                         { title : "Car Ride", link : "/index-car-riding", isNew : true },
                     ],
                     child2 : [
-                        { title : "Cloud Hosting", link : "/index-cloud-hosting" },
+                        { title : "FRAK Token", link : "/index-cloud-hosting" },
                         { title : "Event", link : "/index-event" },
                         { title : "Course", link : "/index-course" },
                         { title : "Personal", link : "/index-personal" },
@@ -43,84 +43,21 @@ class Topbar extends Component {
                         { title : "Saas", link : "/index-onepage", isOnePage : true },
                     ]
                 },
-                { id : 3, title : "Pages", link : "/#", isOpenSubMenu : false,
+                { id : 3, title : "Ecosystem", link : "/#", isOpenSubMenu : false,
                     child : [
-                        { id : 1, title : "About Us", link : "/page-aboutus"},
-                        { id : 2, title : "Services", link : "page-services"},
-                        { id : 3, title : "Pricing", link : "/page-pricing"},
+                        { id : 1, title : "Partners", link : "/page-aboutus"},
+                        { id : 2, title : "Products", link : "page-services"},
+                        { id : 3, title : "Blog", link : "/page-pricing"},
                         { id : 4, title : "Team", link : "/page-team"},
-                        { id : 5, title : "Account", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Profile", link : "/page-profile"},
-                                { title : "Account Setting", link : "/page-profile-edit"},
-                                { title : "Invoice", link : "/page-invoice"},
-                            ]
-                        },
-                        { id : 6, title : "Careers", link : "/#", isAdded : true, isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Jobs", link : "/page-job"},
-                                { title : "Jobs - Sidebar", link : "/page-jobs-sidebar", isAdded : true },
-                                { title : "Job Detail", link : "/page-job-detail"},
-                                { title : "Job Apply", link : "/page-job-apply"},
-                                { title : "Company", link : "/page-job-company"},
-                                { title : "Candidate", link : "/page-job-candidate"},
-                            ]
-                        },
-                        { id : 7, title : "Blog", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Blog Grid", link : "/page-blog"},
-                                { title : "Blog with Sidebar", link : "/page-blog-sidebar"},
-                                { title : "Blog Detail", link : "/page-blog-detail"},
-                            ]
-                        },
-                        { id : 8, title : "Works", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Works Grid", link : "/page-work"},
-                                { title : "Work Detail", link : "/page-work-detail"},
-                            ]
-                        },
-                        { id : 9, title : "User", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Login", link : "/page-login"},
-                                { title : "Signup", link : "/page-signup"},
-                                { title : "Recovery Password", link : "/page-recovery-password"},
-                                { title : "Login 2", link : "/page-cover-login"},
-                                { title : "Signup 2", link : "/page-cover-signup"},
-                                { title : "Recovery Password 2", link : "/page-cover-re-password"},
-                            ]
-                        },
-                        { id : 10, title : "Utility", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Terms of Services", link : "/page-terms"},
-                                { title : "Privacy Policy", link : "/page-privacy"},
-                            ]
-                        },
-                        { id : 11, title : "Special", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Coming Soon", link : "/page-comingsoon"},
-                                { title : "Coming Soon Two", link : "/page-comingsoon2"},
-                                { title : "Maintenance", link : "/page-maintenance"},
-                                { title : "Error", link : "/page-error"},
-                            ]
-                        },
-                        { id : 12, title : "Contact", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Contact Detail", link : "/page-contact-detail"},
-                                { title : "Contact One", link : "/page-contact-one"},
-                                { title : "Contact Two", link : "/page-contact-two"},
-                                { title : "Contact Three", link : "/page-contact-three"},
-                            ]
-                        },
+
+
                     ]
                 },
-                { id : 4, title : "Docs", link : "/#", isOpenSubMenu : false,
-                child : [
-                    { title : "Documentations", link : "/documentation"},
-                    { title : "Changelog", link : "/changelog"},
-                    { title : "Components", link : "/components"},
-                    { title : "Widget", link : "/widget"},
-                    ]
-                },
+
+
+
+
+                { id : 5, title : "Developers", link : "/index" },
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
@@ -201,11 +138,9 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                         <div>
-                            <Link className="logo" to="/">Fraktal (Network)</Link>
+                            <Link className="logo" to="/">Fraktal</Link>
                         </div>
-                        <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-primary">Buy Now</Link>
-                        </div>
+
                         <div className="menu-extras">
                             <div className="menu-item">
                                 <Link to="#" onClick={ this.toggleLine } className={this.state.isOpen ? "navbar-toggle open" : "navbar-toggle" } >
