@@ -17,7 +17,7 @@ class Feature extends Component {
                             {this.props.featureArray.map((feat, i) => {
                                 return  <Col md="4" xs="12" key={i} name="featurebox">
                                 <div className={this.props.isCenter ? "features text-center" : "features mt-5" } >
-                                    <div className="image position-relative d-inline-block">
+                                    <div className="image position-relative d-inline-block featureImage">
                                         <img src={feat.imgUrl} className="avatar avatar-small" alt="" />
                                     </div>
                                     <div className="content mt-4">

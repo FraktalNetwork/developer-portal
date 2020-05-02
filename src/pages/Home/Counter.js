@@ -29,8 +29,10 @@ class Counter extends Component {
 
 
                         <Container>
-                        <div className="align-items-center section-title counterTitle">
+                        <div className="section-title counterTitle">
                             <h4 className="title mb-4">Ecosystem</h4>
+                            <p className="text-muted counterText">We can’t do this alone! We need everyone who supports our common mission and vision to join! Everyone has a role they can play, you don’t have to be a developer or specialised in a certain skill.</p>
+
                             </div>
 
                             <Row className="align-items-center " md={{size:6, order:1}} xs={{order:2}}>
