@@ -28,6 +28,8 @@ class Topbar extends Component {
                       { id : 2, title : "Guidelines", link : "page-services"},
                       { id : 3, title : "How to Get Involved", link : "/page-pricing"},
                       { id : 4, title : "Open Tasks", link : "/page-team"},
+                      { id : 5, title : "Earn Tokens", link : "/page-team"},
+                      { id : 6, title : "Stake Tokens", link : "/page-team"},
 
 
                   ]

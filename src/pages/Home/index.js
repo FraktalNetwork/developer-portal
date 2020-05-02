@@ -40,14 +40,16 @@ class Index extends Component {
                 {/* Hero Start */}
                 <Section />
 
+                {/* Testimonial */}
+                <Testimonial />
+
                 {/* Feature */}
                 <Features />
 
                 {/* Counter */}
                 <Counter />
 
-                {/* Testimonial */}
-                <Testimonial />
+
 
             </React.Fragment>
         );

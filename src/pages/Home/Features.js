@@ -17,8 +17,8 @@ class Features extends Component {
         this.state = {
             features : [
                 { id : 1, imgUrl : stairs, title : "Instant Transfers Globally", description : "Send money and financial assets anywhere in the universe in seconds." },
-                { id : 2, imgUrl : device, title : "No Bank Account Needed", description : "" },
-                { id : 3, imgUrl : code, title : "Available to Everyone", description : "It seems that only fragments of the original text remain in only fragments the Lorem Ipsum texts used today." },
+                { id : 2, imgUrl : device, title : "Available to Everyone", description : "No bank account needed. No extensive documents or proof of address. Just a basic internet connection." },
+                { id : 3, imgUrl : code, title : "100% Sustainable and Eco-Friendly", description : "A portion of network fees is donated to planting trees to offset the electricty used by our technology. "},
             ],
         }
     }

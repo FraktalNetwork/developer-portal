@@ -63,16 +63,19 @@ class Testimonial extends Component {
             <React.Fragment>
                 <section className="section">
                     <Container>
-                        <Row className="align-items-center">
+                        <Row className="align-items-right">
                             <Col md="6">
                                 <img src={""} className="mr-md-4" alt="" />
                             </Col>
 
                             <Col md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title mr-lg-5">
-                                    <h4 className="title mb-4">The Mission</h4>
-                                    <p className="text-muted">Our vision is of a future where everyone has access to financial services and equal opportunity in the economy and access to basic financial services. Where everyone is connected and a part of the global economy. 
-</p>
+                                    <h4 className="title mb-4">Welcome to Fraktal😃</h4>
+                                    <p className="text-muted">Fraktal is an ecosystem of individuals and companies who share the common belief that economic equality is a fundamental human right and are working to create a future where everyone has access to basic financial services.
+                                    <br /> <br />
+                                    Members of the Fraktal Ecosystem develop and deliver cutting edge technology to those who need it the most. Our products empower individuals across the globe in nearly every country.
+                                    </p>
+
                                     <Link to="#" className="btn btn-outline-primary">Start Now <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
