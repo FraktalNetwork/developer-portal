@@ -30,7 +30,7 @@ class Counter extends Component {
 
                         <Container>
                         <div className="align-items-center section-title counterTitle">
-                            <h4 className="title mb-4">Our Ecosystem</h4>
+                            <h4 className="title mb-4">Ecosystem</h4>
                             </div>
 
                             <Row className="align-items-center " md={{size:6, order:1}} xs={{order:2}}>
