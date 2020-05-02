@@ -11,53 +11,34 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-                { id : 2, title : "About", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
-                    child : [
-                        { title : "Fraktal Network", link : "/index-saas" },
-                        { title : "Agency", link : "/index-agency" },
-                        { title : "Application", link : "/index-apps" },
-                        { title : "Studio", link : "/index-studio" },
-                        { title : "Business", link : "/index-business" },
-                        { title : "Modern Business", link : "/index-modern-business" },
-                        { title : "Hotel", link : "/index-hotel" },
-                        { title : "Marketing", link : "/index-marketing" },
-                        { title : "Enterprise", link : "/index-enterprise" },
-                        { title : "Coworking", link : "/index-coworking" },
-                        { title : "Classic Application", link : "/index-classic-app", isNew : true },
-                        { title : "Classic Saas", link : "/index-classic-saas", isNew : true },
-                        { title : "Car Ride", link : "/index-car-riding", isNew : true },
-                    ],
-                    child2 : [
-                        { title : "FRAK Token", link : "/index-cloud-hosting" },
-                        { title : "Event", link : "/index-event" },
-                        { title : "Course", link : "/index-course" },
-                        { title : "Personal", link : "/index-personal" },
-                        { title : "Product", link : "/index-single" },
-                        { title : "Portfolio", link : "/index-portfolio" },
-                        { title : "Service", link : "/index-services" },
-                        { title : "Payments", link : "/index-payments" },
-                        { title : "Cryptocurrency", link : "/index-crypto" },
-                        { title : "Software", link : "/index-software" },
-                        { title : "Job", link : "/index-job" },
-                        { title : "Customer", link : "/index-customer" },
-                        { title : "Saas", link : "/index-onepage", isOnePage : true },
-                    ]
-                },
-                { id : 3, title : "Ecosystem", link : "/#", isOpenSubMenu : false,
-                    child : [
-                        { id : 1, title : "Partners", link : "/page-aboutus"},
-                        { id : 2, title : "Products", link : "page-services"},
-                        { id : 3, title : "Blog", link : "/page-pricing"},
-                        { id : 4, title : "Team", link : "/page-team"},
+              { id : 1, title : "Ecosystem", link : "/#", isOpenSubMenu : false,
+                  child : [
+                      { id : 1, title : "Fraktal HQ", link : "/page-aboutus"},
+                      { id : 2, title : "Products", link : "page-services"},
+                      { id : 3, title : "Partners", link : "/page-pricing"},
+                      { id : 4, title : "Blog", link : "/page-team"},
 
 
-                    ]
-                },
+                  ]
+              },
+
+              { id : 2, title : "Participate", link : "/#", isOpenSubMenu : false,
+                  child : [
+                      { id : 1, title : "Introduction", link : "/page-aboutus"},
+                      { id : 2, title : "Guidelines", link : "page-services"},
+                      { id : 3, title : "How to Get Involved", link : "/page-pricing"},
+                      { id : 4, title : "Open Tasks", link : "/page-team"},
+
+
+                  ]
+              },
 
 
 
 
-                { id : 5, title : "Developers", link : "/index" },
+
+
+                { id : 3, title : "Documentation", link : "/index" },
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
