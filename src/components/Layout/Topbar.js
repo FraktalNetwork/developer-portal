@@ -201,7 +201,7 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                         <div>
-                            <Link className="logo" to="/">Fraktal Network</Link>
+                            <Link className="logo" to="/">Fraktal (Network)</Link>
                         </div>
                         <div className="buy-button">
                             <Link to="#" id="buyButton" className="btn btn-primary">Buy Now</Link>
