@@ -32,32 +32,14 @@ class Layout extends Component {
       <React.Fragment>
          <Suspense fallback = {this.Loader()} >
         {
-      
+
           <Topbar />
         }
 
-        {this.props.children}
-        {(() => {
-          if (this.props.location.pathname === "/index-marketing" || this.props.location.pathname === "/index-modern-business" || this.props.location.pathname === "/index-services" || this.props.location.pathname === "/index-job") {
-            return (
-              <Footer isLight={true} />
-            )
-          }
-          else if (this.props.location.pathname === "/index-nothing" || this.props.location.pathname === "/page-contact-two") {
-            return (
-              <FooterWithoutMenuLightSocialOnly class="border-0 bg-light" />
-            )
-          }
-          else if (this.props.location.pathname === "/index-personal" || this.props.location.pathname === "/page-invoice") {
-            return (
-              <FooterWithoutMenuLightSocialOnly class="" />
-            )
-          } else {
-            return (
-              <Footer />
-            )
-          }
-        })()}
+        {this.props.children} >
+      {
+            <FooterWithoutMenuLightSocialOnly />
+      }
 
         <div id="bottomIcon">
           {/* scrollup button */}
