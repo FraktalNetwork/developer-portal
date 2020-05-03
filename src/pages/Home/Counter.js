@@ -6,9 +6,13 @@ import { Container, Row, Col } from 'reactstrap';
 //Import Counter Box
 import CounterBox from "./counter-box";
 
+//Import Partners section
+import Partners from '../../components/Shared/Partners';
+
 // Import images
 import laptop from '../../images/laptop.png';
 import partners from '../../images/partners.png';
+
 
 class Counter extends Component {
 
@@ -45,14 +49,23 @@ class Counter extends Component {
                         </Container>
 
                         <Container className="mt-100 mt-60">
-                            <Row className="justify-content-center" id="counter">
+                            <Row className="justify-content-center counterBlocks" id="counter">
                                 <CounterBox counters={this.state.counters} />
                             </Row>
+                        </Container>
+
+                        <Container className="mt-100 mt-60 partnerLogos">
+                              <Partners />
                         </Container>
 
 
 
                     </section>
+
+
+
+
+
             </React.Fragment>
         );
     }
