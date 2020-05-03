@@ -9,6 +9,7 @@ import Feature from "../../components/Shared/Feature";
 import stairs from '../../images/icon/stairs.svg';
 import code from '../../images/icon/code.svg';
 import device from '../../images/icon/device.svg';
+import partners from '../../images/partners.png';
 
 class Features extends Component {
 

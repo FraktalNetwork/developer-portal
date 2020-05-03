@@ -8,6 +8,7 @@ import CounterBox from "./counter-box";
 
 // Import images
 import laptop from '../../images/laptop.png';
+import partners from '../../images/partners.png';
 
 class Counter extends Component {
 
@@ -31,7 +32,7 @@ class Counter extends Component {
                         <Container>
                         <div className="section-title counterTitle">
                             <h4 className="title mb-4">Ecosystem</h4>
-                            <p className="text-muted counterText">We can’t do this alone! We need everyone who supports our common mission and vision to join! Everyone has a role they can play, you don’t have to be a developer or specialised in a certain skill.</p>
+                            <p className="text-muted counterText">Bringing financial services to billions of people across the globe is tough work and we can’t do it alone! If you support our mission and want to contribute, join the Fraktal Community and we will find the perfect role for you to have maximum impact. </p>
 
                             </div>
 
@@ -48,6 +49,9 @@ class Counter extends Component {
                                 <CounterBox counters={this.state.counters} />
                             </Row>
                         </Container>
+
+
+
                     </section>
             </React.Fragment>
         );
