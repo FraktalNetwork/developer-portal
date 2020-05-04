@@ -54,9 +54,9 @@ class Counter extends Component {
                             </Row>
                         </Container>
 
-                      {/*  <Container className="mt-100 mt-60 partnerLogos">
+                        <Container className="mt-100 mt-60 partnerLogos">
                               <Partners />
-                        </Container>} */}
+                        </Container>}
 
 
 
