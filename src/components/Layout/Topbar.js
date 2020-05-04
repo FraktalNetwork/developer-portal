@@ -124,6 +124,8 @@ class Topbar extends Component {
                             <Link className="logo" to="/">Fraktal</Link>
                         </div>
 
+                      
+
                         <div className="menu-extras">
                             <div className="menu-item">
                                 <Link to="#" onClick={ this.toggleLine } className={this.state.isOpen ? "navbar-toggle open" : "navbar-toggle" } >

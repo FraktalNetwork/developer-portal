@@ -6,15 +6,16 @@
 
 .counterTitle {
   text-align: center;
-  margin-bottom: -10%;
+
 }
 
 .counterBlocks {
-  margin-bottom: -5%;
+  margin-bottom: -7%;
 }
 
 .counterText {
   text-align: center;
+
 }
 
 .featureImage {
@@ -23,4 +24,8 @@
 
 .partnerLogos {
   margin-bottom: 3%;
+}
+
+.joinButton {
+margin-bottom: -9%;
 }

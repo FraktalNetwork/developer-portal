@@ -48,11 +48,22 @@ class Counter extends Component {
                             </Row>
                         </Container>
 
+                        <Container>
+                        <Row className="justify-content-center joinButton">
+                        <div className="mt-4 pt-2">
+                            <Link to="#about" className="btn btn-primary">Join Fraktal</Link>
+                        </div>
+                        </Row>
+                        </Container>
+
                         <Container className="mt-100 mt-60">
                             <Row className="justify-content-center counterBlocks" id="counter">
                                 <CounterBox counters={this.state.counters} />
                             </Row>
                         </Container>
+
+
+
 
                         <Container className="mt-100 mt-60 partnerLogos">
                               <Partners />
