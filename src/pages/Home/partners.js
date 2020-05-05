@@ -30,10 +30,10 @@ class PageJob extends Component {
 
             ],
             jobs : [
-                { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Test",  reward : "8.74%", field : "Information strategy" },
-                { id : 2,  title : "Kava",  cmpImage : Cosmos, cmpName : "Kava", location : "SF",  reward : "8.08%", field : "Information strategy" },
-                { id : 3,  title : "Ethereum",  cmpImage : Cosmos, cmpName : "Ethereum", location : "Test", reward : "7.15%",  field : "Information strategy" },
-                { id : 4,  title : "Polkadot",  cmpImage : Cosmos, cmpName : "Polkadot", location : "Test", reward : "6-14%",  field : "Information strategy" },
+                { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Test",  url : "cosmos.network", description : "Information strategy" },
+                { id : 2,  title : "Kava",  cmpImage : Cosmos, cmpName : "Kava", location : "SF",  url : "google.com", description : "Something Cool" },
+                { id : 3,  title : "Ethereum",  cmpImage : Cosmos, cmpName : "Ethereum", location : "Test", url : "mybit.io",  description : "Test" },
+                { id : 4,  title : "Polkadot",  cmpImage : Cosmos, cmpName : "Polkadot", location : "Test", url : "parabolic.tech",  description : "A long string of things can go here so we can explain more about a project, wondering if it changes the size of just this block so the others are now not aligned?" },
 
 
             ]
@@ -99,6 +99,7 @@ class PageJob extends Component {
                                                 </div>
                                                 <div className="company-detail text-center mt-3">
                                                     <h5 className="mb-0"><Link to={"/" + job.cmpName + "-staking"} className="text-dark company-name">{job.cmpName}</Link></h5>
+                                                    <p className="text-muted"><a href={"https://" + job.url} target="_blank">{job.url}</a></p>
                                                     <p className="text-muted"><i className="mdi mdi-map-marker"></i>{job.location}</p>
 
                                                 </div>
