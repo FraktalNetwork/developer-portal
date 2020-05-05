@@ -31,12 +31,12 @@ class PageJob extends Component {
 
             ],
             jobs : [
-                { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Global",  url : "cosmos.network", description : "Information strategy" },
-                { id : 2,  title : "TokenWeb",  cmpImage : TokenWeb, cmpName : "TokenWeb", location : "Ireland",  url : "tokenweb.io", description : "Test" },
-                { id : 3,  title : "Tendermint",  cmpImage : Tendermint, cmpName : "Tendermint", location : "Global", url : "tendermint.com",  description : "Test" },
-                { id : 4,  title : "Cryptnotiq",  cmpImage : Cryptnotiq, cmpName : "Cryptnotiq", location : "Europe", url : "github.com/cryptnotiq",  description : "Something Cool" },
+                { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Global",  url : "cosmos.network", description : "An industry leading company that is working to enable the transfer of assets between different blockchains. " },
+                { id : 2,  title : "TokenWeb",  cmpImage : TokenWeb, cmpName : "TokenWeb", location : "Ireland",  url : "tokenweb.io", description : "A validator and tech partner that provides staking services and develops tools to make crypto easier to use." },
+                { id : 3,  title : "Tendermint",  cmpImage : Tendermint, cmpName : "Tendermint", location : "Global", url : "tendermint.com",  description : "The creators of Tendermint Core, the consensus engine which Fraktal uses for its Blockchain." },
+                { id : 4,  title : "Cryptnotiq",  cmpImage : Cryptnotiq, cmpName : "Cryptnotiq", location : "Europe", url : "github.com/cryptnotiq",  description : "Investor and Entrepreneur in the Crypto space since 2013. Designed the initial software and direction for Fraktal." },
                 { id : 5,  title : "Tegan Kline",  cmpImage : null, cmpName : "Tegan Kline", location : "San Francisco", url : "tegankline.com",  description : "Something Cool" },
-                { id : 6,  title : "MyBit",  cmpImage : MyBit, cmpName : "MyBit", location : "Global", url : "mybit.io",  description : "Something Cool" },
+                { id : 6,  title : "MyBit",  cmpImage : MyBit, cmpName : "MyBit", location : "Global", url : "mybit.io",  description : "A crowdfunding application on Ethereum which is experimenting with migrating to Fraktal to become more user friendly." },
 
 
             ]
