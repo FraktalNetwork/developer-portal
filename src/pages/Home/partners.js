@@ -15,7 +15,7 @@ import MyBit from "../../images/icon/mybit.png";
 import Tendermint from "../../images/icon/tendermint.png";
 import Cosmos from "../../images/icon/cosmoslight.png";
 import TokenWeb from "../../images/icon/tokenweb.png";
-
+import Cryptnotiq from "../../images/icon/cryptnotiq.jpeg";
 
 
 
@@ -31,10 +31,12 @@ class PageJob extends Component {
 
             ],
             jobs : [
-                { id : 1,  title : "Cosmos",  cmpImage : MyBit, cmpName : "Cosmos", location : "Test",  url : "cosmos.network", description : "Information strategy" },
-                { id : 2,  title : "Kava",  cmpImage : Cosmos, cmpName : "Kava", location : "SF",  url : "google.com", description : "Test" },
-                { id : 3,  title : "Ethereum",  cmpImage : Tendermint, cmpName : "Ethereum", location : "Test", url : "mybit.io",  description : "Test" },
-                { id : 4,  title : "Polkadot",  cmpImage : TokenWeb, cmpName : "Polkadot", location : "Test", url : "parabolic.tech",  description : "Something Cool" },
+                { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Global",  url : "cosmos.network", description : "Information strategy" },
+                { id : 2,  title : "TokenWeb",  cmpImage : TokenWeb, cmpName : "TokenWeb", location : "Ireland",  url : "tokenweb.io", description : "Test" },
+                { id : 3,  title : "Tendermint",  cmpImage : Tendermint, cmpName : "Tendermint", location : "Global", url : "tendermint.com",  description : "Test" },
+                { id : 4,  title : "Cryptnotiq",  cmpImage : Cryptnotiq, cmpName : "Cryptnotiq", location : "Europe", url : "github.com/cryptnotiq",  description : "Something Cool" },
+                { id : 5,  title : "Tegan Kline",  cmpImage : null, cmpName : "Tegan Kline", location : "San Francisco", url : "tegankline.com",  description : "Something Cool" },
+                { id : 6,  title : "MyBit",  cmpImage : MyBit, cmpName : "MyBit", location : "Global", url : "mybit.io",  description : "Something Cool" },
 
 
             ]
@@ -106,7 +108,7 @@ class PageJob extends Component {
                                                 </div>
                                                 <ul className="job-facts list-unstyled">
 
-                                                    <li className="list-inline-item text-dark">{job.description}</li>
+                                                    <li className="list-inline-item text-muted">{job.description}</li>
 
                                                 </ul>
 
