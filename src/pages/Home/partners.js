@@ -82,7 +82,6 @@ class PageJob extends Component {
                             {
                                 this.state.jobs.map((job, key) =>
                                     <Col key={key} lg="4" md="6" xs="12" className="mt-4 pt-2">
-                                    <a href={"https://" + job.url} target="_blank">
                                         <div className="job-box rounded shadow position-relative overflow-hidden">
                                             <div className="border-bottom">
                                                 <div className="position-relative">
@@ -99,14 +98,14 @@ class PageJob extends Component {
 
                                                 </div>
                                                 <div className="company-detail text-center mt-3">
-                                                    <h5 className="mb-0"><Link to={"/" + job.cmpName + "-staking"} className="text-dark company-name">{job.cmpName}</Link></h5>
-                                                {/*    <p className="text-muted"><a href={"https://" + job.url} target="_blank">{job.url}</a></p> */}
+                                                    <h5 className="mb-0"><a href={"https://" + job.url} target="_blank" className="text-dark company-name">{job.cmpName}</a></h5>
+
                                                     <p className="text-muted"><i className="mdi mdi-map-marker"></i>{job.location}</p>
 
                                                 </div>
                                                 <ul className="job-facts list-unstyled">
 
-                                                    <li className="list-inline-item">{job.description}</li>
+                                                    <li className="list-inline-item text-dark">{job.description}</li>
 
                                                 </ul>
 
@@ -118,7 +117,7 @@ class PageJob extends Component {
 
                                             </div>
                                         </div>
-                                        </a>
+
                                     </Col>
                                 )
                             }
