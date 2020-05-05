@@ -82,6 +82,7 @@ class PageJob extends Component {
                             {
                                 this.state.jobs.map((job, key) =>
                                     <Col key={key} lg="4" md="6" xs="12" className="mt-4 pt-2">
+                                    <a href={"https://" + job.url} target="_blank">
                                         <div className="job-box rounded shadow position-relative overflow-hidden">
                                             <div className="border-bottom">
                                                 <div className="position-relative">
@@ -117,6 +118,7 @@ class PageJob extends Component {
 
                                             </div>
                                         </div>
+                                        </a>
                                     </Col>
                                 )
                             }
