@@ -10,7 +10,7 @@ import StarRatings from 'react-star-ratings';
 
 
 //Import Images
-
+import Bg from "../../images/icon/bg.png";
 import MyBit from "../../images/icon/mybit.png";
 import Tendermint from "../../images/icon/tendermint.png";
 import Cosmos from "../../images/icon/cosmoslight.png";
@@ -88,7 +88,7 @@ class PageJob extends Component {
                                         <div className="job-box rounded shadow position-relative overflow-hidden">
                                             <div className="border-bottom">
                                                 <div className="position-relative">
-                                                    <img src="" className="img-fluid" alt=""/>
+                                                    <img src={Bg} className="img-fluid" alt=""/>
                                                     <div className="job-overlay bg-white"></div>
                                                 </div>
 
