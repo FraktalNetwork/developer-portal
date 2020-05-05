@@ -30,10 +30,10 @@ class PageJob extends Component {
 
             ],
             jobs : [
-                { id : 1,  title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
-                { id : 2,  title : "Kava", time : "Active", cmpImage : Cosmos, cmpName : "Kava", Experience : "2 Year", reward : "8.08%", field : "Information strategy" },
-                { id : 3,  title : "Ethereum", time : "Coming Soon", cmpImage : Cosmos, cmpName : "Ethereum", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
-                { id : 4,  title : "Polkadot", time : "Coming Maybe?", cmpImage : Cosmos, cmpName : "Polkadot", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
+                { id : 1,  title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", location : "Test", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
+                { id : 2,  title : "Kava", time : "Active", cmpImage : Cosmos, cmpName : "Kava", location : "SF", Experience : "2 Year", reward : "8.08%", field : "Information strategy" },
+                { id : 3,  title : "Ethereum", time : "Coming Soon", cmpImage : Cosmos, cmpName : "Ethereum", location : "Test", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
+                { id : 4,  title : "Polkadot", time : "Coming Maybe?", cmpImage : Cosmos, cmpName : "Polkadot", location : "Test", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
 
 
             ]
@@ -95,9 +95,11 @@ class PageJob extends Component {
                                             <div className="content position-relative p-4">
                                                 <div className="firm-logo rounded-pill shadow bg-light text-center">
                                                     <img src={job.cmpImage} className="avatar avatar-md-sm" alt=""/>
+
                                                 </div>
                                                 <div className="company-detail text-center mt-3">
                                                     <h5 className="mb-0"><Link to={"/" + job.cmpName + "-staking"} className="text-dark company-name">{job.cmpName}</Link></h5>
+                                                    <p className="text-muted"><i className="mdi mdi-map-marker"></i>{job.location}</p>
 
                                                 </div>
                                                 <ul className="job-facts list-unstyled">
@@ -106,7 +108,7 @@ class PageJob extends Component {
 
                                                 </ul>
 
-                                            
+
 
 
 
