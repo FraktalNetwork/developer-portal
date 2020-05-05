@@ -99,7 +99,7 @@ class PageJob extends Component {
                                                 </div>
                                                 <div className="company-detail text-center mt-3">
                                                     <h5 className="mb-0"><Link to={"/" + job.cmpName + "-staking"} className="text-dark company-name">{job.cmpName}</Link></h5>
-                                                    <p className="text-muted"><a href={"https://" + job.url} target="_blank">{job.url}</a></p>
+                                                {/*    <p className="text-muted"><a href={"https://" + job.url} target="_blank">{job.url}</a></p> */}
                                                     <p className="text-muted"><i className="mdi mdi-map-marker"></i>{job.location}</p>
 
                                                 </div>
