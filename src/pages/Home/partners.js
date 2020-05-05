@@ -31,9 +31,9 @@ class PageJob extends Component {
             ],
             jobs : [
                 { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Test",  url : "cosmos.network", description : "Information strategy" },
-                { id : 2,  title : "Kava",  cmpImage : Cosmos, cmpName : "Kava", location : "SF",  url : "google.com", description : "Something Cool" },
+                { id : 2,  title : "Kava",  cmpImage : Cosmos, cmpName : "Kava", location : "SF",  url : "google.com", description : "Test" },
                 { id : 3,  title : "Ethereum",  cmpImage : Cosmos, cmpName : "Ethereum", location : "Test", url : "mybit.io",  description : "Test" },
-                { id : 4,  title : "Polkadot",  cmpImage : Cosmos, cmpName : "Polkadot", location : "Test", url : "parabolic.tech",  description : "A long string of things can go here so we can explain more about a project, wondering if it changes the size of just this block so the others are now not aligned?" },
+                { id : 4,  title : "Polkadot",  cmpImage : Cosmos, cmpName : "Polkadot", location : "Test", url : "parabolic.tech",  description : "Something Cool" },
 
 
             ]
@@ -105,7 +105,7 @@ class PageJob extends Component {
                                                 </div>
                                                 <ul className="job-facts list-unstyled">
 
-                                                    <li className="list-inline-item text-muted"><i className="mdi mdi-check text-success mr-1"></i> Annual Reward ~ {job.reward}</li>
+                                                    <li className="list-inline-item">{job.description}</li>
 
                                                 </ul>
 
