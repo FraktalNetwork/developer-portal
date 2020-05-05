@@ -11,7 +11,7 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-              { id : 1, title : "Ecosystem", link : "/#", isOpenSubMenu : false,
+              { id : 1, title : "Community", link : "/#", isOpenSubMenu : false,
                   child : [
                       { id : 1, title : "Fraktal HQ", link : "/page-aboutus"},
                       { id : 2, title : "Products", link : "page-services"},
@@ -40,7 +40,7 @@ class Topbar extends Component {
 
 
 
-                { id : 3, title : "Documentation", link : "/index" },
+                { id : 3, title : "Developers", link : "/index" },
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
@@ -124,7 +124,7 @@ class Topbar extends Component {
                             <Link className="logo" to="/">Fraktal</Link>
                         </div>
 
-                      
+
 
                         <div className="menu-extras">
                             <div className="menu-item">

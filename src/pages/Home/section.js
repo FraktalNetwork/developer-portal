@@ -28,7 +28,7 @@ class Section extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={7} md={7}>
                                         <div className="title-heading mt-4">
-                                            <h1 className="heading mb-3">An Open <br />Financial System</h1>
+                                            <h1 className="heading mb-3">Creating Equality <br />With Technology</h1>
                                             <p className="para-desc text-muted">Living outside of the financial system is difficult.
                                             <br /> And much of the world does.
                                             <br /> Let's change that.

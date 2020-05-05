@@ -7,6 +7,7 @@ const Root = React.lazy(() => import('./pages/Home/index'));
 
 // Import all components
 const CloudHosting = React.lazy(() => import('./pages/CloudHosting/index'));
+const Partners = React.lazy(() => import('./pages/Home/partners'));
 
 
 const routes = [
@@ -17,10 +18,11 @@ const routes = [
 
     // Landings
     { path: '/index-cloud-hosting', component: CloudHosting },
+    { path: '/partners', component: Partners },
 
 
 
-  
+
 
     //Root
     { path: '/', component: Root, isWithoutLayout : true }

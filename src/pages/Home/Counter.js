@@ -35,8 +35,8 @@ class Counter extends Component {
 
                         <Container>
                         <div className="section-title counterTitle">
-                            <h4 className="title mb-4">Ecosystem</h4>
-                            <p className="text-muted counterText">Bringing financial services to billions of people across the globe is tough work and we can’t do it alone! If you support our mission and want to contribute, join the Fraktal Community and we will find the perfect role for you to have maximum impact. </p>
+                            <h4 className="title mb-4">Community</h4>
+                            <p className="text-muted counterText">Bringing financial services to billions of people across the globe is a big, inspiring project and everyone can help! There are tasks of all sizes, for every skill, If you support our mission, join the Fraktal Community and bring what you are best at. we will find the perfect role for you to have maximum impact. </p>
 
                             </div>
 
