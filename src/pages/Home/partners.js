@@ -11,9 +11,10 @@ import StarRatings from 'react-star-ratings';
 
 //Import Images
 
-import MyBit from "../../images/partners/mybit.png";
-import Tendermint from "../../images/partners/tendermint.png";
-import Cosmos from "../../images/partners/cosmos.png";
+import MyBit from "../../images/icon/mybit.png";
+import Tendermint from "../../images/icon/tendermint.png";
+import Cosmos from "../../images/icon/cosmoslight.png";
+import TokenWeb from "../../images/icon/tokenweb.png";
 
 
 
@@ -30,10 +31,10 @@ class PageJob extends Component {
 
             ],
             jobs : [
-                { id : 1,  title : "Cosmos",  cmpImage : Cosmos, cmpName : "Cosmos", location : "Test",  url : "cosmos.network", description : "Information strategy" },
+                { id : 1,  title : "Cosmos",  cmpImage : MyBit, cmpName : "Cosmos", location : "Test",  url : "cosmos.network", description : "Information strategy" },
                 { id : 2,  title : "Kava",  cmpImage : Cosmos, cmpName : "Kava", location : "SF",  url : "google.com", description : "Test" },
-                { id : 3,  title : "Ethereum",  cmpImage : Cosmos, cmpName : "Ethereum", location : "Test", url : "mybit.io",  description : "Test" },
-                { id : 4,  title : "Polkadot",  cmpImage : Cosmos, cmpName : "Polkadot", location : "Test", url : "parabolic.tech",  description : "Something Cool" },
+                { id : 3,  title : "Ethereum",  cmpImage : Tendermint, cmpName : "Ethereum", location : "Test", url : "mybit.io",  description : "Test" },
+                { id : 4,  title : "Polkadot",  cmpImage : TokenWeb, cmpName : "Polkadot", location : "Test", url : "parabolic.tech",  description : "Something Cool" },
 
 
             ]
