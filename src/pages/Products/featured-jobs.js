@@ -18,18 +18,18 @@ import bitcoin from "../../images/icon/bitcoin.svg";
 class FeaturedJobs extends Component {
     state = {
         jobs : [
-            { id : 1, image : tendermint, title : "Senior Web Developer", city : "London", country : "UK" },
-            { id : 2, image : mybit, title : "Front-End Developer", city : "Brasilia", country : "Brazil" },
-            { id : 3, image : cosmosdark, title : "Back-End Developer", city : "Ottawa", country : "Canada" },
-            { id : 4, image : cosmoslight, title : "UI Designer", city : "Beijing", country : "China" },
-            { id : 5, image : bitcoin, title : "UX Designer", city : "Bogota", country : "Colombia" },
-            { id : 6, image : bitcoin, title : "Php Developer", city : "Havana", country : "Cuba" },
-            { id : 7, image : bitcoin, title : "IOS Developer", city : "Nicosia", country : "Cyprus" },
-            { id : 8, image : bitcoin, title : "Graphics Designer", city : "Cairo", country : "Egypt" },
-            { id : 9, image : bitcoin, title : "Data Entry", city : "Suva", country : "Fiji" },
-            { id : 10, image : bitcoin, title : "Sketch Designer", city : "Helsinki", country : "Finland" },
-            { id : 11, image : bitcoin, title : "Web Developer", city : "Berlin", country : "Germany" },
-            { id : 12, image : bitcoin, title : "Game Developer", city : "Ahmedabad", country : "India" },
+            { id : 1, image : tendermint, title : "Name", category : "Mobile App", description : "Send money instantly", link : "https://google.com" },
+            { id : 2, image : mybit, title : "Block Explorer", category : "Explorer", description : "View the status of transactions" },
+            { id : 3, image : cosmosdark, title : "Back-End Developer", category : "Mobile App", description : "test" },
+            { id : 4, image : cosmoslight, title : "UI Designer", category : "Mobile App", description : "test" },
+            { id : 5, image : bitcoin, title : "UX Designer", category : "Mobile App", description : "test" },
+            { id : 6, image : bitcoin, title : "Php Developer", category : "Mobile App", description : "test" },
+            { id : 7, image : bitcoin, title : "IOS Developer", category : "Mobile App", description : "test" },
+            { id : 8, image : bitcoin, title : "Graphics Designer", category : "Mobile App", description : "test" },
+            { id : 9, image : bitcoin, title : "Data Entry", category : "Mobile App", description : "test" },
+            { id : 10, image : bitcoin, title : "Sketch Designer", category : "Mobile App", description : "test" },
+            { id : 11, image : bitcoin, title : "Web Developer", category : "Mobile App", description : "test" },
+            { id : 12, image : bitcoin, title : "Game Developer", category : "Mobile App", description : "test"},
         ]
     }
     render() {
@@ -44,7 +44,7 @@ class FeaturedJobs extends Component {
                             <FeaturedJobBox jobs={this.state.jobs} />
 
                             <Col xs="12" className="text-center mt-4 pt-2">
-                                <Link to="/page-jobs" className="btn btn-primary">See All Jobs <i className="mdi mdi-chevron-right"></i></Link>
+                                <Link to="/page-jobs" className="btn btn-primary">Build your own App <i className="mdi mdi-chevron-right"></i></Link>
                             </Col>
                         </Row>
                     </Container>
