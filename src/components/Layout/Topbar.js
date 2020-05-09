@@ -14,7 +14,7 @@ class Topbar extends Component {
               { id : 1, title : "Community", link : "/#", isOpenSubMenu : false,
                   child : [
                       { id : 1, title : "Fraktal HQ", link : "/page-aboutus"},
-                      { id : 2, title : "Products", link : "page-services"},
+                      { id : 2, title : "Products", link : "/products"},
                       { id : 3, title : "Partners", link : "/partners"},
                       { id : 4, title : "Blog", link : "/page-team"},
 
