@@ -24,7 +24,7 @@ class Topbar extends Component {
 
               { id : 2, title : "Participate", link : "/#", isOpenSubMenu : false,
                   child : [
-                      { id : 1, title : "How to Get Involved", link : "/#"},
+                      { id : 1, title : "How to Get Involved", link : "/how-to-get-involved"},
                       { id : 2, title : "Earn Tokens || Open Tasks", link : "/#"},
                       { id : 3, title : "Stake Tokens", link : "/#"},
 
