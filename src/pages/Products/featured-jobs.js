@@ -18,18 +18,18 @@ import bitcoin from "../../images/icon/bitcoin.svg";
 class FeaturedJobs extends Component {
     state = {
         jobs : [
-            { id : 1, image : tendermint, title : "Name", category : "Mobile App", description : "Send money instantly", link : "https://google.com" },
-            { id : 2, image : mybit, title : "Block Explorer", category : "Explorer", description : "View the status of transactions" },
-            { id : 3, image : cosmosdark, title : "Back-End Developer", category : "Mobile App", description : "test" },
-            { id : 4, image : cosmoslight, title : "UI Designer", category : "Mobile App", description : "test" },
-            { id : 5, image : bitcoin, title : "UX Designer", category : "Mobile App", description : "test" },
-            { id : 6, image : bitcoin, title : "Php Developer", category : "Mobile App", description : "test" },
-            { id : 7, image : bitcoin, title : "IOS Developer", category : "Mobile App", description : "test" },
-            { id : 8, image : bitcoin, title : "Graphics Designer", category : "Mobile App", description : "test" },
-            { id : 9, image : bitcoin, title : "Data Entry", category : "Mobile App", description : "test" },
-            { id : 10, image : bitcoin, title : "Sketch Designer", category : "Mobile App", description : "test" },
-            { id : 11, image : bitcoin, title : "Web Developer", category : "Mobile App", description : "test" },
-            { id : 12, image : bitcoin, title : "Game Developer", category : "Mobile App", description : "test"},
+            { id : 1, image : bitcoin, title : "Gabel", category : "Mobile Payments", description : "Send money instantly to anyone in the world.", link : "https://gabel.io" },
+            { id : 2, image : bitcoin, title : "Name TBD", category : "Mobile Wallet (Android & iOS)", description : "Secure and manage digital assets on your phone." },
+            { id : 3, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "Manage your digital assets on your computer with Ledger Nano." },
+            { id : 4, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "Web Wallet" },
+            { id : 5, image : bitcoin, title : "Fraktal Network", category : "Mobile App", description : "An Open Financial System" },
+            { id : 6, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "GUI" },
+            { id : 7, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "DEX" },
+            { id : 8, image : bitcoin, title : "Frakit", category : "Mobile App", description : "Investment App" },
+            { id : 9, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "test" },
+            { id : 10, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "test" },
+            { id : 11, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "test" },
+            { id : 12, image : bitcoin, title : "Name TBD", category : "Mobile App", description : "test"},
         ]
     }
     render() {

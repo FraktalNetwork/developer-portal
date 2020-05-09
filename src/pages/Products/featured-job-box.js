@@ -17,7 +17,9 @@ class FeaturedJobBox extends Component {
                                 <div className="content">
                                     <h4 className="title mb-0">{job.title}</h4>
 
-                                    <p className="text-muted mb-0">{job.description}</p>
+                                    <p className="text-muted mb-0">{job.category}</p>
+                                      <p className="text-dark mb-0">{job.description}</p>
+
                                 </div>
                             </div>
                         </a>
