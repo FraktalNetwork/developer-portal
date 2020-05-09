@@ -16,7 +16,7 @@ class Topbar extends Component {
                       { id : 1, title : "Fraktal HQ", link : "/page-aboutus"},
                       { id : 2, title : "Products", link : "/products"},
                       { id : 3, title : "Partners", link : "/partners"},
-                      { id : 4, title : "Blog", link : "/page-team"},
+                      { id : 4, title : "Blog", link : "/#"},
 
 
                   ]
@@ -24,12 +24,9 @@ class Topbar extends Component {
 
               { id : 2, title : "Participate", link : "/#", isOpenSubMenu : false,
                   child : [
-                      { id : 1, title : "Introduction", link : "/page-aboutus"},
-                      { id : 2, title : "Guidelines", link : "page-services"},
-                      { id : 3, title : "How to Get Involved", link : "/page-pricing"},
-                      { id : 4, title : "Open Tasks", link : "/page-team"},
-                      { id : 5, title : "Earn Tokens", link : "/page-team"},
-                      { id : 6, title : "Stake Tokens", link : "/page-team"},
+                      { id : 1, title : "How to Get Involved", link : "/#"},
+                      { id : 2, title : "Earn Tokens || Open Tasks", link : "/#"},
+                      { id : 3, title : "Stake Tokens", link : "/#"},
 
 
                   ]
