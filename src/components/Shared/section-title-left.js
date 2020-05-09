@@ -12,7 +12,8 @@ class SectionTitleLeft extends Component {
                 }
                 <p className="text-muted"> {this.props.desc} </p>
                 <p className="text-muted"> {this.props.desc2} </p>
-                
+
+
             </React.Fragment>
         );
     }

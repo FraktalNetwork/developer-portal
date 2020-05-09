@@ -28,13 +28,13 @@ class Section extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={7} md={7}>
                                         <div className="title-heading mt-4">
-                                            <h1 className="heading mb-3">Creating Equality <br />With Technology</h1>
-                                            <p className="para-desc text-muted">Living outside of the financial system is difficult.
-                                            <br /> And much of the world does.
-                                            <br /> Let's change that.
-</p>
+                                            <h1 className="heading mb-3">Empowering People</h1>
+                                            <p className="para-desc text-muted">By bringing the global economy to your fingertips.
+
+
+                                          </p>
                                             <div className="watch-video mt-4 pt-2">
-                                                <Link to="page-services" className="btn btn-primary mb-2 mr-2">Learn How</Link>
+                                          {/*      <Link to="page-services" className="btn btn-primary mb-2 mr-2">Learn How</Link> */}
                                                 <Link  onClick={this.openModal} to="#" className="video-play-icon watch text-dark mb-2"><i className="mdi mdi-play play-icon-circle text-center d-inline-block mr-2 rounded-pill title-dark text-white position-relative play play-iconbar"></i> WATCH VIDEO</Link>
                                                 <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
 

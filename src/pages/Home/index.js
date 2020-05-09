@@ -7,6 +7,7 @@ import Features from './Features';
 import Counter from './Counter';
 import Testimonial from './Testimonial';
 import HowItWorks from './HowItWorks'
+import CounterBlocks from './counterBlocks'
 
 class Index extends Component {
 
@@ -46,6 +47,7 @@ class Index extends Component {
                 {/* Feature */}
                 <Features />
 
+                <CounterBlocks />
 
                 {/* Counter */}
                 <Counter />

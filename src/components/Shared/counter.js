@@ -13,10 +13,10 @@ class Counter extends Component {
                                                 <div className="counter-box position-relative counter-border bg-light shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="mb-0">
                                                         <span className="counter-value">
-                                                            <NumberCounter end={this.props.countervalue[0]} delay={4} postFix="%"/>
+                                                            <NumberCounter end={this.props.countervalue[0]} delay={4} postFix="+"/>
                                                         </span>
                                                     </h2>
-                                                    <h5 className="counter-head">Happy Client</h5>
+                                                    <h5 className="counter-head">Individuals Contributing</h5>
                                                 </div>
                                             </Col>
 
@@ -24,10 +24,10 @@ class Counter extends Component {
                                                 <div className="counter-box position-relative counter-border bg-primary shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="text-light title-dark mb-0">
                                                         <span className="counter-value">
-                                                            <NumberCounter end={this.props.countervalue[1]} delay={4} postFix="+"/>
+                                                            <NumberCounter end={this.props.countervalue[1]} delay={4} postFix=""/>
                                                         </span>
                                                     </h2>
-                                                    <h5 className="counter-head title-dark text-light">Awards</h5>
+                                                    <h5 className="counter-head title-dark text-light">Partner Companies</h5>
                                                 </div>
                                             </Col>
                                         </Row>
@@ -39,10 +39,10 @@ class Counter extends Component {
                                                 <div className="counter-box position-relative counter-border bg-success shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="text-light title-dark mb-0">
                                                         <span className="counter-value">
-                                                            <NumberCounter end={this.props.countervalue[2]} delay={4} postFix="K"/>
+                                                            <NumberCounter end={this.props.countervalue[2]} delay={4} postFix=""/>
                                                         </span>
                                                     </h2>
-                                                    <h5 className="counter-head title-dark text-light">Job Placement</h5>
+                                                    <h5 className="counter-head title-dark text-light">Applications Built</h5>
                                                 </div>
                                             </Col>
 
@@ -50,10 +50,10 @@ class Counter extends Component {
                                                 <div className="counter-box position-relative counter-border bg-light shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="mb-0">
                                                         <span className="counter-value">
-                                                            <NumberCounter end={this.props.countervalue[3]} delay={4} postFix="%"/>
+                                                            <NumberCounter end={this.props.countervalue[3]} delay={4} postFix=""/>
                                                         </span>
                                                     </h2>
-                                                    <h5 className="counter-head">Project Complete</h5>
+                                                    <h5 className="counter-head">People Helped</h5>
                                                 </div>
                                             </Col>
                                         </Row>
