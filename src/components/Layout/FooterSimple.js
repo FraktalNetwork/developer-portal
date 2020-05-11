@@ -39,16 +39,16 @@ class FooterSimple extends Component {
 
                                     <div className="mt-2">
                                     <ul className="list-unstyled mb-0 mt-4">
-                                      <a href="https://google.com" target="_blank">  <img src={github} className="avatar avatar-small footerIcon" /></a>
-                                        <a href="https://google.com" target="_blank">  <img src={twitter} className="avatar avatar-small footerIcon" /></a>
-                                        <a href="https://google.com" target="_blank">  <img src={reddit} className="avatar avatar-small footerIcon" /></a>
-                                          <a href="https://google.com" target="_blank">  <img src={medium} className="avatar avatar-small footerIcon" /></a>
-                                            <a href="https://google.com" target="_blank">  <img src={rocketChat} className="avatar avatar-small footerIcon" /></a>
+                                      <a href="https://google.com" target="_blank">  <img src={github} className="footerIcon" /></a>
+                                        <a href="https://google.com" target="_blank">  <img src={twitter} className="footerIcon" /></a>
+                                        <a href="https://google.com" target="_blank">  <img src={reddit} className="footerIcon" /></a>
+                                          <a href="https://google.com" target="_blank">  <img src={medium} className="footerIcon" /></a>
+                                            <a href="https://google.com" target="_blank">  <img src={rocketChat} className="footerIcon" /></a>
 
                                     </ul>
                                     </div>
                                     <br />
-                                  
+
                                       <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p>
                                 </div>
                             </Col>
