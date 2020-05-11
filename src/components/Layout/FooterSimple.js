@@ -40,10 +40,10 @@ class FooterSimple extends Component {
                                     <div className="mt-2">
                                     <ul className="list-unstyled mb-0 mt-4">
                                       <a href="https://google.com" target="_blank">  <img src={github} className="footerIcon" /></a>
-                                        <a href="https://google.com" target="_blank">  <img src={twitter} className="footerIcon" /></a>
-                                        <a href="https://google.com" target="_blank">  <img src={reddit} className="footerIcon" /></a>
-                                          <a href="https://google.com" target="_blank">  <img src={medium} className="footerIcon" /></a>
-                                            <a href="https://google.com" target="_blank">  <img src={rocketChat} className="footerIcon" /></a>
+                                        <a href="https://google.com" target="_blank">  <img src={twitter} className="footerIcon footerIconMiddle" /></a>
+                                        <a href="https://google.com" target="_blank">  <img src={reddit} className="footerIcon footerIconMiddle" /></a>
+                                          <a href="https://google.com" target="_blank">  <img src={medium} className="footerIcon footerIconMiddle" /></a>
+                                            <a href="https://google.com" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
 
                                     </ul>
                                     </div>
