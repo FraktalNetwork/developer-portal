@@ -6,8 +6,9 @@ import Section from "./section";
 import Features from './Features';
 import Counter from './Counter';
 import Testimonial from './Testimonial';
-import HowItWorks from './HowItWorks'
-import Community from './Community'
+import HowItWorks from './HowItWorks';
+import Community from './Community';
+
 
 class Index extends Component {
 
@@ -48,9 +49,11 @@ class Index extends Component {
                 <Features />
 
                 <Community />
+                
+
 
                 {/* Counter */}
-                
+
 
 
 

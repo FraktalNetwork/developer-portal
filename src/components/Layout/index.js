@@ -10,6 +10,7 @@ import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 const Topbar = React.lazy(() => import('./Topbar'));
 
 const Footer = React.lazy(() => import('./Footer'));
+const FooterSimple = React.lazy(() => import('./FooterSimple'));
 const FooterWithoutMenuLightSocialOnly = React.lazy(() => import('./FooterWithoutMenuLightSocialOnly'));
 
 class Layout extends Component {
@@ -36,9 +37,9 @@ class Layout extends Component {
           <Topbar />
         }
 
-        {this.props.children} 
+        {this.props.children}
       {
-            <FooterWithoutMenuLightSocialOnly />
+            <FooterSimple />
       }
 
         <div id="bottomIcon">
