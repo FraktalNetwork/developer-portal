@@ -5,6 +5,7 @@ import { Container } from 'reactstrap';
 // Import Generic components
 
 import About from './About';
+import GuideLines from './guidelines'
 
 
 class GetInvolved extends Component {
@@ -42,9 +43,11 @@ class GetInvolved extends Component {
                 {/* About */}
                 <About />
 
+                <GuideLines />
 
 
-            
+
+
 
             </React.Fragment>
         );

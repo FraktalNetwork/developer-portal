@@ -19,14 +19,16 @@ class About extends Component {
                             </Col>
                             <Col lg="7" md="6" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-4">
-                                    <h4 className="title mb-4">Our Story : <span className="text-primary">Landrick Education</span></h4>
-                                    <p className="text-muted">Start Course with <span className="text-primary font-weight-bold">Landrick Education</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
+                                    <h4 className="title mb-4">Getting Involved is <span className="text-primary">Simple</span>!</h4>
+                                    <p className="text-muted">Fraktal makes it easy for everyone to contribute. You do not have to be a developer or highly skilled in a specific field. There are opportunties for everyone to help Fraktal grow and transform the world!</p>
+                                    <p className="text-muted">Unlike most projects, Fraktal does not have an ICO or public token offering. The only way to receive tokens is by contributing. </p>
+                                    <p>Just follow these steps to start contributing and earning tokens!</p>
                                     <ul className="list-unstyled feature-list mb-0 text-muted">
-                                        <li><i className="mdi mdi-chevron-right text-success mr-2"></i>Digital Marketing Solutions for Tomorrow</li>
-                                        <li><i className="mdi mdi-chevron-right text-success mr-2"></i>Our Talented & Experienced Marketing Agency</li>
-                                        <li><i className="mdi mdi-chevron-right text-success mr-2"></i>Create your own skin to match your brand</li>
+                                        <li><i className="mdi mdi-chevron-right text-success mr-2"></i>If you have not yet done so join the community.</li>
+                                        <li><i className="mdi mdi-chevron-right text-success mr-2"></i>Review the Guidelines below.</li>
+                                        <li><i className="mdi mdi-chevron-right text-success mr-2"></i>Look under open tasks and apply or start working.</li>
                                     </ul>
-                                    <Link to="#" className="btn btn-outline-primary mt-3">Admission Now</Link>
+                                    <Link to="#" className="btn btn-outline-primary mt-3">Explore Tasks</Link>
                                 </div>
                             </Col>
                         </Row>

@@ -10,6 +10,16 @@ import stairs from '../../images/icon/stairs.svg';
 import code from '../../images/icon/code.svg';
 import device from '../../images/icon/device.svg';
 import partners from '../../images/partners.png';
+import saveTheWorld from '../../images/icon/save-the-world.svg';
+import sendMoney from '../../images/icon/send-money.svg';
+import chess from '../../images/icon/sport.svg';
+import people from '../../images/icon/people.svg';
+import internet from '../../images/icon/internet.svg';
+import rocket from '../../images/icon/rocket.svg';
+import btcRocket from '../../images/icon/btcrocket.svg';
+import exchange from '../../images/icon/exchange.svg';
+
+
 
 class Features extends Component {
 
@@ -17,9 +27,9 @@ class Features extends Component {
         super(props);
         this.state = {
             features : [
-                { id : 1, imgUrl : stairs, title : "Instantly Transfer Money", description : "Send money anywhere in the world in seconds, for a few cents." },
-                { id : 2, imgUrl : device, title : "Be Free", description : "All you need is an internet connection. No bank account required." },
-                { id : 3, imgUrl : code, title : "Preserve Earth", description : "Electricity consumed by Fraktal is compensated by planting trees."},
+                { id : 1, imgUrl : exchange, title : "Instantly Transfer Money", description : "Send money anywhere in the world in seconds, for a few cents." },
+                { id : 2, imgUrl : internet, title : "Be Free", description : "All you need is an internet connection. No bank account required." },
+                { id : 3, imgUrl : saveTheWorld, title : "Preserve Earth", description : "Electricity consumed by Fraktal is compensated by planting trees."},
             ],
         }
     }
