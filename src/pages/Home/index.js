@@ -50,7 +50,7 @@ class Index extends Component {
                 <Community />
 
                 {/* Counter */}
-                <Counter />
+                
 
 
 
