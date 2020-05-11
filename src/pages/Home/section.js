@@ -31,8 +31,8 @@ class Section extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={5} md={5}>
                                         <div className="title-heading mt-4">
-                                            <h1 className="heading mb-3">Empowering Everyone</h1>
-                                            <p className="para-desc text-muted">By bringing the global economy to your fingertips.
+                                            <h1 className="heading mb-3">Spreading Equality</h1>
+                                            <p className="para-desc text-muted">By providing everyone access to the global economy, Fraktal creates a more connected, inclusive, and equal world.
 
 
                                           </p>
