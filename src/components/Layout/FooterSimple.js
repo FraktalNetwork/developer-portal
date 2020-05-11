@@ -48,7 +48,7 @@ class FooterSimple extends Component {
                                     </ul>
                                     </div>
                                     <br />
-                                    <br />
+                                  
                                       <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p>
                                 </div>
                             </Col>
