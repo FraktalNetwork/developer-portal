@@ -42,7 +42,7 @@ class CounterBlocks extends Component {
                     <Container className="counterDesc">
                         <Row className="">
                             <Col lg="6">
-                                <div className="section-title">
+                                <div className="section-title communityText">
                                     <SectionLeft
                                     desc = "Bringing financial services to billions of people across the globe is a big, inspiring project and everyone can help! There are tasks of all sizes, for every skill, If you support our mission, join the Fraktal Community and bring what you are best at. we will find the perfect role for you to have maximum impact."
                                     features = {this.state.features}

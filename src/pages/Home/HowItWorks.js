@@ -43,7 +43,7 @@ class HowItWorks extends Component {
 
 
                     <Container className="mt-100 mt-60">
-                        <Row className="align-items-center">
+                        <Row className="align-items-center aboutTitle">
                             <Col lg={6} md={6} className="order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title">
                                 <SectionTitleLeft
