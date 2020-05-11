@@ -39,11 +39,11 @@ class FooterSimple extends Component {
 
                                     <div className="mt-2">
                                     <ul className="list-unstyled mb-0 mt-4">
-                                      <a href="https://google.com" target="_blank">  <img src={github} className="footerIcon" /></a>
-                                        <a href="https://google.com" target="_blank">  <img src={twitter} className="footerIcon footerIconMiddle" /></a>
-                                        <a href="https://google.com" target="_blank">  <img src={reddit} className="footerIcon footerIconMiddle" /></a>
-                                          <a href="https://google.com" target="_blank">  <img src={medium} className="footerIcon footerIconMiddle" /></a>
-                                            <a href="https://google.com" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
+                                      <a href="https://github.com/FraktalNetwork" target="_blank">  <img src={github} className="footerIcon" /></a>
+                                        <a href="https://twitter.com/FraktalNetwork" target="_blank">  <img src={twitter} className="footerIcon footerIconMiddle" /></a>
+                                        <a href="https://www.reddit.com/r/FraktalNetwork/" target="_blank">  <img src={reddit} className="footerIcon footerIconMiddle" /></a>
+                                          <a href="https://medium.com/@fraktal" target="_blank">  <img src={medium} className="footerIcon footerIconMiddle" /></a>
+                                            <a href="https://community.fraktal.network" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
 
                                     </ul>
                                     </div>
