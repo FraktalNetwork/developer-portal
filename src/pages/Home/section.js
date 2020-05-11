@@ -32,7 +32,7 @@ class Section extends Component {
                                     <Col lg={5} md={5}>
                                         <div className="title-heading mt-4">
                                             <h1 className="heading mb-3">Empowering People</h1>
-                                            <p className="para-desc text-muted">By bringing the global economy to your fingertips.
+                                            <p className="para-desc text-muted">By bringing the global economy to their fingertips.
 
 
                                           </p>
