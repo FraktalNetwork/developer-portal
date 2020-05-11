@@ -55,3 +55,15 @@ width: 120%;
 .landing {
   margin-top: -10%;
 }
+
+.footerIcon {
+  align-items: center;
+  margin-left: 3%;
+  height: 10%;
+  width: 10%;
+
+}
+
+.footerSimple {
+  margin-bottom: -50%;
+}

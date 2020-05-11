@@ -28,25 +28,28 @@ class FooterSimple extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="section pt-0 bg-light">
+                <section className="section pt-0">
                     <Container>
 
 
-                        <Row className="mt-md-5 pt-md-3 mt-4 pt-2 mt-sm-0 pt-sm-0 justify-content-center">
+                        <Row className="mt-md-5 pt-md-3 mt-4 pt-2 mt-sm-0 pt-sm-0 justify-content-center footerSimple">
                             <Col xs="12" className="text-center">
                                 <div className="section-title">
-                                    <h4 className="title mb-4">Get the App now !</h4>
-                                    <p className="text-muted para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                   {/* <h4 className="title mb-4">Connect</h4> */}
+
                                     <div className="mt-2">
-                                    <ul className="list-unstyled social-icon social mb-0 mt-4">
-                                      <a href="https://google.com" target="_blank" className="rounded">  <img src={github} className="avatar avatar-small" /></a>
-                                        <a href="https://google.com" target="_blank" className="rounded">  <img src={twitter} className="avatar avatar-small" /></a>
-                                        <a href="https://google.com" target="_blank" className="rounded">  <img src={reddit} className="avatar avatar-small" /></a>
-                                          <a href="https://google.com" target="_blank" className="rounded">  <img src={medium} className="avatar avatar-small" /></a>
-                                            <a href="https://google.com" target="_blank" className="rounded">  <img src={rocketChat} className="avatar avatar-small" /></a>
-                        
+                                    <ul className="list-unstyled mb-0 mt-4">
+                                      <a href="https://google.com" target="_blank">  <img src={github} className="avatar avatar-small footerIcon" /></a>
+                                        <a href="https://google.com" target="_blank">  <img src={twitter} className="avatar avatar-small footerIcon" /></a>
+                                        <a href="https://google.com" target="_blank">  <img src={reddit} className="avatar avatar-small footerIcon" /></a>
+                                          <a href="https://google.com" target="_blank">  <img src={medium} className="avatar avatar-small footerIcon" /></a>
+                                            <a href="https://google.com" target="_blank">  <img src={rocketChat} className="avatar avatar-small footerIcon" /></a>
+
                                     </ul>
                                     </div>
+                                    <br />
+                                    <br />
+                                      <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p>
                                 </div>
                             </Col>
                         </Row>
