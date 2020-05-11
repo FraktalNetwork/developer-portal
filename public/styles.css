@@ -45,5 +45,10 @@ margin-bottom: -9%;
 }
 
 .topimg {
-  margin-top: -30%;
+height: 120%;
+width: 120%;
+}
+
+.landing {
+  margin-top: -10%;
 }

@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Services from "../../images/illustrator/services.svg";
 import Services1 from "../../images/illustrator/31051.jpg";
 import LandingImg from "../../images/illustrator/landingimg.png";
+import LandingImgTsp from "../../images/illustrator/landingimgtransparent.png";
 
 // Modal Video
 import ModalVideo from 'react-modal-video'
@@ -25,7 +26,7 @@ class Section extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="bg-half-170 d-table w-100" id="home">
+                <section className="bg-half-170 d-table w-100 landing" id="home">
                             <Container>
                                 <Row className="align-items-center">
                                     <Col lg={5} md={5}>
@@ -44,8 +45,8 @@ class Section extends Component {
                                         </div>
                                     </Col>
 
-                                    <Col lg={7} md={7} className="mt-4 pt-2 mt-sm-0 pt-sm-0 topimg">
-                                        <img src={LandingImg} alt="" />
+                                    <Col lg={7} md={7} className="mt-0 pt-0 mt-sm-0 pt-sm-0">
+                                        <img src={LandingImgTsp} alt="" className="topimg" />
                                     </Col>
                                 </Row>
                             </Container>
