@@ -7,7 +7,12 @@ import { Link } from 'react-router-dom';
 
 
 //Import Images
-
+import twitter from '../../images/icon/twitteralt.svg';
+import github from '../../images/icon/github.svg';
+import reddit from '../../images/icon/reddit.svg';
+import medium from '../../images/icon/medium.svg';
+import rocketChat from '../../images/icon/rocketchat.svg';
+import rocketChatNormal from '../../images/icon/rocket-chat.svg';
 
 class FooterSimple extends Component {
     state = {
@@ -33,8 +38,14 @@ class FooterSimple extends Component {
                                     <h4 className="title mb-4">Get the App now !</h4>
                                     <p className="text-muted para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <div className="mt-2">
-                                        <Link to="#" className="btn btn-primary mt-2 mr-2"><i className="mdi mdi-apple"></i> App Store</Link>
-                                        <Link to="#" className="btn btn-outline-primary mt-2"><i className="mdi mdi-google-play"></i> Play Store</Link>
+                                    <ul className="list-unstyled social-icon social mb-0 mt-4">
+                                      <a href="https://google.com" target="_blank" className="rounded">  <img src={github} className="avatar avatar-small" /></a>
+                                        <a href="https://google.com" target="_blank" className="rounded">  <img src={twitter} className="avatar avatar-small" /></a>
+                                        <a href="https://google.com" target="_blank" className="rounded">  <img src={reddit} className="avatar avatar-small" /></a>
+                                          <a href="https://google.com" target="_blank" className="rounded">  <img src={medium} className="avatar avatar-small" /></a>
+                                            <a href="https://google.com" target="_blank" className="rounded">  <img src={rocketChat} className="avatar avatar-small" /></a>
+                        
+                                    </ul>
                                     </div>
                                 </div>
                             </Col>
