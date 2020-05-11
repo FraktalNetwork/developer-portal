@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import SectionLeft from "../../components/Shared/sectionleft";
 import Counter from "../../components/Shared/counter";
 
-class CounterBlocks extends Component {
+class Community extends Component {
 
     constructor(props) {
         super(props);
@@ -69,4 +69,4 @@ class CounterBlocks extends Component {
     }
 }
 
-export default CounterBlocks;
+export default Community;
