@@ -121,7 +121,9 @@ class Topbar extends Component {
                             <Link className="logo" to="/">Fraktal</Link>
                         </div>
 
-
+                        <div className="buy-button">
+                          <a href="https://community.fraktal.network" id="buyButton" className="btn btn-outline-primary">Join Fraktal</a>
+                      </div>
 
                         <div className="menu-extras">
                             <div className="menu-item">
