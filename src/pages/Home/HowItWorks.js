@@ -10,6 +10,8 @@ import SectionTitleLeft from "../../components/Shared/section-title-left";
 import hosting1 from '../../images/hosting/1.png';
 import hosting2 from '../../images/hosting/2.png';
 import dealHend from '../../images/hosting/deal-hend.png';
+import lightBulb from '../../images/illustrator/aboutimgtransparent.png';
+
 
 class HowItWorks extends Component {
 
@@ -57,7 +59,7 @@ class HowItWorks extends Component {
                             </Col>
 
                             <Col lg={6} md={6} className="order-1 order-md-2">
-                                <img src={dealHend} className="img-fluid" alt="" />
+                                <img src={lightBulb} className="img-fluid" alt="" />
                             </Col>
                         </Row>
                     </Container>

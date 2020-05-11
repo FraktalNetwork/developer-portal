@@ -4,6 +4,8 @@ import { Container, Row, Col } from 'reactstrap';
 
 // import images
 import Services from "../../images/illustrator/services.svg";
+import Services1 from "../../images/illustrator/31051.jpg";
+import LandingImg from "../../images/illustrator/landingimg.png";
 
 // Modal Video
 import ModalVideo from 'react-modal-video'
@@ -26,7 +28,7 @@ class Section extends Component {
                 <section className="bg-half-170 d-table w-100" id="home">
                             <Container>
                                 <Row className="align-items-center">
-                                    <Col lg={7} md={7}>
+                                    <Col lg={5} md={5}>
                                         <div className="title-heading mt-4">
                                             <h1 className="heading mb-3">Empowering People</h1>
                                             <p className="para-desc text-muted">By bringing the global economy to your fingertips.
@@ -42,8 +44,8 @@ class Section extends Component {
                                         </div>
                                     </Col>
 
-                                    <Col lg={5} md={5} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-                                        <img src={Services} alt="" />
+                                    <Col lg={7} md={7} className="mt-4 pt-2 mt-sm-0 pt-sm-0 topimg">
+                                        <img src={LandingImg} alt="" />
                                     </Col>
                                 </Row>
                             </Container>
