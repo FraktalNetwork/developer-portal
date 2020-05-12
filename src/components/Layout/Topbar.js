@@ -13,10 +13,10 @@ class Topbar extends Component {
 
               { id : 1, title : "Community", link : "/#", isOpenSubMenu : false,
                   child : [
-                      { id : 1, title : "Fraktal HQ", link : "/page-aboutus"},
+                      { id : 1, title : "Fraktal HQ", link : "https://hq.fraktal.network"},
                       { id : 2, title : "Products", link : "/products"},
                       { id : 3, title : "Partners", link : "/partners"},
-                      { id : 4, title : "Blog", link : "/#"},
+                      { id : 4, title : "Blog", link : "https://medium.com/@fraktal"},
 
 
                   ]
@@ -37,7 +37,7 @@ class Topbar extends Component {
 
 
 
-                { id : 3, title : "Developers", link : "/index" },
+                { id : 3, title : "Developers", link : "https://developer.fraktal.network" },
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
@@ -144,7 +144,7 @@ class Topbar extends Component {
                                     navLink.child || navLink.child2 ?
                                         <li className="has-submenu" key={key}>
                                             {/* child item(menu Item) - Level 1 */}
-                                            <Link to={navLink.link} onClick={(event) => {  event.preventDefault(); this.openBlock(navLink.id) } } >{navLink.title}</Link>
+                                            <a href={navLink.link} onClick={(event) => {  event.preventDefault(); this.openBlock(navLink.id) } } >{navLink.title}</a>
                                             <span className="menu-arrow"></span>
                                                 {
                                                     navLink.isMegaMenu ?
@@ -155,7 +155,7 @@ class Topbar extends Component {
                                                                 {
                                                                     navLink.child.map((item, childKey) =>
                                                                         <li key={childKey}>
-                                                                            <Link to={item.link}>{item.title}{item.isNew ? <span className="badge badge-danger rounded ml-2">v2.0</span> : null}</Link>
+                                                                            <a href={item.link}>{item.title}{item.isNew ? <span className="badge badge-danger rounded ml-2">v2.0</span> : null}</a>
                                                                         </li>
                                                                     )
                                                                 }
@@ -166,7 +166,7 @@ class Topbar extends Component {
                                                                 {
                                                                     navLink.child2.map((item, childKey) =>
                                                                         <li key={childKey}>
-                                                                            <Link to={item.link}>{item.title}{item.isOnePage ? <span className="badge badge-warning rounded ml-2">Onepage</span> : null}</Link>
+                                                                            <a href={item.link}>{item.title}{item.isOnePage ? <span className="badge badge-warning rounded ml-2">Onepage</span> : null}</a>
                                                                         </li>
                                                                     )
                                                                 }
@@ -181,7 +181,7 @@ class Topbar extends Component {
                                                                     childArray.nestedChild ?
                                                                     // sub menu item - Level 2
                                                                         <li className="has-submenu" key={childKey}>
-                                                                            <Link to={childArray.link} onClick={(event) => {  event.preventDefault(); this.openNestedBlock(navLink.id, childArray.id) } }> {childArray.title}{" "}{childArray.isAdded ? <span className="badge badge-primary rounded">Added</span> : null }</Link>
+                                                                            <a href={childArray.link} onClick={(event) => {  event.preventDefault(); this.openNestedBlock(navLink.id, childArray.id) } }> {childArray.title}{" "}{childArray.isAdded ? <span className="badge badge-primary rounded">Added</span> : null }</a>
                                                                             <span className="submenu-arrow"></span>
                                                                             <ul className={ childArray.isOpenNestedSubMenu ? "submenu open" : "submenu" }>
                                                                                 {
@@ -193,7 +193,7 @@ class Topbar extends Component {
                                                                             </ul>
                                                                         </li>
                                                                     :
-                                                                        <li key={childKey}><Link to={childArray.link}>{childArray.title}</Link></li>
+                                                                        <li key={childKey}><a href={childArray.link}>{childArray.title}</a></li>
                                                                 )
                                                             }
                                                     </ul>
@@ -201,7 +201,7 @@ class Topbar extends Component {
 
                                         </li>
                                     :
-                                        <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
+                                        <li key={key}><a href={navLink.link}>{navLink.title}</a></li>
                                     )
                                 }
                             </ul>
