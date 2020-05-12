@@ -1067,7 +1067,10 @@ button:not(:disabled) {
 .avatar.avatar-small {
   height: 65px;
   width: 65px;
+
 }
+
+
 
 .avatar.avatar-medium {
   height: 110px;
