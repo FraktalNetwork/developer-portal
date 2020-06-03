@@ -79,6 +79,14 @@ width: 120%;
 
 }
 
+.btn.btn-primary.communitybutton {
+  height: 100%;
+  width: 50%;
+  font-size: 22px;
+  font-family: 'Assistant';
+
+}
+
 .footerIcon {
   align-items: center;
   height: 45px;
