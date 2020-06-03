@@ -59,13 +59,14 @@ width: 120%;
 }
 
 .slogan {
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   font-family: 'Assistant';
 }
 
+
 .btn.btn-primary.landingbutton {
   height: 100%;
-  width: 30%;
+  width: 20rem;
   font-size: 30px;
   font-family: 'Assistant';
 
