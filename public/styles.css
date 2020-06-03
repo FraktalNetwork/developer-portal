@@ -1,4 +1,5 @@
 
+
 .benefitsTitle {
   text-align: center;
   margin-bottom: 6%;
@@ -68,7 +69,15 @@ width: 120%;
   font-size: 30px;
   font-family: 'Assistant';
 
+}
 
+.btn.btn-primary.learnbutton {
+  height: 100%;
+  width: 35%;
+  font-size: 22px;
+  font-family: 'Assistant';
+
+}
 
 .footerIcon {
   align-items: center;
