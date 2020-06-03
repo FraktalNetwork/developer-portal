@@ -10,7 +10,7 @@ class SectionTitleLeft extends Component {
                     :
                         <h4 className="title mb-4">{this.props.title}</h4>
                 }
-                <p className="text-muted"> {this.props.desc} </p>
+                <p className=""> {this.props.desc} </p>
                 <p className="text-muted"> {this.props.desc2} </p>
 
 
