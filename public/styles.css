@@ -59,7 +59,7 @@ width: 120%;
 }
 
 .slogan {
-  margin-bottom: 7%;
+  margin-bottom: 5%;
   font-family: 'Assistant';
 }
 
@@ -81,9 +81,10 @@ width: 120%;
 
 }
 
+
 .btn.btn-primary.communitybutton {
   height: 100%;
-  width: 50%;
+  width: 14rem;
   font-size: 22px;
   font-family: 'Assistant';
 
