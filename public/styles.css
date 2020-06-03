@@ -72,9 +72,10 @@ width: 120%;
 
 }
 
+
 .btn.btn-primary.learnbutton {
   height: 100%;
-  width: 35%;
+  width: 12rem;
   font-size: 22px;
   font-family: 'Assistant';
 
