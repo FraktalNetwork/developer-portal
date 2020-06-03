@@ -52,9 +52,23 @@ height: 120%;
 width: 120%;
 }
 
+/*Landing Section*/
 .landing {
   margin-top: -5%;
 }
+
+.slogan {
+  margin-bottom: 5%;
+  font-family: 'Assistant';
+}
+
+.btn.btn-primary.landingbutton {
+  height: 100%;
+  width: 30%;
+  font-size: 30px;
+  font-family: 'Assistant';
+
+
 
 .footerIcon {
   align-items: center;

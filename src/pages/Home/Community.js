@@ -44,7 +44,7 @@ class Community extends Component {
                             <Col lg="6">
                                 <div className="section-title communityText">
                                     <SectionLeft
-                                    desc = "Bringing financial services to billions of people across the globe is a big, inspiring project and everyone can help! There are tasks of all sizes, for every skill. If you support our mission, join the Fraktal Community to start contributing today!"
+                                    desc = "Spreading equality to billions of people across the globe is a big, inspiring project and everyone can help!"
                                     features = {this.state.features}
                                     class = "mdi-18px h5 mr-2"
                                     >

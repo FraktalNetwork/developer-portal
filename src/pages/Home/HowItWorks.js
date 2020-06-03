@@ -48,13 +48,13 @@ class HowItWorks extends Component {
                                 <div className="section-title">
                                 <SectionTitleLeft
                                     title = "Welcome to Fraktal"
-                                    desc = "Fraktal is an ecosystem of individuals and companies who share the common belief that economic equality is a fundamental human right and are working to create a future where everyone has access to basic financial services."
-                                    desc2 = "By developing and delivering cutting edge technology to those who need it the most, our products empower individuals anywhere in the world to participate in the global economy and live better lives."
+                                    desc = "We are a community whose mission is to empower people and spread equality throughout the world."
+
 
                                     features = {this.state.features2}
                                     class = "mdi-18px h5 mr-2"
                                 />
-                                  {/* <Link to="#" className="btn btn-primary mt-3">Get Started <i className="mdi mdi-chevron-right"></i></Link> */}
+                                  <Link to="#" className="btn btn-primary mt-3">Learn More <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
 
@@ -66,13 +66,7 @@ class HowItWorks extends Component {
 
 
                 </section>
-                <div className="position-relative">
-                    <div className="shape overflow-hidden text-white">
-                        <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
-                        </svg>
-                    </div>
-                </div>
+
             </React.Fragment>
         );
     }

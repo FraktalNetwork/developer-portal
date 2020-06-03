@@ -11,26 +11,10 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-              { id : 1, title : "Community", link : "/#", isOpenSubMenu : false,
-                  child : [
-                      { id : 1, title : "Fraktal HQ", link : "https://hq.fraktal.network"},
-                      { id : 2, title : "Products", link : "/products"},
-                      { id : 3, title : "Partners", link : "/partners"},
-                      { id : 4, title : "Blog", link : "https://medium.com/@fraktal"},
+              { id : 1, title : "About", link : "https://developer.fraktal.network" },
 
-
-                  ]
-              },
-
-              { id : 2, title : "Participate", link : "/#", isOpenSubMenu : false,
-                  child : [
-                      { id : 1, title : "How to Get Involved", link : "/how-to-get-involved"},
-                      { id : 2, title : "Earn Tokens || Open Tasks", link : "/#"},
-                      { id : 3, title : "Stake Tokens", link : "/#"},
-
-
-                  ]
-              },
+                { id : 1, title : "Community", link : "https://developer.fraktal.network" },
+          { id : 2, title : "Products", link : "https://developer.fraktal.network" },
 
 
 
@@ -38,6 +22,8 @@ class Topbar extends Component {
 
 
                 { id : 3, title : "Developers", link : "https://developer.fraktal.network" },
+
+                  { id : 4, title : "Get Involved", link : "https://developer.fraktal.network" },
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
@@ -121,9 +107,7 @@ class Topbar extends Component {
                             <Link className="logo" to="/">Fraktal</Link>
                         </div>
 
-                        <div className="buy-button">
-                          <a href="https://community.fraktal.network" id="buyButton" className="btn btn-primary">Join Fraktal</a>
-                      </div>
+
 
                         <div className="menu-extras">
                             <div className="menu-item">

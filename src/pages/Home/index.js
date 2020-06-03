@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 // import generic componenets
-import Section from "./section";
+import Landing from "./landing";
 import Features from './Features';
 import Counter from './Counter';
 import Testimonial from './Testimonial';
@@ -41,7 +41,7 @@ class Index extends Component {
             <React.Fragment>
 
                 {/* Hero Start */}
-                <Section />
+                <Landing />
 
                 <HowItWorks />
 
@@ -49,7 +49,7 @@ class Index extends Component {
                 <Features />
 
                 <Community />
-                
+
 
 
                 {/* Counter */}
