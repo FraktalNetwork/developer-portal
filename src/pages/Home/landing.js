@@ -26,7 +26,7 @@ class Landing extends Component {
                                             </Typist></h1>
 
                                             <div className="mt-4 pt-2">
-                                                <Link to="#" className="btn btn-primary landingbutton">Join Fraktal</Link>
+                                                <a href="https://community.fraktal.network" target="_blank" className="btn btn-primary landingbutton">Join Fraktal</a>
                                             </div>
                                         </div>
                                     </Col>
