@@ -58,9 +58,10 @@ width: 120%;
   margin-top: -5%;
 }
 
-.slogan {
+h1.slogan {
   margin-bottom: 5%;
   font-family: 'Assistant';
+  font-weight: 700;
 }
 
 
