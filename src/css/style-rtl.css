@@ -1506,7 +1506,7 @@ button:not(:disabled) {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Assistant", sans-serif;
   overflow-x: hidden !important;
   font-size: 16px;
   color: #161c2d;

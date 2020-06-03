@@ -74,13 +74,13 @@
             background-color: $dark;
             display: block;
             margin-bottom: 5px;
-            transition: transform .5s ease;   
+            transition: transform .5s ease;
             &:last-child {
                 margin-bottom: 0;
             }
         }
     }
-    
+
     //Buy button
     .buy-button {
         float: right;
@@ -116,13 +116,13 @@
         }
     }
     .navbar-toggle {
-        &:hover, 
+        &:hover,
         &:focus,
         .navigation-menu > li > a:hover, &:focus {
             background-color: transparent;
         }
     }
-  
+
     .navigation-menu {
         list-style: none;
         margin: 0;
@@ -139,19 +139,19 @@
             > a {
                 display: block;
                 color: $dark;
-                font-size: 13px;
+                font-size: 17px;
                 background-color: transparent !important;
                 font-weight: 700;
                 letter-spacing: 1px;
                 line-height: 24px;
                 text-transform: uppercase;
-                transition: all 0.5s;    
-                font-family: $font-family-base;
+                transition: all 0.5s;
+                font-family: 'Assistant';
                 padding-left: 15px;
                 padding-right: 15px;
                 &:hover,
                 &:active{
-                    color: $primary;    
+                    color: $primary;
                 }
             }
         }
@@ -173,7 +173,7 @@
     .menu-extras {
         float: right;
     }
-    
+
     &.scroll {
         background-color: $white;
         border: none;
@@ -183,7 +183,7 @@
                 > a {
                     color: $dark;
                 }
-                
+
                 > .menu-arrow {
                     border-color: $dark;
                 }
@@ -194,11 +194,11 @@
                     > .menu-arrow {
                         border-color: $primary;
                     }
-                } 
-            } 
+                }
+            }
         }
     }
-    
+
     &.defaultscroll{
         &.dark-menubar {
             .logo {
@@ -253,9 +253,9 @@
                                 border-color: transparent $white $white transparent;
                             }
                         }
-                    } 
+                    }
                 }
-            } 
+            }
             > li {
                 .submenu {
                     position: absolute;
@@ -346,7 +346,7 @@
                 &.active > a{
                     color: $primary !important;
                 }
-                
+
                 &.last-elements {
                     .submenu {
                         left: auto;
@@ -364,7 +364,7 @@
                     }
                 }
             }
-        }        
+        }
         .navbar-toggle {
             display: none;
         }
@@ -394,7 +394,7 @@
         }
     }
 }
-  
+
 @media (max-width: 991px) {
     #topnav {
         background-color: $white;
