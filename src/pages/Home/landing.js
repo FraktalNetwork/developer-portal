@@ -19,7 +19,7 @@ class Landing extends Component {
 
                                             <h1 className="display-4 slogan"><Typist>
                                             <span> Make a Difference.</span>
-                                            <Typist.Backspace count={18} delay={500} />
+                                            <Typist.Backspace count={18} delay={1100} />
 
                                             <span>Start Today.</span>
                                             </Typist></h1>

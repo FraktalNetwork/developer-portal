@@ -23,7 +23,7 @@ class Topbar extends Component {
 
                 { id : 3, title : "Developers", link : "https://developer.fraktal.network" },
 
-                  { id : 4, title : "Get Involved", link : "https://developer.fraktal.network" },
+                  
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
