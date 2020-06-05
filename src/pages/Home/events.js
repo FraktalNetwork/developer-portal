@@ -25,7 +25,7 @@ class Events extends Component {
             <React.Fragment>
                 <section className="section">
                     <Container>
-                        <div className="bg-light shadow3d  rounded">
+                        <div className="bg-light shadow3d eventblock  rounded">
                             <Row className="align-items-center">
                                 <Col lg="6">
                                     <img src={rocketship} className="rounded img-fluid" alt="" />

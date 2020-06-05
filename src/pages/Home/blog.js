@@ -13,11 +13,11 @@ class Blog extends Component {
             <React.Fragment>
                 <section className="section">
                     <Container>
-                        <Row className="align-items-center">
+                        <Row className="align-items-center eventblock">
 
 
                             <Col lg="7" md="6" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                                <div className="section-title ml-lg-4">
+                                <div className="section-title  ml-lg-4">
                                     <h4 className="title mb-4">Latest News</h4>
                                     <p className="text-muted">Our community is always growing and there is never a dull moment! The Fraktal Blog is a great place to learn about the project and stay up to date. </p>
                                     <Link to="#" className="btn btn-primary mt-3">Dive in!</Link>

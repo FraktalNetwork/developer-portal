@@ -153,3 +153,7 @@ h1.slogan {
 .job-box {
   height: 275px;
 }
+
+.eventblock {
+  margin-top: -10%;
+}
