@@ -21,10 +21,10 @@ class Products extends Component {
        super(props);
        this.state = {
            features : [
-               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal Network", desc : "Send money instantly, anywhere in the world without bank fees.", link : "#" },
-               { class : "yellow course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Frak.it", desc : "Bringing transparency and inclusiveness to investments.", link : "#" },
-               { class : "green course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Gabel", desc : "Your own personal bank. Take back control of what is yours.", link : "#" },
-                  { class : "indigo course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Freestream", desc : "A revolutionary new concept of streaming money.", link : "#" },
+               { class : "white course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal Network", desc : "Send money instantly, anywhere in the world without bank fees.", link : "#" },
+               { class : "green course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Frak.it", desc : "Bringing transparency and inclusiveness to investments.", link : "#" },
+               { class : "indigo course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Gabel", desc : "Your own personal bank. Take back control of what is yours.", link : "#" },
+                  { class : "yellow course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Freestream", desc : "A revolutionary new concept of streaming money.", link : "#" },
            ]
        }
    }

@@ -4,17 +4,25 @@
   margin-bottom: 5%;
 }
 
+.white {
+background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
+
+
+
+}
+
 .green {
-  background-color: #32ff7e;
+ background-image: radial-gradient(#32ff7e, #fffa65);
+
 
 }
 
 .indigo {
-  background-color: #7d5fff;
+ background-image: radial-gradient(#32ff7e, #fffa65);
 }
 
 .yellow {
-  background-color: #fffa65;
+    background-image: linear-gradient(to bottom, #fffa65, #32ff7e);
 }
 
 .benefitsTitle {
@@ -88,6 +96,7 @@ h1.slogan {
   font-size: 30px;
   font-family: 'Assistant';
 
+
 }
 
 
@@ -97,6 +106,7 @@ h1.slogan {
   font-size: 22px;
   font-family: 'Assistant';
 
+
 }
 
 
@@ -105,7 +115,7 @@ h1.slogan {
   width: 12rem;
   font-size: 22px;
   font-family: 'Assistant';
-
+  
 }
 
 .footerIcon {
