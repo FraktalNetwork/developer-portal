@@ -29,11 +29,17 @@ class FooterSimple extends Component {
         return (
             <React.Fragment>
                 <section className="section pt-0">
+
                     <Container>
 
 
                         <Row className="mt-md-5 pt-md-3 mt-4 pt-2 mt-sm-0 pt-sm-0 justify-content-center footerSimple">
+
                             <Col xs="12" className="text-center">
+                            <div className="bg-overlay bg-overlay-gradient2 bg-footer"></div>
+                            <div className="productstitle">
+                            <h2 className="title mb-4">Follow Us</h2>
+                            </div>
                                 <div className="section-title">
                                    {/* <h4 className="title mb-4">Connect</h4> */}
 

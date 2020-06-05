@@ -157,3 +157,8 @@ h1.slogan {
 .eventblock {
   margin-top: -10%;
 }
+
+.bg-overlay.bg-overlay-gradient2.bg-footer {
+  width: 200%;
+  margin-left: -100px;
+}
