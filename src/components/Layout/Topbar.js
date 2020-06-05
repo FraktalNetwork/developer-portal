@@ -11,9 +11,9 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-              { id : 1, title : "About", link : "https://developer.fraktal.network" },
+              { id : 1, title : "About", link : "./" },
 
-                { id : 1, title : "Community", link : "https://developer.fraktal.network" },
+                { id : 1, title : "Community", link : "./partners" },
           { id : 2, title : "Products", link : "https://developer.fraktal.network" },
 
 
@@ -23,7 +23,7 @@ class Topbar extends Component {
 
                 { id : 3, title : "Developers", link : "https://developer.fraktal.network" },
 
-                  
+
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);

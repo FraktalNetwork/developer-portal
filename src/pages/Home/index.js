@@ -8,6 +8,7 @@ import Counter from './Counter';
 import Testimonial from './Testimonial';
 import HowItWorks from './HowItWorks';
 import Community from './Community';
+import Products from './products';
 
 
 class Index extends Component {
@@ -49,6 +50,10 @@ class Index extends Component {
                 <Features />
 
                 <Community />
+
+                <Products />
+
+
 
 
 

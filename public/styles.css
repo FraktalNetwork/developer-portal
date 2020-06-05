@@ -1,4 +1,21 @@
+.productstitle {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
+.green {
+  background-color: #32ff7e;
+
+}
+
+.indigo {
+  background-color: #7d5fff;
+}
+
+.yellow {
+  background-color: #fffa65;
+}
 
 .benefitsTitle {
   text-align: center;

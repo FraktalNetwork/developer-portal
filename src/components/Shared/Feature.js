@@ -21,7 +21,7 @@ class Feature extends Component {
                                         <img src={feat.imgUrl} className="avatar avatar-small" alt="" />
                                     </div>
                                     <div className="content mt-4">
-                                        <h4 className="title-2">{feat.title}</h4>
+                                        <h4 className="title">{feat.title}</h4>
                                         <p className=" mb-0">{feat.description}</p>
                                     </div>
                                 </div>
