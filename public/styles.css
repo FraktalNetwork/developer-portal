@@ -7,8 +7,20 @@
 .white {
 background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
 
+}
 
 
+.bg-green {
+  background-image: linear-gradient(to bottom, #32ff7e, #7d5fff);
+}
+
+.bg-indigo {
+  background-color: #7d5fff;
+
+}
+
+.bg-yellow {
+  background-color: #fffa65;
 }
 
 .green {
@@ -47,6 +59,10 @@ background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
 .counterText {
   text-align: center;
 
+}
+
+.shadow3d {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .featureImage {
@@ -115,7 +131,7 @@ h1.slogan {
   width: 12rem;
   font-size: 22px;
   font-family: 'Assistant';
-  
+
 }
 
 .footerIcon {

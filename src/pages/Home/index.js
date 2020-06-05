@@ -9,7 +9,8 @@ import Testimonial from './Testimonial';
 import HowItWorks from './HowItWorks';
 import Community from './Community';
 import Products from './products';
-
+import Blog from './blog';
+import Events from './events';
 
 class Index extends Component {
 
@@ -52,6 +53,12 @@ class Index extends Component {
                 <Community />
 
                 <Products />
+
+                <Events />
+
+                <Blog />
+
+
 
 
 
