@@ -11,6 +11,7 @@ import '../../../node_modules/react-modal-video/scss/modal-video.scss';
 
 //import images
 import startUp from '../../images/icon/start-up.svg';
+import rocketship from '../../images/illustrator/rocketship.png';
 
 class Events extends Component {
 
@@ -24,10 +25,10 @@ class Events extends Component {
             <React.Fragment>
                 <section className="section">
                     <Container>
-                        <div className="bg-light rounded">
+                        <div className="bg-light shadow3d  rounded">
                             <Row className="align-items-center">
                                 <Col lg="6">
-                                    <img src={startUp} className="rounded img-fluid" alt="" />
+                                    <img src={rocketship} className="rounded img-fluid" alt="" />
                                 </Col>
 
                                 <Col lg="6" className="text-center">
@@ -38,6 +39,7 @@ class Events extends Component {
                                         <p className="text-muted mx-auto para-desc mb-2">We will be hosting a kick-off party for Fraktal with our founding community! Everyone is welcome!</p>
 
                                         <p className="text-muted mx-auto para-desc mb-0">Date TBD</p>
+                                          <Link to="#" className="btn btn-primary mt-3">🎉Join Us</Link>
                                     </div>
                                 </Col>
                             </Row>
