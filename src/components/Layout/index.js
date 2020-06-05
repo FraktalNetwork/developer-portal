@@ -12,6 +12,7 @@ const Topbar = React.lazy(() => import('./Topbar'));
 const Footer = React.lazy(() => import('./Footer'));
 const FooterSimple = React.lazy(() => import('./FooterSimple'));
 const FooterWithoutMenuLightSocialOnly = React.lazy(() => import('./FooterWithoutMenuLightSocialOnly'));
+const DoubleFooter = React.lazy(() => import('./DoubleFooter'));
 
 class Layout extends Component {
 
@@ -40,6 +41,12 @@ class Layout extends Component {
         {this.props.children}
       {
             <FooterSimple />
+
+      }
+
+      {
+            <Footer />
+
       }
 
         <div id="bottomIcon">

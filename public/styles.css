@@ -19,6 +19,10 @@ background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
 
 }
 
+.bg-weirdgreen {
+  background-color: #3ae374;
+}
+
 .bg-yellow {
   background-color: #fffa65;
 }
@@ -147,7 +151,15 @@ h1.slogan {
 }
 
 .footerSimple {
-  margin-bottom: -50%;
+  margin-bottom: -10%;
+  height: 20rem;
+/* background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
+  color: #7158e2; */
+
+}
+
+.title.socialtitle {
+  z-index: 1;
 }
 
 .job-box {

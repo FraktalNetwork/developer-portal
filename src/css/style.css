@@ -140,6 +140,10 @@ a.text-light:hover, a.text-light:focus {
   background-color: #202942 !important;
 }
 
+.bg-footergreen {
+  background-color: #3ae374 !important;
+}
+
 .text-footer {
   color: #202942 !important;
 }
@@ -1551,9 +1555,21 @@ p {
   height: 100%;
 }
 
+.bg-overlay2 {
+  background-color: rgba(58, 227, 116, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .bg-overlay-gradient {
   background-color: rgba(47, 85, 212, 0.6);
 }
+
 
 .bg-overlay-white {
   background-color: rgba(255, 255, 255, 0.5);

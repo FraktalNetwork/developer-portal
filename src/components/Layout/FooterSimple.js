@@ -36,9 +36,9 @@ class FooterSimple extends Component {
                         <Row className="mt-md-5 pt-md-3 mt-4 pt-2 mt-sm-0 pt-sm-0 justify-content-center footerSimple">
 
                             <Col xs="12" className="text-center">
-                            <div className="bg-overlay bg-overlay-gradient2 bg-footer"></div>
+                             <div className="bg-overlay bg-overlay-gradient2 bg-footer"></div>
                             <div className="productstitle">
-                            <h2 className="title mb-4">Follow Us</h2>
+                            <h1 className="title mb-4 socialtitle position-relative">Follow Us</h1>
                             </div>
                                 <div className="section-title">
                                    {/* <h4 className="title mb-4">Connect</h4> */}
@@ -55,7 +55,7 @@ class FooterSimple extends Component {
                                     </div>
                                     <br />
 
-                                      <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p>
+                                    {/*  <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p> */}
                                 </div>
                             </Col>
                         </Row>
