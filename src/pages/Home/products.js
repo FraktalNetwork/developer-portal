@@ -59,6 +59,10 @@ class Products extends Component {
                        </Row>
                    </Container>
 
+                   <div className="mt-4 pt-2 text-center">
+                       <Link to="./products" className="btn btn-primary landingbutton">Explore All Products</Link>
+                   </div>
+
                 </section>
             </React.Fragment>
         );
