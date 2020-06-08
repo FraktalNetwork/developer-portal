@@ -170,6 +170,12 @@ h1.slogan {
   margin-top: -10%;
 }
 
+.blogblock {
+  margin-top: -10%;
+  margin-bottom: -5%;
+}
+
+
 .bg-overlay.bg-overlay-gradient2.bg-footer {
   width: 200%;
   margin-left: -100px;

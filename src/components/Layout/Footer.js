@@ -11,18 +11,15 @@ class Footer extends Component {
     super(props);
     this.state = {
         grid1 : [
-            { title : "About us", link : "/page-aboutus" },
-            { title : "Services", link : "/page-services" },
-            { title : "Team", link : "/page-team" },
-            { title : "Pricing", link : "/page-pricing" },
-            { title : "Project", link : "/page-work" },
-            { title : "Careers", link : "/page-jobs" },
-            { title : "Blog", link : "/page-blog" },
-            { title : "Login", link : "/page-cover-login" },
+            { title : "About", link : "/page-aboutus" },
+            { title : "Community", link : "/page-services" },
+            { title : "Products", link : "/page-team" },
+            { title : "Developers", link : "/page-pricing" },
+
         ],
         grid2 : [
-            { title : "Terms of Services", link : "/page-terms" },
-            { title : "Privacy Policy", link : "/page-privacy" },
+            { title : "Blog", link : "/page-terms" },
+            { title : "Chat", link : "/page-privacy" },
             { title : "Documentation", link : "/documentation" },
             { title : "Changelog", link : "/changelog" },
             { title : "Components", link : "/components" },
@@ -37,7 +34,7 @@ class Footer extends Component {
             <Container>
                 <Row>
                     <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">
-                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Landrick<span className="text-primary">.</span></Link>
+                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Test<span className="text-primary">.</span></Link>
                         <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
@@ -51,7 +48,7 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid1.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}><i className="mdi mdi-chevron-right mr-1"></i> {grid.title}</Link></li>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
                                 )
                             }
                         </ul>
@@ -62,29 +59,18 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid2.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}><i className="mdi mdi-chevron-right mr-1"></i> {grid.title}</Link></li>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
                                 )
                             }
                         </ul>
                     </Col>
 
                     <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Newsletter</h4>
-                        <p className="mt-4">Sign up and receive the latest tips via email.</p>
-                        <Form>
-                            <Row>
-                                <Col lg="12">
-                                    <div className={this.props.isLight ? "foot-subscribe foot-white form-group position-relative" : "foot-subscribe form-group position-relative"}>
-                                        <Label className={this.props.isLight ? "text-muted" : ""}>Write your email <span className="text-danger">*</span></Label>
-                                        <i className="mdi mdi-email ml-3 icons"></i>
-                                        <Input type="email" name="email" id="emailsubscribe" className={this.props.isLight ? "form-control bg-light border pl-5 rounded" : "form-control pl-5 rounded"} placeholder="Your email : " required/>
-                                    </div>
-                                </Col>
-                                <Col lg="12">
-                                    <Input type="submit" id="submitsubscribe" name="send" className="btn btn-primary rounded w-100" value="Subscribe"/>
-                                </Col>
-                            </Row>
-                        </Form>
+                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Get Involved</h4>
+                        <p className="mt-4">Every person has a role to play at Fraktal!
+                        <a href="https://community.fraktal.network" target="_blank" className="btn btn-primary communitybutton mb-2 mr-2 frakButton">Join Fraktal</a></p>
+
+
                     </Col>
                 </Row>
             </Container>
@@ -92,13 +78,13 @@ class Footer extends Component {
         <footer className="footer footer-bar">
             <Container className="text-center">
                 <Row className="align-items-center">
-                    <Col sm="6">
+                    <Col sm="12">
                         <div className="text-sm-left">
-                            <p className="mb-0">© 2020-21 Landrick. Develop by <Link to="#" target="_blank" className="text-success">Themesbrand</Link>.</p>
+                            <p className="mb-0 text-center">© 2020 Fraktal Network. All Rights Reserved.</p>
                         </div>
                     </Col>
 
-                
+
                 </Row>
             </Container>
         </footer>

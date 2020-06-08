@@ -13,7 +13,7 @@ class Blog extends Component {
             <React.Fragment>
                 <section className="section">
                     <Container>
-                        <Row className="align-items-center eventblock">
+                        <Row className="align-items-center blogblock">
 
 
                             <Col lg="7" md="6" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">

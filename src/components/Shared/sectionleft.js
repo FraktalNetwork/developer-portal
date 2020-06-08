@@ -12,7 +12,7 @@ class SectionLeft extends Component {
                         <h4 className="title mb-4">{this.props.title}</h4>
                 }
                 <p className=""> {this.props.desc} </p>
-                  <a href="https://community.fraktal.network" className="btn btn-primary communitybutton mb-2 mr-2 frakButton">Join Fraktal<i className="mdi mdi-chevron-right"></i></a>
+                  <a href="https://community.fraktal.network" target="_blank" className="btn btn-primary communitybutton mb-2 mr-2 frakButton">Join Fraktal<i className="mdi mdi-chevron-right"></i></a>
 
 
 
