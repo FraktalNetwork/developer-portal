@@ -166,8 +166,12 @@ h1.slogan {
   z-index: 1;
 }
 
+.img-fluid.bgmage {
+  height: 100px;
+}
+
 .job-box {
-  height: 20rem;
+  height: 23rem;
 }
 
 .eventblock {
