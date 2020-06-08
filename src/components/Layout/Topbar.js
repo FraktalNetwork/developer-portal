@@ -14,7 +14,7 @@ class Topbar extends Component {
               { id : 1, title : "About", link : "./" },
 
                 { id : 1, title : "Community", link : "./partners" },
-          { id : 2, title : "Products", link : "https://developer.fraktal.network" },
+          { id : 2, title : "Products", link : "./products" },
 
 
 

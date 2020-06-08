@@ -14,6 +14,10 @@ background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
   background-image: linear-gradient(to bottom, #32ff7e, #7d5fff);
 }
 
+.bg-green-reverse {
+  background-image: linear-gradient(to bottom, #7d5fff, #32ff7e);
+}
+
 .bg-indigo {
   background-color: #7d5fff;
 
