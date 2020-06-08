@@ -68,9 +68,12 @@ class PageJob extends Component {
             <React.Fragment>
                 {/* breadcrumb */}
 
-            
+
 
                 <section className="section">
+                <div className="productstitle">
+                <h2 className="title mb-4">Partners</h2>
+                </div>
                     <Container>
 
 
@@ -121,6 +124,9 @@ class PageJob extends Component {
                         </Row>
 
                     </Container>
+                    <div className="mt-4 pt-2 text-center">
+                        <Link to="/" className="btn btn-primary landingbutton">Join Fraktal</Link>
+                    </div>
                 </section>
             </React.Fragment>
         );
