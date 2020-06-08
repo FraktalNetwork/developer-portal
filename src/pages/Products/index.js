@@ -44,7 +44,7 @@ class Products extends Component {
 
 
                     {/* featured jobs */}
-                    <FeaturedJobs />
+              
 
                     {/* candidates */}
                     <ProductList />
