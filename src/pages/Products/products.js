@@ -65,7 +65,14 @@ class ProductList extends Component {
                 <Container>
                        <Row>
                            {
-                               this.state.features.map((feature, key) =>
+                        this.state.features
+                        
+                               .filter(
+                          ({ category }) =>
+                          this.state.displayCategory === category || this.state.displayCategory === "All"
+                              )
+
+                               .map((feature, key) =>
                                    <Col md={6} key={key}>
                                        <div className={feature.class}>
                                            <div className="icon text-center">
