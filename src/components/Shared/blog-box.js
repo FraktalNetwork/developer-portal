@@ -18,13 +18,10 @@ class BlogBox extends Component {
                                 <h4><Link to="#" className="title text-dark">{blog.title}</Link></h4>
                                 <div className="post-meta mt-3">
                                     <Link to="#" className="text-muted float-right readmore">Read More <i className="mdi mdi-chevron-right"></i></Link>
-                                  
+
                                 </div>
                             </div>
-                            <div className="author">
-                                <small className="text-light user d-block"><i className="mdi mdi-account"></i> {blog.autor}</small>
-                                <small className="text-light date"><i className="mdi mdi-calendar-check"></i> {blog.date}</small>
-                            </div>
+                          
                         </div>
                     </Col>
                     )
