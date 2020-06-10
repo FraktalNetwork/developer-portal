@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col } from 'reactstrap';
+import { Col, } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 class BlogBox extends Component {
@@ -8,10 +8,11 @@ class BlogBox extends Component {
             <React.Fragment>
                 {
                     this.props.blogs.map((blog, key) =>
+
                     <Col lg="4" md="6" className="mt-4 pt-2" key={key} name="blog">
                         <div className="blog position-relative overflow-hidden shadow rounded blogbox">
                             <div className="position-relative">
-                                <img src={blog.image} className="img-fluid rounded-top" alt=""/>
+                              <Link to="/Articles">  <img src={blog.image} className="img-fluid rounded-top" alt=""/></Link>
 
                             </div>
                             </div>
@@ -27,6 +28,7 @@ class BlogBox extends Component {
 
                         </div>
                     </Col>
+                    
                     )
                 }
             </React.Fragment>
