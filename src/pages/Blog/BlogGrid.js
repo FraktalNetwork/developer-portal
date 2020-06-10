@@ -69,6 +69,9 @@ class BlogGrid extends Component {
                 {/* breadcrumb */}
 
                 <section className="section">
+                <div className="productstitle">
+                <h2 className="title mb-4">Welcome to the Fraktal Ecosystem Blog</h2>
+                </div>
                     <Container>
                         <Row>
                             {/* blog box */}
