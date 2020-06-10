@@ -10,6 +10,7 @@ const CloudHosting = React.lazy(() => import('./pages/CloudHosting/index'));
 const Partners = React.lazy(() => import('./pages/Home/partners'));
 const Products = React.lazy(() => import('./pages/Products/index'));
 const GetInvolved = React.lazy(() => import('./pages/Participate/index'));
+const Blog = React.lazy(() => import('./pages/Blog/BlogGrid'));
 
 
 const routes = [
@@ -23,6 +24,7 @@ const routes = [
     { path: '/partners', component: Partners },
     { path: '/products', component: Products },
     { path: '/how-to-get-involved', component: GetInvolved },
+    { path: '/blog', component: Blog },
 
 
 
