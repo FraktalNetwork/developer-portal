@@ -4,25 +4,22 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
-import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
-import PageSearchSidebar from "../../../components/Shared/page-search-sidebar";
-import CommentsBox from "../../../components/Shared/comments-box";
+import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
+import PageSearchSidebar from "../../components/Shared/page-search-sidebar";
+import CommentsBox from "../../components/Shared/comments-box";
 
 // import images
-import blog01 from '../../../images/blog/01.jpg';
-import blog03 from '../../../images/blog/03.jpg';
-import blog04 from '../../..//images/blog/04.jpg';
-import blog07 from '../../../images/blog/07.jpg';
-import blog08 from '../../../images/blog/08.jpg';
+import blog01 from '../../images/account/bg.jpg';
+
 
 // Client Images
-import client1 from '../../../images/client/01.jpg';
-import client2 from '../../../images/client/02.jpg';
-import client3 from '../../../images/client/03.jpg';
-import client4 from '../../../images/client/04.jpg';
+import client1 from '../../images/account/bg.jpg';
+import client2 from '../../images/account/bg.jpg';
+import client3 from '../../images/account/bg.jpg';
+import client4 from '../../images/account/bg.jpg';
 
 
-class PageBlogDetail extends Component {
+class Articles extends Component {
 
     constructor(props) {
         super(props);
@@ -45,8 +42,8 @@ class PageBlogDetail extends Component {
                 },
             ],
             blogs : [
-                { id : 1, image : blog03, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 2, image : blog04, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                { id : 1, image : blog01, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                { id : 2, image : blog01, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
             ],
             successMsg : false
         }
@@ -201,7 +198,7 @@ class PageBlogDetail extends Component {
                             </Col>
 
                         {/* sidebar */}
-                        <PageSearchSidebar blog01={blog01} blog07={blog07} blog08={blog08} />
+
 
                         </Row>
                     </Container>
@@ -210,4 +207,4 @@ class PageBlogDetail extends Component {
         );
     }
 }
-export default PageBlogDetail;
+export default Articles;

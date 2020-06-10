@@ -11,6 +11,7 @@ const Partners = React.lazy(() => import('./pages/Home/partners'));
 const Products = React.lazy(() => import('./pages/Products/index'));
 const GetInvolved = React.lazy(() => import('./pages/Participate/index'));
 const Blog = React.lazy(() => import('./pages/Blog/BlogGrid'));
+const Articles = React.lazy(() => import('./pages/Blog/articles'));
 
 
 const routes = [
@@ -25,6 +26,7 @@ const routes = [
     { path: '/products', component: Products },
     { path: '/how-to-get-involved', component: GetInvolved },
     { path: '/blog', component: Blog },
+    { path: '/articles', component: Articles },
 
 
 
