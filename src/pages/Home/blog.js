@@ -29,6 +29,8 @@ class Blog extends Component {
                             </Col>
                         </Row>
                     </Container>
+
+
                 </section>
             </React.Fragment>
         );

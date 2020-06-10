@@ -11,6 +11,7 @@ import Community from './Community';
 import Products from './products';
 import Blog from './blog';
 import Events from './events';
+import News from './news';
 
 class Index extends Component {
 
@@ -57,6 +58,8 @@ class Index extends Component {
                 <Events />
 
                 <Blog />
+
+                <News />
 
 
 
