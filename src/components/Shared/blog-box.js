@@ -14,6 +14,9 @@ class BlogBox extends Component {
                                 <img src={blog.image} className="img-fluid rounded-top" alt=""/>
                                 <div className="overlay rounded-top bg-dark"></div>
                             </div>
+                            </div>
+
+                            <div>
                             <div className="content p-4">
                                 <h4><Link to="#" className="title text-dark">{blog.title}</Link></h4>
                                 <div className="post-meta mt-3">
