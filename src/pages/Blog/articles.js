@@ -5,8 +5,8 @@ import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } fro
 
 //Import components
 import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
-import PageSearchSidebar from "../../components/Shared/page-search-sidebar";
-import CommentsBox from "../../components/Shared/comments-box";
+
+
 
 // import images
 import blog01 from '../../images/account/bg.jpg';
@@ -120,7 +120,7 @@ class Articles extends Component {
                                     </div>
 
                                     {/* comments */}
-                                    <CommentsBox comments={this.state.comments} />
+
 
                                     <div className="mt-4 pt-2 p-4 shadow rounded">
                                         <h4 className="page-title">Related Posts :</h4>
@@ -155,45 +155,7 @@ class Articles extends Component {
                                         </Row>
                                     </div>
 
-                                    <div className="mt-4 pt-2 p-4 shadow rounded">
-                                        <h4 className="page-title pb-3">Leave A Comment :</h4>
-                                        <Alert color="info" isOpen={this.state.successMsg} toggle={()=>{ this.setState({successMsg : !this.state.successMsg}) }}>
-                                            Data sended successfully.
-                                        </Alert>
-                                        <Form onSubmit={this.handleSubmit}>
-                                            <Row>
-                                                <Col md="12">
-                                                    <FormGroup className="position-relative">
-                                                        <Label>Your Comment</Label>
-                                                        <i className="mdi mdi-comment-outline ml-3 icons"></i>
-                                                        <textarea id="message" placeholder="Your Comment" rows="5" name="message" className="form-control pl-5" required></textarea>
-                                                    </FormGroup>
-                                                </Col>
-
-                                                <Col md="6">
-                                                    <FormGroup className="position-relative">
-                                                        <Label>Name <span className="text-danger">*</span></Label>
-                                                        <i className="mdi mdi-account ml-3 icons"></i>
-                                                        <Input id="name" name="name" type="text" placeholder="Name" className="form-control pl-5" required/>
-                                                    </FormGroup>
-                                                </Col>
-
-                                                <Col md="6">
-                                                    <FormGroup className="position-relative">
-                                                        <Label>Your Email <span className="text-danger">*</span></Label>
-                                                        <i className="mdi mdi-email ml-3 icons"></i>
-                                                        <Input id="email" type="email" placeholder="Email" name="email" className="form-control pl-5" required/>
-                                                    </FormGroup>
-                                                </Col>
-
-                                                <Col md="12">
-                                                    <div className="send">
-                                                    <Button type="submit" className="btn btn-primary w-100">Send Message</Button>
-                                                    </div>
-                                                </Col>
-                                            </Row>
-                                        </Form>
-                                    </div>
+                              
                                 </div>
                             </Col>
 
