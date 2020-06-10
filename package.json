@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^4.1.0",
     "aos": "^2.3.4",
     "availity-reactstrap-validation": "^2.6.1",
     "bootstrap": "^4.3.1",

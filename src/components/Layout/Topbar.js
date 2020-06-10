@@ -11,17 +11,17 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-              { id : 1, title : "About", link : "./" },
+              { id : 1, title : "About", link : "./partners" },
 
-                { id : 1, title : "Community", link : "./partners" },
-          { id : 2, title : "Products", link : "./products" },
-
-
+                { id : 2, title : "Community", link : "./partners" },
+          { id : 3, title : "Products", link : "./products" },
 
 
 
 
-                { id : 3, title : "Developers", link : "https://developer.fraktal.network" },
+
+
+                { id : 4, title : "Developers", link : "./developers" },
 
 
             ]

@@ -12,6 +12,7 @@ import Products from './products';
 import Blog from './blog';
 import Events from './events';
 import News from './news';
+import ZimedLanding from './zimedlanding';
 
 class Index extends Component {
 
@@ -44,7 +45,10 @@ class Index extends Component {
             <React.Fragment>
 
                 {/* Hero Start */}
-                <Landing />
+
+                  <ZimedLanding />
+
+
 
                 <HowItWorks />
 
