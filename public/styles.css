@@ -188,3 +188,7 @@ h1.slogan {
   width: 200%;
   margin-left: -100px;
 }
+
+.blogbox {
+  height: 27rem;
+}

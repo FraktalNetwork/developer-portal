@@ -9,7 +9,7 @@ class BlogBox extends Component {
                 {
                     this.props.blogs.map((blog, key) =>
                     <Col lg="4" md="6" className="mt-4 pt-2" key={key} name="blog">
-                        <div className="blog position-relative overflow-hidden shadow rounded">
+                        <div className="blog position-relative overflow-hidden shadow rounded blogbox">
                             <div className="position-relative">
                                 <img src={blog.image} className="img-fluid rounded-top" alt=""/>
                                 <div className="overlay rounded-top bg-dark"></div>
@@ -17,11 +17,11 @@ class BlogBox extends Component {
                             <div className="content p-4">
                                 <h4><Link to="#" className="title text-dark">{blog.title}</Link></h4>
                                 <div className="post-meta mt-3">
-                                    <Link to="#" className="text-muted float-right readmore">Read More <i className="mdi mdi-chevron-right"></i></Link>
+                                    <Link to="#" className="text-muted float-right ">Read Article <i className="mdi mdi-chevron-right"></i></Link>
 
                                 </div>
                             </div>
-                          
+
                         </div>
                     </Col>
                     )
