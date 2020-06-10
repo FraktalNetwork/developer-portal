@@ -12,7 +12,7 @@ class BlogBox extends Component {
                         <div className="blog position-relative overflow-hidden shadow rounded blogbox">
                             <div className="position-relative">
                                 <img src={blog.image} className="img-fluid rounded-top" alt=""/>
-                                <div className="overlay rounded-top bg-dark"></div>
+
                             </div>
                             </div>
 
