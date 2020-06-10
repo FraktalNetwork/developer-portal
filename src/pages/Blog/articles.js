@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
-import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
+
 
 
 
@@ -80,13 +80,7 @@ class Articles extends Component {
         return (
             <React.Fragment>
                 {/* breadcrumb */}
-                <PageBreadcrumb pathItems = {this.state.pathItems}>
-                    <h2> Design your apps in your own way </h2>
-                        <ul className="list-unstyled mt-4">
-                            <li className="list-inline-item h6 user text-muted mr-2"><i className="mdi mdi-account"></i> Calvin Carlo</li>
-                            <li className="list-inline-item h6 date text-muted"><i className="mdi mdi-calendar-check"></i> 13th August, 2019</li>
-                        </ul>
-                </PageBreadcrumb>
+            
                 <div className="position-relative">
                     <div className="shape overflow-hidden text-white">
                         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +149,7 @@ class Articles extends Component {
                                         </Row>
                                     </div>
 
-                              
+
                                 </div>
                             </Col>
 
