@@ -10,7 +10,7 @@ import BlogBox from "../../components/Shared/blog-box";
 import blog01 from '../../images/account/bg.jpg';
 
 
-class PageBlog extends Component {
+class BlogGrid extends Component {
 
     constructor(props) {
         super(props);
@@ -82,4 +82,4 @@ class PageBlog extends Component {
         );
     }
 }
-export default PageBlog;
+export default BlogGrid;
