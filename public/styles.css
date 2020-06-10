@@ -206,8 +206,12 @@ h1.slogan-light {
 }
 
 .shadow3d.newsbox {
-  margin-top: -15%;
   height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.newsblocks {
+  margin-top: -5%;
 }
 
 

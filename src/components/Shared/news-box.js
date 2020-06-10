@@ -9,7 +9,7 @@ class NewsBox extends Component {
                 {
                     this.props.blogs.map((blog, key) =>
 
-                    <Col lg="6" md="6" sm="12" className="" key={key} name="blog">
+                    <Col lg="6" md="6" sm="12" className="newsblocks" key={key} name="blog">
                         <div className="blog position-relative overflow-hidden shadow3d rounded newsbox">
                             <div className="position-relative">
                               <Link to="/Articles">  <img src={blog.image} className="img-fluid rounded-top newsimage" alt=""/></Link>
