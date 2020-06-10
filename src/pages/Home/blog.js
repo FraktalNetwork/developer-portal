@@ -20,7 +20,7 @@ class Blog extends Component {
                                 <div className="section-title  ml-lg-4">
                                     <h4 className="title mb-4">Latest News</h4>
                                     <p className="text-muted">Our community is always growing and there is never a dull moment! The Fraktal Blog is a great place to learn about the project and stay up to date. </p>
-                                    <Link to="/Blog" className="btn btn-primary mt-3">Dive in!</Link>
+                                {/*    <Link to="/Blog" className="btn btn-primary mt-3">Dive in!</Link> */}
                                 </div>
                             </Col>
 
