@@ -11,7 +11,7 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-              { id : 1, title : "About", link : "./partners" },
+              { id : 1, title : "About", link : "./about" },
 
                 { id : 2, title : "Community", link : "./partners" },
           { id : 3, title : "Products", link : "./products" },

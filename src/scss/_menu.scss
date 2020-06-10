@@ -17,16 +17,16 @@
     .has-submenu {
         &.active {
             a {
-                color: $dark;
+                color: $white;
             }
             .submenu {
                 li.active > a{
-                    color: $dark;
+                    color: $white;
                 }
             }
             &.active {
                 .menu-arrow{
-                    border-color: $dark;
+                    border-color: $white;
                 }
             }
         }
@@ -35,7 +35,7 @@
         position: relative;
         .submenu {
             .submenu-arrow {
-                border: solid $dark;
+                border: solid $white;
                 border-radius: 0.5px;
                 border-width: 0 2px 2px 0;
                 display: inline-block;
@@ -240,6 +240,7 @@
 @media (min-width: 992px) {
     #topnav {
         .navigation-menu {
+
             display: flex;
             justify-content: center;
             > .has-submenu {

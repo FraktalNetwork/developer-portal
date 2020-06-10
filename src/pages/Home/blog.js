@@ -24,7 +24,7 @@ class Blog extends Component {
                                 </div>
                             </Col>
 
-                            <Col lg="5" md="6" xs="12">
+                            <Col lg="5" md="6" xs="12" className="pic">
                                 <img src={youtube} className="img-fluid rounded" alt="" />
                             </Col>
                         </Row>

@@ -10,18 +10,18 @@ import Partners from "../../components/Shared/Partners";
 class Products extends Component {
     componentDidMount() {
         document.body.classList = "";
-        window.addEventListener("scroll", this.scrollNavigation, true);
+        window.addEventListener("load", this.scrollNavigation, true);
       }
 
       // Make sure to remove the DOM listener when the component is unmounted.
     componentWillUnmount() {
-        window.removeEventListener("scroll",this.scrollNavigation, true);
+        window.removeEventListener("load",this.scrollNavigation, true);
      }
 
       scrollNavigation = () => {
           var doc = document.documentElement;
           var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-          if(top > 80)
+          if(top > -10)
           {
                document.getElementById('topnav').classList.add('nav-sticky');
           }
@@ -44,7 +44,7 @@ class Products extends Component {
 
 
                     {/* featured jobs */}
-              
+
 
                     {/* candidates */}
                     <ProductList />

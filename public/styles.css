@@ -179,7 +179,7 @@ h1.slogan-light {
 }
 
 .job-box {
-  height: 23rem;
+  height: 25rem;
 }
 
 .eventblock {
@@ -201,17 +201,23 @@ h1.slogan-light {
   height: 15rem;
 }
 
+@media screen and (max-width: 780px) {
+
+    .pic {display:none;}
+
+}
+
 .course-feature {
   height: 19rem;
 }
 
 .shadow3d.newsbox {
   height: 20rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .newsblocks {
-  margin-top: -5%;
+  margin-top: -7%;
 }
 
 
