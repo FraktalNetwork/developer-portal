@@ -3,7 +3,7 @@ import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
 import { Col, Row } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link, BrowserRouter } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -33,22 +33,22 @@ export default function CTA() {
 
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={12} xs={6} md={3} lg={3}>
+      <Grid item xs={12} xs={6} md={3} lg={3}><a href="/developer-portal-documentation">
           <Paper className={classes.paper}><h4 className="mt-3 text-center title text-dark">Fraktal Network</h4>
           <p className="">Earn FRAK by contributing to development. </p></Paper>
-        </Grid>
-        <Grid item xs={12} xs={6} md={3} lg={3}>
+        </a></Grid>
+        <Grid item xs={12} xs={6} md={3} lg={3}><a href="/developer-portal-documentation">
           <Paper className={classes.paper}> <h4 className="mt-3 text-center title text-dark">Applications</h4>
            <p className="">Learn how to build a Fraktal powered application.</p></Paper>
-        </Grid>
-        <Grid item xs={12} xs={6} md={3} lg={3}>
+        </a></Grid>
+        <Grid item xs={12} xs={6} md={3} lg={3}><a href="/developer-portal-documentation">
           <Paper className={classes.paper}><h4 className="mt-3 text-center title text-dark">Staking</h4>
              <p className="">Set up a Full Node and become a Validator. </p></Paper>
-        </Grid>
-        <Grid item xs={12} xs={6} md={3} lg={3}>
+        </a></Grid>
+        <Grid item xs={12} xs={6} md={3} lg={3}><a href="/developer-portal-documentation">
           <Paper className={classes.paper}><h4 className="mt-3 text-center title text-dark">Tutorials</h4>
           <p className="">Learn something new and practice your skills.</p></Paper>
-        </Grid>
+        </a></Grid>
 
       </Grid>
     </div>
