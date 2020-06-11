@@ -24,7 +24,7 @@ class BlogGrid extends Component {
                 { id : 4, name : "Blog Grid" },
             ],
             blogs : [
-                { id : 1, image : blog01, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                { id : 1, image : blog02, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
                 { id : 2, image : blog02, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
                 { id : 3, image : blog02, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
                 { id : 4, image : blog01, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
@@ -38,7 +38,7 @@ class BlogGrid extends Component {
 
     componentDidMount() {
         document.body.classList = "";
-        window.addEventListener("scroll", this.scrollNavigation, true);
+        window.addEventListener("load", this.scrollNavigation, true);
 
         var blogs = document.getElementsByName("blog");
         for(var i=0; i<blogs.length; i++){
@@ -48,13 +48,13 @@ class BlogGrid extends Component {
     }
      // Make sure to remove the DOM listener when the component is unmounted.
      componentWillUnmount() {
-        window.removeEventListener("scroll",this.scrollNavigation, true);
+        window.removeEventListener("load",this.scrollNavigation, true);
      }
 
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > -10) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
