@@ -26,7 +26,7 @@ export default function CTA() {
     <React.Fragment>
     <section className="section pt-0">
     <div className="productstitle">
-    <h2 className="title">Where would you like to start?</h2>
+    <h2 className="title">What are you interested in?</h2>
     </div>
 
     <Container maxWidth="lg">
