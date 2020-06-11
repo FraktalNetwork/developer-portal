@@ -9,7 +9,7 @@ class FeaturedJobBox extends Component {
                 {
                     this.props.jobs.map((job, key) =>
                     <Col lg="4" md="6" xs="12" key={key} className="mt-4 pt-2">
-                        <Link to={"/page-job-detail/"+ job.id} className="text-dark">
+                        <Link to={"/contribute/"+ job.id} className="text-dark">
                             <div className="key-feature d-flex p-3 bg-white rounded shadow">
                                 <div className="icons text-center rounded-pill mr-3 mt-2">
                                     <img src={job.image} className="avatar avatar-ex-sm" alt=""/>
