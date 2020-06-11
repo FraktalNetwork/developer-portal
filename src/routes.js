@@ -12,7 +12,8 @@ const Products = React.lazy(() => import('./pages/Products/index'));
 const GetInvolved = React.lazy(() => import('./pages/Participate/index'));
 const Blog = React.lazy(() => import('./pages/Blog/BlogGrid'));
 const Articles = React.lazy(() => import('./pages/Blog/articles'));
-const Developers = React.lazy(() => import('./pages/DeveloperPortal/index'));
+const Developers = React.lazy(() => import('./pages/DeveloperPortal/landing/index'));
+const Documentation = React.lazy(() => import('./pages/DeveloperPortal/documentation/index'));
 
 
 const routes = [
@@ -29,6 +30,7 @@ const routes = [
     { path: '/blog', component: Blog },
     { path: '/articles', component: Articles },
     { path: '/developer-portal', component: Developers },
+    { path: '/developer-portal-documentation', component: Documentation },
 
 
 

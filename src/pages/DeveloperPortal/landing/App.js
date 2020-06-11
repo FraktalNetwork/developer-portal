@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import AppBar from '@material-ui/core/AppBar';
 
-import ResponsiveDrawer from './navDropdown.js'
+import NavBar from './navbar'
+
 
 function App() {
   return (
 
 
-    <ResponsiveDrawer />
+    <NavBar />
   );
 }
 
