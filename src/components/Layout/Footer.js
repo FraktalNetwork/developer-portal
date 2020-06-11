@@ -26,7 +26,7 @@ class Footer extends Component {
 
         ],
         grid3 : [
-            { title : "Documentation", link : "/blog" },
+            { title : "Documentation", link : "/developer-portal" },
             { title : "Github", link : "https://community.fraktal.network" },
             { title : "APIs", link : "https://community.fraktal.network" },
             { title : "Security", link : "https://community.fraktal.network" },
