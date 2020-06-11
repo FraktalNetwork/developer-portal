@@ -11,18 +11,26 @@ class Footer extends Component {
     super(props);
     this.state = {
         grid1 : [
-            { title : "About", link : "/page-aboutus" },
-            { title : "Community", link : "/page-services" },
-            { title : "Products", link : "/page-team" },
-            { title : "Developers", link : "/page-pricing" },
+            { title : "About", link : "/about" },
+            { title : "Community", link : "/community" },
+            { title : "Products", link : "/products" },
+
+            { title : "Contribute", link : "/contribute" },
 
         ],
         grid2 : [
-            { title : "Blog", link : "/page-terms" },
-            { title : "Chat", link : "/page-privacy" },
-            { title : "Documentation", link : "/documentation" },
-            { title : "Changelog", link : "/changelog" },
-            { title : "Components", link : "/components" },
+            { title : "Blog", link : "/blog" },
+            { title : "Chat", link : "https://community.fraktal.network" },
+            { title : "Block Explorer", link : "https://community.fraktal.network" },
+            { title : "Wallet", link : "https://community.fraktal.network" },
+
+        ],
+        grid3 : [
+            { title : "Documentation", link : "/blog" },
+            { title : "Github", link : "https://community.fraktal.network" },
+            { title : "APIs", link : "https://community.fraktal.network" },
+            { title : "Security", link : "https://community.fraktal.network" },
+
         ]
     };
   }
@@ -33,39 +41,40 @@ class Footer extends Component {
         <footer className={this.props.isLight ? "footer bg-light" : "footer"}>
             <Container>
                 <Row>
-                    <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">
-                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Test<span className="text-primary">.</span></Link>
-                        <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                        <ul className="list-unstyled social-icon social mb-0 mt-4">
-                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
-                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
-                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
-                        </ul>
+                    <Col lg="3" md="3" xs="6" className="mb-4 mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Ecosystem</h4>
+                    <ul className="list-unstyled footer-list mt-4">
+                        {
+                            this.state.grid1.map((grid, key) =>
+                            <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
+                            )
+                        }
+                    </ul>
                     </Col>
 
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Company</h4>
+                    <Col lg="3" md="3" xs="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0 mb-4" name="footercolumn">
+                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Developers</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
-                                this.state.grid1.map((grid, key) =>
+                                this.state.grid3.map((grid, key) =>
                                 <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
                                 )
                             }
                         </ul>
                     </Col>
 
-                    <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Usefull Links</h4>
+                    <Col lg="3" md="3" xs="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Useful Links</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid2.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
+                                <li key={key}><a href={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
                                 )
                             }
                         </ul>
                     </Col>
 
-                    <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="3" md="3" xs="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Get Involved</h4>
                         <p className="mt-4">Every person has a role to play at Fraktal!
                         <a href="https://community.fraktal.network" target="_blank" className="btn btn-primary communitybutton mb-2 mr-2 frakButton">Join Fraktal</a></p>
