@@ -45,7 +45,7 @@ export default function NavBar(props) {
         </AppBar>
       </ElevationScroll>
       <Toolbar />
-      
+
     </React.Fragment>
   );
 }

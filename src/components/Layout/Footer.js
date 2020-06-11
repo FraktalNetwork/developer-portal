@@ -46,7 +46,7 @@ class Footer extends Component {
                     <ul className="list-unstyled footer-list mt-4">
                         {
                             this.state.grid1.map((grid, key) =>
-                            <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
+                            <li key={key}><a href={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
                             )
                         }
                     </ul>
@@ -57,7 +57,7 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid3.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
+                                <li key={key}><a href={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
                                 )
                             }
                         </ul>
