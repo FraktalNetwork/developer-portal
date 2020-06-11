@@ -12,18 +12,18 @@ import TaskBox from "./task-box";
 class FeaturedJobs extends Component {
     state = {
         jobs : [
-            { id : 1,  title : "Senior Web Developer", city : "London", country : "UK" },
-            { id : 2,  title : "Front-End Developer", city : "Brasilia", country : "Brazil" },
-            { id : 3,  title : "Back-End Developer", city : "Ottawa", country : "Canada" },
-            { id : 4,  title : "UI Designer", city : "Beijing", country : "China" },
-            { id : 5,  title : "UX Designer", city : "Bogota", country : "Colombia" },
-            { id : 6,  title : "Php Developer", city : "Havana", country : "Cuba" },
-            { id : 7,  title : "IOS Developer", city : "Nicosia", country : "Cyprus" },
-            { id : 8,  title : "Graphics Designer", city : "Cairo", country : "Egypt" },
-            { id : 9,  title : "Data Entry", city : "Suva", country : "Fiji" },
-            { id : 10,  title : "Sketch Designer", city : "Helsinki", country : "Finland" },
-            { id : 11,  title : "Web Developer", city : "Berlin", country : "Germany" },
-            { id : 12,  title : "Game Developer", city : "Ahmedabad", country : "India" },
+            { id : 1,  title : "Senior Web Developer", time : "London", },
+            { id : 2,  title : "Front-End Developer", time : "Brasilia", },
+            { id : 3,  title : "Back-End Developer", time : "Ottawa", },
+            { id : 4,  title : "UI Designer", time : "Beijing",  },
+            { id : 5,  title : "UX Designer", time : "Bogota",  },
+            { id : 6,  title : "Php Developer", time : "Havana",  },
+            { id : 7,  title : "IOS Developer", time : "Nicosia",  },
+            { id : 8,  title : "Graphics Designer", time : "Cairo",  },
+            { id : 9,  title : "Data Entry", time : "Suva",  },
+            { id : 10,  title : "Sketch Designer", time : "Helsinki",  },
+            { id : 11,  title : "Web Developer", time : "Berlin",  },
+            { id : 12,  title : "Game Developer", time : "Ahmedabad",  },
         ]
     }
     render() {

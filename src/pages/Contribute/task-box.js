@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
 
 class FeaturedJobBox extends Component {
@@ -16,7 +16,7 @@ class FeaturedJobBox extends Component {
                                 </div>
                                 <div className="content">
                                     <h4 className="title mb-0">{job.title}</h4>
-                                    <p className="text-muted mb-0">{job.city}, {job.country}</p>    
+                                    <p className="text-muted mb-0">{job.time}</p>
                                 </div>
                             </div>
                         </Link>
