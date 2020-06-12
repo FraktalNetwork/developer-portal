@@ -38,7 +38,7 @@ class CommunityAdmin extends Component {
                                         <div className="text-center py-5 border-bottom">
 
 
-                                            <p className="text-muted mb-0">Community Admin</p>
+                                            <p className="text-muted mb-0">Blogger & Content Creator</p>
                                         </div>
 
                                         <div className="p-4">
@@ -61,8 +61,8 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p className="text-muted">Responsible for staying up to date with all things Fraktal Ecosystem and writing a monthly newsletter paired with a monthly recap blog, and write a minimum of 3 other blogs per month about any partnerships
+                                    and breaking news, or explanations of the ecosystem, etc.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
                                     <li>Test</li>
