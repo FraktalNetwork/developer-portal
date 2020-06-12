@@ -113,9 +113,7 @@ export default function ResponsiveDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap>
-            Fraktal Developer Portal
-          </Typography>
+            <a href="/">  <Typography variant="h6" noWrap className="text-light">Fraktal</Typography></a>
         </Toolbar>
       </AppBar>
       <Drawer
