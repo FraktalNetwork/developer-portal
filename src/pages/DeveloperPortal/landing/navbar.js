@@ -40,7 +40,7 @@ export default function NavBar(props) {
       <ElevationScroll {...props}>
         <AppBar>
           <Toolbar>
-            <Typography variant="h6">Fraktal Developer Portal</Typography>
+          <a href="/">  <Typography variant="h6" className="text-light">Fraktal</Typography></a>
           </Toolbar>
         </AppBar>
       </ElevationScroll>
