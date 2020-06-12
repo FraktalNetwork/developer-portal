@@ -42,7 +42,7 @@ const routes = [
 
 
       // Job Pages
-      { path: '/contribute-jobs1', component: CommunityAdmin },
+      { path: '/community-admin', component: CommunityAdmin },
 
 
 

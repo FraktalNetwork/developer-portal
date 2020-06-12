@@ -12,8 +12,8 @@ import TaskBox from "./task-box";
 class Tasks extends Component {
     state = {
         jobs : [
-            { id : 1,  title : "Community Admin", time : "Monthly", },
-            { id : 2,  title : "Placement Professional", time : "Monthly", },
+            { id : 1, ext : "community-admin",  title : "Community Admin", time : "Monthly", },
+            { id : 2, ext : "1",  title : "Placement Professional", time : "Monthly", },
             { id : 3,  title : "Community & Event Manager", time : "Monthly", },
             { id : 4,  title : "Task Manager", time : "Monthly",  },
             { id : 5,  title : "Blogger & Content Creator", time : "Monthly",  },
