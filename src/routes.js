@@ -17,6 +17,11 @@ const Documentation = React.lazy(() => import('./pages/DeveloperPortal/documenta
 const Contribute = React.lazy(() => import('./pages/Contribute/index'));
 
 
+
+// Job Pages
+const CommunityAdmin = React.lazy(() => import('./pages/Contribute/jobs/community-admin'));
+
+
 const routes = [
     //routes without Layout
 
@@ -34,6 +39,10 @@ const routes = [
     { path: '/developer-portal-documentation', component: Documentation },
     { path: '/contribute', component: Contribute },
 
+
+
+      // Job Pages
+      { path: '/contribute-jobs1', component: CommunityAdmin },
 
 
 
