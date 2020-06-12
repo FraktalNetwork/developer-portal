@@ -61,7 +61,14 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">Almost no business is immune from the need for quality software development. The act of building quality software, and shipping it quickly, has become the core engine of value creation in companies across all industries. CircleCI allows teams to rapidly release code they trust by automating the build, test, and delivery process. Thousands of leading companies, including Samsung, Ford Motor Company, Spotify, Lyft, Coinbase, PagerDuty, Stitch Fix, and BuzzFeed rely on CircleCI to accelerate delivery and improve quality.</p>
+                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
+                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <h5>Responsibilites</h5>
+                                    <ul>
+                                    <li>Test</li>
+                                    <li>Test</li>
+                                    <li>Test</li>
+                                    </ul>
 
 
 
