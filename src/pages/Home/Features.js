@@ -28,7 +28,7 @@ class Features extends Component {
         this.state = {
             features : [
                 { id : 1, imgUrl : exchange, title : "Equal", description : "Everyone has the exact same opportunity to participate and benefit." },
-                { id : 2, imgUrl : internet, title : "Inclusive", description : "There are no restrictions based on location or any other factor." },
+                { id : 2, imgUrl : internet, title : "Inclusive", description : "Fraktal is open to everyone and has no restrictions." },
                 { id : 3, imgUrl : saveTheWorld, title : "Sustainable", description : "Resources consumed by Fraktal are compensated by planting trees."},
             ],
         }

@@ -13,7 +13,7 @@ class Topbar extends Component {
 
               { id : 1, title : "About", link : "./about" },
 
-                { id : 2, title : "Community", link : "./partners" },
+                { id : 2, title : "Community", link : "./community" },
           { id : 3, title : "Products", link : "./products" },
 
 

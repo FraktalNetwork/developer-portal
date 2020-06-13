@@ -21,15 +21,15 @@ class Footer extends Component {
         grid2 : [
             { title : "Blog", link : "/blog" },
             { title : "Chat", link : "https://community.fraktal.network" },
-            { title : "Block Explorer", link : "https://community.fraktal.network" },
-            { title : "Wallet", link : "https://community.fraktal.network" },
+            { title : "Block Explorer", link : "/" },
+            { title : "Wallet", link : "/" },
 
         ],
         grid3 : [
             { title : "Documentation", link : "/developer-portal" },
-            { title : "Github", link : "https://community.fraktal.network" },
-            { title : "APIs", link : "https://community.fraktal.network" },
-            { title : "Security", link : "https://community.fraktal.network" },
+            { title : "Github", link : "https://github.com/FraktalNetwork" },
+            { title : "APIs", link : "/" },
+            { title : "Security", link : "/" },
 
         ]
     };
@@ -68,7 +68,7 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid2.map((grid, key) =>
-                                <li key={key}><a href={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
+                                <li key={key}><a href={grid.link} target="_blank" className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
                                 )
                             }
                         </ul>
