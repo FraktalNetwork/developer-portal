@@ -48,7 +48,7 @@ class HowItWorks extends Component {
                                 <div className="section-title">
                                 <SectionTitleLeft
                                     title = "Welcome to Fraktal"
-                                    desc = "We are an open community whose mission is to empower people and spread equality throughout the world."
+                                    desc = "We are a community whose mission is to empower people and spread equality throughout the world."
 
 
                                     features = {this.state.features2}

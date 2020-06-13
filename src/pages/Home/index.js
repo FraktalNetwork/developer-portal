@@ -53,11 +53,13 @@ class Index extends Component {
                 <HowItWorks />
 
                 {/* Feature */}
-                <Features />
+
 
                 <Community />
 
                 <Products />
+
+                <Features />
 
                 <Events />
 

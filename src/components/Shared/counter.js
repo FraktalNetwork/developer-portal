@@ -10,7 +10,7 @@ class Counter extends Component {
                                     <Col md="6" xs="12">
                                         <Row>
                                             <Col xs="12" className="mt-4 pt-2">
-                                                <div className="counter-box position-relative counter-border bg-green shadow rounded p-4 pt-5 pb-5 text-center">
+                                                <div className="counter-box position-relative counter-border bg-indigo shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="mb-0">
                                                         <span className="counter-value text-light">
                                                             <NumberCounter end={this.props.countervalue[0]} delay={4} postFix="+"/>
@@ -21,7 +21,7 @@ class Counter extends Component {
                                             </Col>
 
                                             <Col xs="12" className="mt-4 pt-2">
-                                                <div className="counter-box position-relative counter-border bg-indigo shadow rounded p-4 pt-5 pb-5 text-center">
+                                                <div className="counter-box position-relative counter-border bg-success shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="text-light title-dark mb-0">
                                                         <span className="counter-value">
                                                             <NumberCounter end={this.props.countervalue[1]} delay={4} postFix=""/>
@@ -47,7 +47,7 @@ class Counter extends Component {
                                             </Col>
 
                                             <Col xs="12" className="mt-4 pt-2">
-                                                <div className="counter-box position-relative counter-border bg-green-reverse shadow rounded p-4 pt-5 pb-5 text-center">
+                                                <div className="counter-box position-relative counter-border bg-indigo shadow rounded p-4 pt-5 pb-5 text-center">
                                                     <h2 className="mb-0 text-light">
                                                         <span className="counter-value">
                                                             <NumberCounter end={this.props.countervalue[3]} delay={4} postFix=""/>

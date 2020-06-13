@@ -48,7 +48,7 @@ class Community extends Component {
                                     features = {this.state.features}
                                     class = "mdi-18px h5 mr-2"
                                     >
-                                        <h4 className="title mb-4">Community</h4>
+                                        <h4 className="title mb-4">Our Community is always Growing</h4>
 
                                     </SectionLeft>
 
