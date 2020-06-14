@@ -4,6 +4,7 @@ import { Container } from "reactstrap";
 //Import Components
 
 import Tasks from "./tasks";
+import Create from "./create";
 
 class Contribute extends Component {
     componentDidMount() {
@@ -37,7 +38,9 @@ class Contribute extends Component {
 
 
                     {/* featured jobs */}
-                    <Tasks />                    
+                    <Tasks />
+
+                    <Create />
 
 
                 </section>

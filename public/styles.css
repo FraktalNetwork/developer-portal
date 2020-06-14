@@ -6,6 +6,9 @@
   height: auto;
 }
 
+.landingbutton.taskbutton {
+  margin-left: 15%;
+}
 
 .productstitle {
   text-align: center;
