@@ -38,13 +38,13 @@ class CommunityAdmin extends Component {
                                         <div className="text-center py-5 border-bottom">
 
 
-                                            <p className="text-muted mb-0">Community Admin</p>
+                                            <p className="text-muted mb-0">Social Media Manager - China</p>
                                         </div>
 
                                         <div className="p-4">
 
                                             <ul className="list-unstyled feature-list mb-4">
-                                              <li className="h5"><i className="mdi mdi-currency-usd mdi-18px text-warning mr-2"></i><span className="text-muted">Reward : </span>50,000 FRAK</li>
+                                              <li className="h5"><i className="mdi mdi-currency-usd mdi-18px text-warning mr-2"></i><span className="text-muted">Reward : </span>100,000 FRAK</li>
                                                 <li className="h5"><i className="mdi mdi-account mdi-18px text-warning mr-2"></i><span className="text-muted">Frequency :</span> Monthly</li>
                                                 <li className="h5"><i className="mdi mdi-link-variant mdi-18px text-warning mr-2"></i><span className="text-muted">Length :</span> Unlimited</li>
 

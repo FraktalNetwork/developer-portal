@@ -38,7 +38,7 @@ class CommunityAdmin extends Component {
                                         <div className="text-center py-5 border-bottom">
 
 
-                                            <p className="text-muted mb-0">Community Admin</p>
+                                            <p className="text-muted mb-0">Community & Event Manager</p>
                                         </div>
 
                                         <div className="p-4">
