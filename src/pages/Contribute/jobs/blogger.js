@@ -61,18 +61,13 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">Responsible for staying up to date with all things Fraktal Ecosystem and writing a monthly newsletter paired with a monthly recap blog, and write a minimum of 3 other blogs per month about any partnerships
-                                    and breaking news, or explanations of the ecosystem, etc.</p>
+                                    <p className="text-muted">An experienced content creator who is fluent in the English language and has very strong grammar. Must have a deep understanding of Blockchain and be able to clearly explain complex topics in a format which anyone can understand.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Stay up to date with all things Fraktal Ecosystem</li>
+                                    <li>Write and distribute a monthly recap blog and email newsletter. </li>
+                                    <li>Write a minimum of 2 other blogs per month about any partnerships, breaking news, explanations of the ecosystem, etc.</li>
                                     </ul>
-
-
-
-
 
                                 </div>
                             </Col>

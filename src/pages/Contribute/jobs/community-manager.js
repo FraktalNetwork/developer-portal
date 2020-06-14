@@ -61,13 +61,12 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p>This position focuses on fostering the community and enabling growth and maximum participation. It will consist of creating strategies to grow the community organically with the help of members. Additionally, it will involve the management of community events. Initially this will be compiling materials and strategies to grow localised Fraktal communities in different cities. As these communities become established the role will transition into helping people host events by supplying them with proven strategies and methods.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Experience with developing organic growth strategies or grassroot campaigns.</li>
+                                    <li>Experience or willingness to research hosting events and forming localised communities.</li>
+                                    <li>Being in direct communication with localised community leaders to help them continue to grow.</li>
                                     </ul>
 
 

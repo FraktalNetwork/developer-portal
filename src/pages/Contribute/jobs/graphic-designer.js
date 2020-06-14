@@ -61,13 +61,12 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p>This position is for someone with experience designing graphics for social media posts, blog covers, and infographic visuals to accompany explanatory material.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Provide content for social media posts.</li>
+                                    <li>Create cover images for blog articles.</li>
+                                    <li>Design infographics and other designs needed each month.</li>
                                     </ul>
 
 

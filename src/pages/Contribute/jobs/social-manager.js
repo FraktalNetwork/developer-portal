@@ -61,13 +61,12 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p>The social media manager is responsible for maintaining the Fraktal social media accounts on Twitter and Reddit as well as managing accounts on steemit, medium, and other industry specific platforms. The role includes distributing content, engaging with the community, and creating and implementing strategies to grow the follwerbase. If you are going to propose paying FB for ad space or youtube influencers, this position is not for you.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Writing social content and distributing in effective ways to enable growth.</li>
+                                    <li>Creating growth strategies which are grassroots, organic, and growth hacky.</li>
+                                    <li>Engage with the community and promote brand awareness.</li>
                                     </ul>
 
 

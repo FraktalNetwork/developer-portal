@@ -38,7 +38,7 @@ class CommunityAdmin extends Component {
                                         <div className="text-center py-5 border-bottom">
 
 
-                                            <p className="text-muted mb-0">Personal Placement Professional</p>
+                                            <p className="text-muted mb-0">Placement Professional</p>
                                         </div>
 
                                         <div className="p-4">
@@ -61,13 +61,12 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p>This position is similar to the role of an internal recruiter. You will be building relationships with new members of the community to understand how they can best contribute and help them find the perfect position to have maximum impact.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Introduce yourself and begin a dialogue with new members of the community as they join.</li>
+                                    <li>Maintain a spreadsheet or CRM type solution of members and areas of strengths/interests.</li>
+                                    <li>Recommend open tasks that match profiles and work with Task Manager to coordinate new tasks.</li>
                                     </ul>
 
 

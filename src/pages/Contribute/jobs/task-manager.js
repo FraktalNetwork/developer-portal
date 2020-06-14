@@ -61,13 +61,12 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p> In charge of all things related to the tasks. This position will involve approving applicants for tasks, creating new tasks based on community input or personal discretion, and monitoring tasks which are in progress. Will also have the authority to remove people from tasks, change amounts, etc.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Answers questions about open tasks.</li>
+                                    <li>Keeps track of tasks in progress and makes sure they are progressing, adjust if needed.</li>
+                                    <li>Work with community to define and create new tasks that enable growth.</li>
                                     </ul>
 
 

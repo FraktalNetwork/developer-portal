@@ -61,13 +61,13 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p>The role of the Community Manager - Korea is to create a following and dedicated community in Korean speaking regions. This will involve creating localised communities on social platforms most popular in the region, and spreading awareness to continuously grow the community.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Manage Users, and remove spam, bots, and negative influences.</li>
+                                    <li>Keep things positive and on topic.</li>
+                                    <li>Stay up to date with all latest developments, partnerships, and progress.</li>
+                                    <li>Answer questions related to the project and related applications.</li>
                                     </ul>
 
 

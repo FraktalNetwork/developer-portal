@@ -61,13 +61,12 @@ class CommunityAdmin extends Component {
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-md-4">
                                     <h4>Task Description</h4>
-                                    <p className="text-muted">In charge of the community. Patrolling the chats, keeping things positive, answering questions.
-                                    Must have a deep understanding of the project and be able to answer and direct peoples questions.</p>
+                                    <p>Creating, Maintaining, and Growing Chinese related social channels on popular platforms. Must stay up to date with Fraktal Project and regularly work on growing the follwerbase.</p>
                                     <h5>Responsibilites</h5>
                                     <ul>
-                                    <li>Test</li>
-                                    <li>Test</li>
-                                    <li>Test</li>
+                                    <li>Grow Followers.</li>
+                                    <li>Post Content Regularly.</li>
+                                    <li>Spread Brand Awareness in China.</li>
                                     </ul>
 
 
