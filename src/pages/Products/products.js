@@ -22,9 +22,9 @@ class ProductList extends Component {
        super(props);
        this.state = {
            features : [
-               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal Network", category : "Network", desc : "Send money instantly, anywhere in the world without bank fees.", link : "#" },
-               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Frak.it", category : "Application", desc : "Bringing transparency and inclusiveness to investments.", link : "#" },
-               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Gabel", category : "Wallet", desc : "Your own personal bank. Take back control of what is yours.", link : "#" },
+               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal Network", category : "Network", desc : "An open financial system that enables anyone to build financial apps without relying on banking infrastructure.", link : "#" },
+               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Frak.it", category : "Application", desc : "Tokenise any asset and automatically distribute revenue in real-time. Transparent, inclusive, and equal.", link : "#" },
+               { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Gabel", category : "Wallet", desc : "Your own personal bank. Safely store your assets and send money instantly, anywhere in the world without bank fees.", link : "#" },
                   { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Freestream", category : "Application", desc : "A revolutionary new concept of streaming money.", link : "#" },
                   { class : "course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal TestNet ohFRAK", category : "Network", desc : "Fraktal TestNetwork for Developers, learning, and trying new things.", link : "#" },
            ],
