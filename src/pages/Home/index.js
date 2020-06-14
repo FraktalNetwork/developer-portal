@@ -52,6 +52,8 @@ class Index extends Component {
 
                 <HowItWorks />
 
+                  <Features />
+
                 {/* Feature */}
 
 
@@ -59,7 +61,7 @@ class Index extends Component {
 
                 <Products />
 
-                <Features />
+
 
                 <Events />
 

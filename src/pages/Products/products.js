@@ -52,7 +52,7 @@ class ProductList extends Component {
                 <h2 className="title mb-4">Products</h2>
                 </div>
                 <div className="productstitle">
-                <p className="title mb-4">Below is a compilation of all products built in the Fraktal Ecosystem by individuals, companies, and some third party integrations. If you do not see something listed please mention it in the Fraktal Commnunity (hyperlink to it) And obviously design this shit.</p>
+                <p className="title mb-4">Individuals and companies love building on Fraktal Network and implementing it into their existing products.</p>
                 </div>
 
                 <Container>
