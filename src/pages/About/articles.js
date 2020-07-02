@@ -15,9 +15,9 @@ class Articles extends Component {
         super(props);
         this.state = {
             features : [
-                { icon : "uil uil-briefcase", title : "Our Vision", desc : "It is a long established fact that a reader will be of a page reader will be of at its layout." },
-                { icon : "uil uil-rocket", title : "Our Mission", desc : "It is a long established fact that a reader will be of a page reader will be of at its layout." },
-                { icon : "uil uil-crosshairs", title : "Our Goal", desc : "It is a long established fact that a reader will be of a page reader will be of at its layout." },
+                { icon : "uil uil-briefcase", title : "Earn Tokens", desc : "Earn the native token that powers the Fraktal Ecosystem by contributing your time." },
+                { icon : "uil uil-rocket", title : "Stake Tokens", desc : "Since no single company owns Fraktal, staking is used to secure the network and make decisions. Stakers are rewarded financially for doing so." },
+                { icon : "uil uil-crosshairs", title : "Why Fraktal is the Solution", desc : "Learn why Fraktal is truly needed and how it is designed to have a highly impactful place in the world for decades to come." },
             ]
 
         }
