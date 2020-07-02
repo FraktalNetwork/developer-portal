@@ -13,6 +13,7 @@ import reddit from '../../images/icon/reddit.svg';
 import medium from '../../images/icon/medium.svg';
 import rocketChat from '../../images/icon/rocketchat.svg';
 import rocketChatNormal from '../../images/icon/rocket-chat.svg';
+import background from '../../zimedassets/images/background/inner-banner-bg.png';
 
 class FooterSimple extends Component {
     state = {
@@ -28,7 +29,38 @@ class FooterSimple extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="section pt-0">
+
+            <section className="footerBanner" id="banner" style={{ backgroundImage: `url(${background})` }}>
+            <Container>
+            <Row className="mt-md-5 pt-md-3 mt-4 pt-2 mt-sm-0 pt-sm-0 justify-content-center footerSimple">
+
+                <Col xs="12" className="text-center">
+            <div className="productstitle">
+            <h1 className="title mb-4 socialtitle text-light position-relative">Follow Us</h1>
+            </div>
+            <div className="section-title socialicons">
+            <a href="https://github.com/FraktalNetwork" target="_blank">  <img src={github} className="footerIcon" /></a>
+              <a href="https://twitter.com/FraktalNetwork" target="_blank">  <img src={twitter} className="footerIcon footerIconMiddle" /></a>
+              <a href="https://www.reddit.com/r/FraktalNetwork/" target="_blank">  <img src={reddit} className="footerIcon footerIconMiddle" /></a>
+                <a href="https://medium.com/@fraktal" target="_blank">  <img src={medium} className="footerIcon footerIconMiddle" /></a>
+                  <a href="https://community.fraktal.network" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
+                  </div>
+
+
+
+                  </Col>
+                    </Row>
+                  </Container>
+                  </section>
+
+
+
+
+
+
+
+
+          {/*      <section className="section pt-0">
 
                     <Container>
 
@@ -41,7 +73,7 @@ class FooterSimple extends Component {
                             <h1 className="title mb-4 socialtitle position-relative">Follow Us</h1>
                             </div>
                                 <div className="section-title">
-                                   {/* <h4 className="title mb-4">Connect</h4> */}
+                                   <h4 className="title mb-4">Connect</h4>
 
                                     <div className="mt-2">
                                     <ul className="list-unstyled mb-0 mt-4">
@@ -55,12 +87,12 @@ class FooterSimple extends Component {
                                     </div>
                                     <br />
 
-                                    {/*  <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p> */}
+                                      <p className="text-muted para-desc mx-auto">Copyright 2020 Fraktal Network. All Rights Reserved.</p>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
-                </section>
+                </section> */}
             </React.Fragment>
         );
     }

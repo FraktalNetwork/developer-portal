@@ -1,3 +1,7 @@
+.footerBanner {
+  height: 25rem;
+}
+
 .taskdetails {
   margin-top: 7%;
 }
@@ -184,6 +188,7 @@ h1.slogan-light {
 
 .title.socialtitle {
   z-index: 1;
+
 }
 
 .img-fluid.bgmage {

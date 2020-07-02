@@ -15,7 +15,7 @@ const Articles = React.lazy(() => import('./pages/Blog/articles'));
 const Developers = React.lazy(() => import('./pages/DeveloperPortal/landing/index'));
 const Documentation = React.lazy(() => import('./pages/DeveloperPortal/documentation/index'));
 const Contribute = React.lazy(() => import('./pages/Contribute/index'));
-
+const About = React.lazy(() => import('./pages/About/index'));
 
 
 // Job Pages
@@ -52,6 +52,7 @@ const routes = [
     { path: '/developer-portal', component: Developers },
     { path: '/developer-portal-documentation', component: Documentation },
     { path: '/contribute', component: Contribute },
+    { path: '/about', component: About },
 
 
 
