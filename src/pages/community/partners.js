@@ -71,8 +71,8 @@ class Partners extends Component {
 
 
                 <section className="section">
-                <div className="productstitle">
-                <h2 className="title mb-4">Partners</h2>
+                <div className="partnerstitle">
+                <h2 className="title">Meet the Members of the Fraktal Community</h2>
                 </div>
                     <Container>
 

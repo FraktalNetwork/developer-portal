@@ -15,31 +15,31 @@ class Mission extends Component {
 
     render() {
         return (
-            <React.Fragment>
-                <section className="section">
-                    <Container>
-                        <Row className="align-items-center">
-                            <Col md="6">
-                                <img src={aboutimage} className="mr-md-4" alt="" />
-                            </Col>
-
-                            <Col md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                                <div className="section-title ml-lg-5">
-                                    <h4 className="title mb-4">Clean And Modern Code</h4>
-                                    <p className="text-muted">We achieve our mission by creating an environment where individuals and companies (those) who are passionate about enacting change can effectively work together to produce cutting edge technology and deliver it to those who can benefit from it the most.</p>
-                                    <p className="text-muted">While Fraktal produces some highly advanced technology, you do not need to have a technical background to join Fraktal and make a difference. There is a role for everyone to play to change the world with our technology (Fraktal) and make it a better place for everyone. </p>
-                                    <Link to="#" className="btn btn-outline-primary">Start Now <i className="mdi mdi-chevron-right"></i></Link>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
+          <React.Fragment>
+                  <section className="section bg-light">
+                      <Container>
+                          <Row className="align-items-center">
+                          <Col md={{size:6, order:1}} xs={{order:1}}>
+                              <img src={aboutimage} className="img-fluid" alt="" />
+                          </Col>
+                              <Col md={{size:6, order:2}} xs={{order:2}} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                  <div className="section-title mr-lg-5">
+                                    {/*  <h4 className="title mb-4">Our Vision</h4> */}
+                                    <p>We achieve our mission by creating an environment where individuals and companies (those) who are passionate about enacting change can effectively work together to produce cutting edge technology and deliver it to those who can benefit from it the most.</p>
+                                
+                                  </div>
+                              </Col>
 
 
+                          </Row>
+                      </Container>
 
 
-                </section>
-            </React.Fragment>
-        );
+                  </section>
+          </React.Fragment>
+      );
+
+
     }
 }
 

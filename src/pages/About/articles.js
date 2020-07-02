@@ -31,7 +31,7 @@ class Articles extends Component {
                 <h2 className="title mb-4">Learn More</h2>
                 </div>
                 <div className="productstitle">
-                <p className="title mb-4">At the core of Fraktal is the Fraktal Network. An open financial system that can be used as an alternative to the banking system for storing money, sending money, and investing. Many different types of financial applications and services can be built on (using) Fraktal Network.</p>
+                <p className="title mb-4">While Fraktal produces some highly advanced technology, you do not need to have a technical background to join Fraktal and make a difference. There is a role for everyone to play to change the world with our technology (Fraktal) and make it a better place for everyone.</p>
                 </div>
                 <Row>
                     {

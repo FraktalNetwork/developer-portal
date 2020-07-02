@@ -1,3 +1,8 @@
+
+.visionsection {
+  margin-top: 5%;
+}
+
 .footerBanner {
   height: 25rem;
 }
@@ -19,6 +24,14 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.partnerstitle {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
 
 .white {
 background-image: linear-gradient(to bottom, #32ff7e, #fffa65);
