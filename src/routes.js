@@ -7,7 +7,7 @@ const Root = React.lazy(() => import('./pages/Home/index'));
 
 // Import all components
 const CloudHosting = React.lazy(() => import('./pages/CloudHosting/index'));
-const Community = React.lazy(() => import('./pages/community/partners'));
+const Community = React.lazy(() => import('./pages/community/index'));
 const Products = React.lazy(() => import('./pages/Products/index'));
 const GetInvolved = React.lazy(() => import('./pages/Participate/index'));
 const Blog = React.lazy(() => import('./pages/Blog/BlogGrid'));

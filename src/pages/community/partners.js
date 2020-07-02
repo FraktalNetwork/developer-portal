@@ -21,7 +21,7 @@ import Cryptnotiq from "../../images/icon/cryptnotiq.jpeg";
 
 
 
-class PageJob extends Component {
+class Partners extends Component {
 
     constructor(props) {
         super(props);
@@ -132,4 +132,4 @@ class PageJob extends Component {
         );
     }
 }
-export default PageJob;
+export default Partners;
