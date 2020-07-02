@@ -9,7 +9,7 @@ import { Container, Row, Col, Form, Alert, FormGroup, Input, InputGroup, InputGr
 //Import Images
 import aboutimage from '../../images/illustrator/enterprise.png';
 
-class Testimonial extends Component {
+class Mission extends Component {
 
 
 
@@ -35,11 +35,11 @@ class Testimonial extends Component {
 
 
 
-                  
+
                 </section>
             </React.Fragment>
         );
     }
 }
 
-export default Testimonial;
+export default Mission;

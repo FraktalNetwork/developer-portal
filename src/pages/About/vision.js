@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 // Import images
 import aboutimage from '../../images/illustrator/enterprise.png';
 
-class Counter extends Component {
+class Vision extends Component {
 
     constructor(props) {
         super(props);
@@ -40,11 +40,11 @@ class Counter extends Component {
                             </Row>
                         </Container>
 
-                    
+
                     </section>
             </React.Fragment>
         );
     }
 }
 
-export default Counter;
+export default Vision;

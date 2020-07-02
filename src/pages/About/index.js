@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 
 // import generic componenets
-import Counter from './Counter';
-import Testimonial from './Testimonial';
+import Mission from './mission';
+import Vision from './vision';
 
 class Index extends Component {
 
@@ -38,10 +38,10 @@ class Index extends Component {
 
 
                 {/* Counter */}
-                <Counter />
+                <Vision />
 
                 {/* Testimonial */}
-                <Testimonial />
+                <Mission />
 
             </React.Fragment>
         );
