@@ -37,7 +37,7 @@ class Articles extends Component {
                     {
                         this.state.features.map((feature, key) =>
                             <Col lg={4} md={6} xs={12} key={key}>
-                                <Card className="features fea-primary rounded p-4 shadow3d bg-light position-relative overflow-hidden border-0">
+                                <Card className="features fea-primary rounded p-4 shadow3d  position-relative overflow-hidden border-0">
                                     <span className="h1 icon2 text-primary">
                                         <i className={feature.icon}></i>
                                     </span>
