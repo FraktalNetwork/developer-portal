@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 // import generic componenets
 import Mission from './mission';
 import Vision from './vision';
+import Articles from './articles'
 
 class Index extends Component {
 
@@ -37,11 +38,13 @@ class Index extends Component {
 
 
 
-                {/* Counter */}
+            
                 <Vision />
 
-                {/* Testimonial */}
+
                 <Mission />
+
+                <Articles />
 
             </React.Fragment>
         );
