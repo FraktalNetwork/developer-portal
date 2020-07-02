@@ -9,17 +9,7 @@ import aboutimage from '../../images/illustrator/enterprise.png';
 
 class Vision extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            counters : [
-                { title : "Happy Client", end : 97, postFix : "%", desc : "The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century." },
-                { title : "Awards", end : 15, postFix : "+", desc : "The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century." },
-                { title : "Project Complete", end : 98, postFix : "%", desc : "The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century." },
-            ]
-        }
-
-    }
+    
     render() {
         return (
             <React.Fragment>
