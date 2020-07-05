@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 //Import Icons
 
 //Images
-import img1 from "../../images/illustrator/enterprise.png";
+import img1 from "../../images/illustrator/opencommunity.png";
 
 class intro extends Component {
   state = {
@@ -28,7 +28,7 @@ class intro extends Component {
                             <h1 className="title mb-3">Fraktal is an open source community.</h1>
                             <p className="para-desc text-muted">This means that no single company or person owns Fraktal. Both individuals and companies unite to bring the Fraktal mission to life and make the world a more equal and inclusive place.</p>
 
-             
+
                         </div>
                     </Col>
 
