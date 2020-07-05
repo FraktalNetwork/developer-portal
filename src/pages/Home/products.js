@@ -21,10 +21,10 @@ class Products extends Component {
        super(props);
        this.state = {
            features : [
-               { class : " course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal Network", desc : "An open financial system that enables anyone to build financial apps without relying on banking infrastructure.", link : "#" },
-               { class : " course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Frak.it", desc : "Tokenise any asset and automatically distribute revenue in real-time. Transparent, inclusive, and equal.", link : "#" },
-               { class : " course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Gabel", desc : "Your own personal bank. Safely store your assets and send money instantly, anywhere in the world without bank fees.", link : "#" },
-                  { class : " course-feature position-relative d-block overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Freestream", desc : "A revolutionary new concept of streaming money.", link : "#" },
+               { class : " course-feature position-relative d-block bg-light overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Fraktal Network", desc : "An open financial system that enables anyone to build financial apps without relying on banking infrastructure.", link : "#" },
+               { class : " course-feature position-relative d-block bg-light overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Frak.it", desc : "Tokenise any asset and automatically distribute revenue in real-time. Transparent, inclusive, and equal.", link : "#" },
+               { class : " course-feature position-relative d-block bg-light overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Gabel", desc : "Your own personal bank. Safely store your assets and send money instantly, anywhere in the world without bank fees.", link : "#" },
+                  { class : " course-feature position-relative d-block bg-light overflow-hidden rounded p-4 pt-5 pb-5", icon : github, title : "Freestream", desc : "A revolutionary new concept of streaming money.", link : "#" },
            ]
        }
    }
