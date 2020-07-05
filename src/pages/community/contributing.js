@@ -3,24 +3,25 @@ import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 import { Link } from "react-router-dom";
 
 //Import Images
-import health from "../../images/icon/bitcoin.svg";
-import termLife from "../../images/icon/bitcoin.svg";
-import familyHealth from "../../images/icon/bitcoin.svg";
-import investment from "../../images/icon/bitcoin.svg";
-import car from "../../images/icon/bitcoin.svg";
-import bike from "../../images/icon/bitcoin.svg";
+import forest from "../../images/icon/sprout.svg";
+import robot from "../../images/icon/robot.svg";
+import tools from "../../images/icon/improve.svg";
+import edu from "../../images/icon/board.svg";
+import products from "../../images/icon/atoms.svg";
+import friends from "../../images/icon/friends.svg";
+
 
 class Contributing extends Component {
     constructor(props) {
         super(props);
         this.state={
             categories : [
-                { img : health, title : "Contributing to Development", link : "#" },
-                { img : termLife, title : "Building Unique Products", link : "#" },
-                { img : familyHealth, title : "Spreading Awareness", link : "#" },
-                { img : investment, title : "Educating Others", link : "#" },
-                { img : car, title : "Providing Tools and Resources", link : "#" },
-                { img : bike, title : "Helping Grow the Community", link : "#" },
+                { img : robot, title : "Contributing to Development", link : "#" },
+                { img : products, title : "Building Unique Products", link : "#" },
+                { img : friends, title : "Spreading Awareness", link : "#" },
+                { img : edu, title : "Educating Others", link : "#" },
+                { img : tools, title : "Providing Tools and Resources", link : "#" },
+                { img : forest, title : "Helping Grow the Community", link : "#" },
 
             ]
         }
