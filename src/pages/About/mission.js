@@ -7,7 +7,7 @@ import { Container, Row, Col, Form, Alert, FormGroup, Input, InputGroup, InputGr
 
 
 //Import Images
-import aboutimage from '../../images/illustrator/enterprise.png';
+import aboutimage from '../../images/illustrator/teamworktransp.png';
 
 class Mission extends Component {
 
@@ -26,7 +26,7 @@ class Mission extends Component {
                                   <div className="section-title mr-lg-5">
                                     {/*  <h4 className="title mb-4">Our Vision</h4> */}
                                     <p>We achieve our mission by creating an environment where individuals and companies (those) who are passionate about enacting change can effectively work together to produce cutting edge technology and deliver it to those who can benefit from it the most.</p>
-                                
+
                                   </div>
                               </Col>
 

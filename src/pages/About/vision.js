@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 
 // Import images
-import aboutimage from '../../images/illustrator/enterprise.png';
+import aboutimage from '../../images/illustrator/include.png';
 
 class Vision extends Component {
 
