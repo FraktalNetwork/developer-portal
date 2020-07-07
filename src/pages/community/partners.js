@@ -125,7 +125,7 @@ class Partners extends Component {
 
                     </Container>
                     <div className="mt-4 pt-2 text-center">
-                        <Link to="/" className="btn btn-primary landingbutton">Join Fraktal</Link>
+                        <a href="https://community.fraktal.network/home" target="_blank" className="btn btn-primary landingbutton">Join Fraktal</a>
                     </div>
                 </section>
             </React.Fragment>
