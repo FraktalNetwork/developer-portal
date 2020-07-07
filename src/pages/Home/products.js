@@ -60,7 +60,7 @@ class Products extends Component {
                    </Container>
 
                    <div className="mt-4 pt-2 text-center">
-                       <Link to="./products" className="btn btn-primary landingbutton">Explore All Products</Link>
+                       <a href="./products" className="btn btn-primary landingbutton">Explore All Products</a>
                    </div>
 
                 </section>
