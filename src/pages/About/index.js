@@ -38,7 +38,7 @@ class Index extends Component {
 
 
 
-            
+
                 <Vision />
 
 

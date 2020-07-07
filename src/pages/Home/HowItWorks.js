@@ -54,7 +54,7 @@ class HowItWorks extends Component {
                                     features = {this.state.features2}
                                     class = "mdi-18px h5 mr-2"
                                 />
-                                  <Link to="./About" className="btn btn-primary learnbutton mt-3">Learn More <i className="mdi mdi-chevron-right"></i></Link>
+                                  <a  href="./about" className="btn btn-primary learnbutton mt-3">Learn More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </Col>
 
