@@ -41,7 +41,7 @@ class Community extends Component {
 
                     <Container className="counterDesc">
                         <Row className="">
-                            <Col lg="6">
+                            <Col lg={{size:6, order:1}} xs={{order:2}}>
                                 <div className="section-title communityText">
                                     <SectionLeft
                                     desc = "Spreading equality to billions of people across the globe is a big, inspiring project and everyone can help!"
@@ -58,7 +58,7 @@ class Community extends Component {
                             </Col>
 
 
-                            <Col lg="6">
+                            <Col lg={{size:6, order:2}} xs={{order:1}}>
                                 <Counter countervalue={this.state.counter} />
                             </Col>
                         </Row>

@@ -30,7 +30,7 @@ class Articles extends Component {
                 <div className="productstitle">
                 <h2 className="title mb-4">Learn More</h2>
                 </div>
-              
+
                 <Row>
                     {
                         this.state.features.map((feature, key) =>
