@@ -26,7 +26,7 @@ class Mission extends Component {
                                   <div className="section-title mr-lg-5">
                                     {/*  <h4 className="title mb-4">Our Vision</h4> */}
                                     <p>We achieve our mission by creating an environment where everyone who is passionate about enacting change can effectively work together to produce cutting edge technology and deliver it to those who can benefit from it the most.</p>
-
+                                    
                                   </div>
                               </Col>
 

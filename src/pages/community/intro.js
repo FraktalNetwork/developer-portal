@@ -35,7 +35,7 @@ class intro extends Component {
 
                     <Col lg={{size:7, order:2}} xs={{order:1}}>
 
-                            <img src={img1} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
+                            <img src={img1} className="img-fluid mx-auto d-block rounded" alt=""/>
 
                     </Col>
                 </Row>
