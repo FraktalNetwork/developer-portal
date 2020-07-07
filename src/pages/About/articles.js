@@ -16,8 +16,8 @@ class Articles extends Component {
         this.state = {
             features : [
                 { icon : "uil uil-briefcase", title : "Earn Tokens", desc : "Earn the native token that powers the Fraktal Ecosystem by contributing your time." },
-                { icon : "uil uil-rocket", title : "Stake Tokens", desc : "Since no single company owns Fraktal, staking is used to secure the network and make decisions. Stakers are rewarded financially for doing so." },
-                { icon : "uil uil-crosshairs", title : "Why Fraktal is the Solution", desc : "Learn why Fraktal is truly needed and how it is designed to have a highly impactful place in the world for decades to come." },
+                { icon : "uil uil-rocket", title : "Stake Tokens", desc : "Since no single company owns Fraktal, staking is used to secure the network and make decisions." },
+                { icon : "uil uil-crosshairs", title : "Why Fraktal is the Solution", desc : "Learn why Fraktal is truly needed and how it is designed to have a high impact on our society." },
             ]
 
         }
@@ -37,7 +37,7 @@ class Articles extends Component {
                     {
                         this.state.features.map((feature, key) =>
                             <Col lg={4} md={6} xs={12} key={key}>
-                                <Card className="features fea-primary rounded p-4 shadow3d  position-relative overflow-hidden border-0">
+                                <Card className="features fea-primary rounded p-4 shadow3d bg-light  position-relative overflow-hidden border-0">
                                     <span className="h1 icon2 text-primary">
                                         <i className={feature.icon}></i>
                                     </span>
