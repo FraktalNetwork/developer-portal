@@ -45,10 +45,10 @@ class Contributing extends Component {
                                             <Card className="explore-feature border-0 rounded text-center shadow3d bg-white">
                                                 <CardBody>
                                                     <div className="icon rounded-circle shadow-lg d-inline-block">
-                                                        <img src={category.img} className="avatar avatar-md-sm" alt="Landrick" />
+                                                        <img src={category.img} className="avatar avatar-md-sm" alt="" />
                                                     </div>
                                                     <div className="content mt-3">
-                                                        <h6 className="mb-0"><Link to={category.link} className="title text-dark">{category.title}</Link></h6>
+                                                        <h6 className="mb-0">{category.title}</h6>
                                                     </div>
                                                 </CardBody>
                                             </Card>
