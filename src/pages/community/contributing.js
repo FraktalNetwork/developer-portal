@@ -41,7 +41,7 @@ class Contributing extends Component {
                             <Row className="mt-4 pt-2">
                                 {
                                     this.state.categories.map((category, key) =>
-                                        <Col key={key} lg={2} md={4} xs={6} className="mt-4 pt-2">
+                                        <Col key={key} xl={2} lg={4} md={6} xs={12} className="mt-4 pt-2">
                                             <Card className="explore-feature border-0 rounded text-center shadow3d bg-white">
                                                 <CardBody>
                                                     <div className="icon rounded-circle shadow-lg d-inline-block">
