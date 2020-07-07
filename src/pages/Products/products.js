@@ -96,7 +96,7 @@ class ProductList extends Component {
                    </Container>
 
                    <div className="mt-4 pt-2 text-center">
-                       <Link to="/" className="btn btn-primary landingbutton">Build an Application</Link>
+                       <a href="./developer-portal" target="_blank" className="btn btn-primary landingbutton">Build an Application</a>
                    </div>
 
                 </section>
