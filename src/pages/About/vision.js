@@ -20,7 +20,7 @@ class Vision extends Component {
                                     <div className="section-title mr-lg-5">
                                         <h4 className="title mb-4">The Fraktal Vision</h4>
                                         <p>At Fraktal we are working towards a future where everyone has an equal opportunity to succeed. To create a world that operates in an open and transparent fashion where everyone is included.</p>
-                                        
+
 
                                     </div>
                                 </Col>
