@@ -30,9 +30,7 @@ class Articles extends Component {
                 <div className="productstitle">
                 <h2 className="title mb-4">Learn More</h2>
                 </div>
-                <div className="productstitle">
-                <p className="title mb-4">While Fraktal produces some highly advanced technology, you do not need to have a technical background to join Fraktal and make a difference. There is a role for everyone to play to change the world with our technology (Fraktal) and make it a better place for everyone.</p>
-                </div>
+              
                 <Row>
                     {
                         this.state.features.map((feature, key) =>
