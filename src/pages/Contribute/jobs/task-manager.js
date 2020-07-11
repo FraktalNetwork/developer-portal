@@ -50,7 +50,7 @@ class CommunityAdmin extends Component {
 
 
                                             </ul>
-                                            <a href="https://community.fraktal.network/channel/tasks" target="_blank" className="btn btn-block btn-primary">Apply Now</a>
+                                            <a href="https://community.fraktal.network" target="_blank" className="btn btn-block btn-primary">Apply Now</a>
                                         </div>
                                     </div>
 

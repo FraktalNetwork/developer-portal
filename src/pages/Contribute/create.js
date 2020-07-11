@@ -27,7 +27,7 @@ class Create extends Component {
 
 
                             <Col lg="5" md="6" xs="12">
-                                <a href="https://community.fraktal.network/channel/tasks" target="_blank" className="btn btn-primary landingbutton taskbutton" alt="">Discuss Now</a>
+                                <a href="https://community.fraktal.network" target="_blank" className="btn btn-primary landingbutton taskbutton" alt="">Discuss Now</a>
                             </Col>
                         </Row>
                     </Container>

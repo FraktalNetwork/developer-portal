@@ -14,7 +14,7 @@ class LandingLeft extends Component {
                 }
                 <p className="text-muted"> {this.props.desc} </p>
               <Button variant="contained" color="primary" href="/developer-portal-documentation">Get Started</Button>
-                <Button variant="outlined" color="primary" href="https://community.fraktal.network/channel/developers" target="_blank">Developer Chat</Button>
+                <Button variant="outlined" color="primary" href="https://community.fraktal.network" target="_blank">Developer Chat</Button>
 
 
 
