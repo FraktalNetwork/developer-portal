@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 //Import Components
 import Subscribe from '../../components/Shared/subscribe'
+import Mailchimp from '../../components/Shared/mailchimp'
 
 
 //Import Images
@@ -47,8 +48,8 @@ class FooterSimple extends Component {
                   <a href="https://community.fraktal.network" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
                   </div>
 
-                  <div className="subscribeForm text-center">
-                  <Subscribe/>
+                  <div className="subscribeForm">
+                  <Mailchimp />
                   </div>
 
 
