@@ -5,16 +5,15 @@ class Subscribe extends React.Component {
     super(props);
     this.state = {
         emailValue: '',
-        fNameValue: '',
-        lNameValue: '',
+
     };
   }
 
     render() {
         return (
-                <form action="https://cool.us16.list-manage.com/subscribe/post" method="POST" noValidate>
-                  <input type="hidden" name="u" value="eb05e4f830c2a04be30171b01"/>
-                <input type="hidden" name="id" value="8281a64779"/>
+                <form action="https://network.us10.list-manage.com/subscribe/post" method="POST" noValidate>
+                  <input type="hidden" name="u" value="a29a44d2818a3fc3e57f40c75"/>
+                <input type="hidden" name="id" value="5beaa910d9"/>
                 <label htmlFor='MERGE0'>
 
                     <input
@@ -37,7 +36,7 @@ class Subscribe extends React.Component {
                     <label htmlFor="b_email">Email: </label>
                     <input type="email" name="b_email" tabIndex="-1" value="" placeholder="youremail@gmail.com" id="b_email"/>
 
-                  
+
                 </div>
               </form>
         )
