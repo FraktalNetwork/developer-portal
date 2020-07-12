@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 //Import Components
+import Subscribe from '../../components/Shared/subscribe'
 
 
 //Import Images
@@ -45,6 +46,14 @@ class FooterSimple extends Component {
                 <a href="https://medium.com/@fraktal" target="_blank">  <img src={medium} className="footerIcon footerIconMiddle" /></a>
                   <a href="https://community.fraktal.network" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
                   </div>
+
+                  <Subscribe />
+
+
+
+
+
+
 
 
 
