@@ -48,9 +48,11 @@ class FooterSimple extends Component {
                   <a href="https://community.fraktal.network" target="_blank">  <img src={rocketChat} className="footerIcon footerIconMiddle" /></a>
                   </div>
 
-                  <div className="subscribeForm">
+                  <div>
                   <Mailchimp />
                   </div>
+
+
 
 
 

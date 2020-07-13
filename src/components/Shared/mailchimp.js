@@ -10,11 +10,23 @@ class MailSubscription extends Component {
         fields={[
           {
             name: 'EMAIL',
-            placeholder: 'Email',
+            placeholder: 'Enter your Email',
             type: 'email',
             required: true
           }
         ]}
+        messages = {
+    {
+      sending: "Sending...",
+      success: "Thank you for subscribing!",
+      error: "An unexpected error has occurred.",
+      empty: "You must write an e-mail.",
+      duplicate: "This email is already used.",
+      button: "Subscribe"
+    }
+  }
+
+  className='testSubscribe'
         />
     );
   }

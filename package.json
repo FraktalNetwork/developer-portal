@@ -20,6 +20,7 @@
     "react-flex-carousel": "^1.1.0",
     "react-image-lightbox": "^5.1.1",
     "react-mailchimp-form": "^1.0.2",
+    "react-modal": "^3.11.2",
     "react-modal-video": "^1.2.3",
     "react-owl-carousel": "^2.3.1",
     "react-parallax": "^3.0.3",

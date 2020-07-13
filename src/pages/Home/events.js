@@ -39,7 +39,8 @@ class Events extends Component {
                                         <p className="text-muted mx-auto para-desc mb-2">We will be hosting a kick-off party for Fraktal with our founding community! Everyone is welcome!</p>
 
                                         <p className="text-muted mx-auto para-desc mb-0">Date TBD</p>
-                                          <Link to="#" className="btn btn-primary mt-3">🎉Join Us</Link>
+                                          <a href="https://docs.google.com/forms/d/e/1FAIpQLSernN3zRffPMCIUlSerSnIaQJTPKNSTnBtb8tsWLQdigsNaAA/viewform?usp=pp_url&entry.643437446=(Name,+UserName,+Social+Identity,+your+choice)&entry.1405155444=(If+you+are+nomadic+please+feel+free+to+enter+several+locations%7D" target="_blank" className="btn btn-primary mt-3">🎉Join Us</a>
+
                                     </div>
                                 </Col>
                             </Row>
