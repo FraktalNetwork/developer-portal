@@ -9,11 +9,11 @@ import Mailchimp from '../../components/Shared/mailchimp'
 
 
 //Import Images
-import twitter from '../../images/icon/twitteralt.svg';
-import github from '../../images/icon/github.svg';
-import reddit from '../../images/icon/reddit.svg';
-import medium from '../../images/icon/medium.svg';
-import rocketChat from '../../images/icon/rocketchat.svg';
+import twitter from '../../images/icon/twitterWhite.png';
+import github from '../../images/icon/githubWhite.png';
+import reddit from '../../images/icon/redditWhite.png';
+import medium from '../../images/icon/mediumWhite.png';
+import rocketChat from '../../images/icon/rocketchatWhite.png';
 import rocketChatNormal from '../../images/icon/rocket-chat.svg';
 import background from '../../zimedassets/images/background/inner-banner-bg.png';
 
