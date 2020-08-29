@@ -6,16 +6,7 @@ const Root = React.lazy(() => import('./pages/Contribute/index'));
 
 
 // Import all components
-const CloudHosting = React.lazy(() => import('./pages/CloudHosting/index'));
-const Community = React.lazy(() => import('./pages/community/index'));
-const Products = React.lazy(() => import('./pages/Products/index'));
-const GetInvolved = React.lazy(() => import('./pages/Participate/index'));
-const Blog = React.lazy(() => import('./pages/Blog/BlogGrid'));
-const Articles = React.lazy(() => import('./pages/Blog/articles'));
-const Developers = React.lazy(() => import('./pages/DeveloperPortal/landing/index'));
-const Documentation = React.lazy(() => import('./pages/DeveloperPortal/documentation/index'));
-const Contribute = React.lazy(() => import('./pages/Contribute/index'));
-const About = React.lazy(() => import('./pages/About/index'));
+
 
 
 // Job Pages
@@ -43,16 +34,6 @@ const routes = [
 
 
     // Landings
-    { path: '/index-cloud-hosting', component: CloudHosting },
-    { path: '/community', component: Community },
-    { path: '/products', component: Products },
-    { path: '/how-to-get-involved', component: GetInvolved },
-    { path: '/blog', component: Blog },
-    { path: '/articles', component: Articles },
-    { path: '/developer-portal', component: Developers },
-    { path: '/developer-portal-documentation', component: Documentation },
-    { path: '/contribute', component: Contribute },
-    { path: '/about', component: About },
 
 
 
