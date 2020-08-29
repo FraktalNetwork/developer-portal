@@ -11,9 +11,9 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-              { id : 1, title : "Community Chat", link : "./about" },
-              { id : 2, title : "Developer Documentation", link : "./about" },
-              { id : 3, title : "Project Information", link : "./about" },
+              { id : 1, title : "Community Chat", link : "https://discord.com/invite/SqsG7zY" },
+              { id : 2, title : "Developer Documentation", link : "https://developer.fraktal.network" },
+              { id : 3, title : "Project Information", link : "https://fraktal.network" },
 
 
 
