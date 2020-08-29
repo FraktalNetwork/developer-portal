@@ -106,7 +106,7 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                         <div>
-                            <Link className="logo" to="/">Fraktal</Link>
+                            <a className="logo" href="https://fraktal.network/">Fraktal</a>
                         </div>
 
 
