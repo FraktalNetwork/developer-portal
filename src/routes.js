@@ -6,7 +6,7 @@ const Root = React.lazy(() => import('./pages/DeveloperPortal/landing/index'));
 
 
 // Import all components
-
+const Documentation = React.lazy(() => import('./pages/DeveloperPortal/documentation/index'));
 
 
 // Job Pages
@@ -20,7 +20,7 @@ const routes = [
 
 
     // Landings
-
+ { path: '/developer-portal-documentation', component: Documentation },
 
 
       // Job Pages
