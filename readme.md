@@ -1,1 +1,1 @@
-Contribution Portal for Completing Fraktal Tasks.
+Developer Documentation Portal.
