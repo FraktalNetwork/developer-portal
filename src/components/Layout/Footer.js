@@ -38,52 +38,7 @@ class Footer extends Component {
   render() {
     return (
       <React.Fragment>
-        <footer className={this.props.isLight ? "footer bg-light" : "footer"}>
-            <Container>
-                <Row>
-                    <Col lg="3" md="3" xs="6" className="mb-4 mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                    <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Ecosystem</h4>
-                    <ul className="list-unstyled footer-list mt-4">
-                        {
-                            this.state.grid1.map((grid, key) =>
-                            <li key={key}><a href={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
-                            )
-                        }
-                    </ul>
-                    </Col>
-
-                    <Col lg="3" md="3" xs="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0 mb-4" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Developers</h4>
-                        <ul className="list-unstyled footer-list mt-4">
-                            {
-                                this.state.grid3.map((grid, key) =>
-                                <li key={key}><a href={grid.link} target="_blank" className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
-                                )
-                            }
-                        </ul>
-                    </Col>
-
-                    <Col lg="3" md="3" xs="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Resources</h4>
-                        <ul className="list-unstyled footer-list mt-4">
-                            {
-                                this.state.grid2.map((grid, key) =>
-                                <li key={key}><a href={grid.link} target="_blank" className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</a></li>
-                                )
-                            }
-                        </ul>
-                    </Col>
-
-                    <Col lg="3" md="3" xs="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Get Involved</h4>
-                        <p className="mt-4">Every person has a role to play at Fraktal!
-                        <a href="https://community.fraktal.network" target="_blank" className="btn btn-primary communitybutton mb-2 mr-2 frakButton">Join Fraktal</a></p>
-
-
-                    </Col>
-                </Row>
-            </Container>
-        </footer>
+    
         <footer className="footer footer-bar">
             <Container className="text-center">
                 <Row className="align-items-center">
