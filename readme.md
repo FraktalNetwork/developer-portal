@@ -1,1 +1,1 @@
-Fraktal.Network Website
+Contribution Portal for Completing Fraktal Tasks.
